@@ -1,0 +1,730 @@
+{
+  "tool_version": "1.0.0",
+  "created_at_utc": "2026-11-02T14:26:35.223665+00:00",
+  "config_path": "/home/gzw/pd_disaggregation/vllm_pd_benchmark/config.json",
+  "run_directory": "/home/gzw/pd_disaggregation/vllm_pd_benchmark/results/pd_benchmark_20261102_222635_223181",
+  "hostname": "node2",
+  "platform": "Linux-6.8.0-101-generic-x86_64-with-glibc2.39",
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+  "pid": 38796,
+  "packages": {
+    "httpx": "0.28.1",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2"
+  },
+  "tokenizer_source": "/home/gzw/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "source_sample_counts": {
+    "sharegpt": 92825
+  },
+  "selected_requests": 100,
+  "selected_sample_trace": [
+    {
+      "request_id": 0,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "StUzdLK_249",
+      "source_index": 73683
+    },
+    {
+      "request_id": 1,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1fqa2gg_0",
+      "source_index": 34073
+    },
+    {
+      "request_id": 2,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ONKfO5I_78",
+      "source_index": 10862
+    },
+    {
+      "request_id": 3,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "xFOGGTt_0",
+      "source_index": 289
+    },
+    {
+      "request_id": 4,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "O1aYPI8_0",
+      "source_index": 29158
+    },
+    {
+      "request_id": 5,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IMtsj65_11",
+      "source_index": 84217
+    },
+    {
+      "request_id": 6,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "itaBzIZ_0",
+      "source_index": 4456
+    },
+    {
+      "request_id": 7,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "wKeGaPA_0",
+      "source_index": 19234
+    },
+    {
+      "request_id": 8,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "BU4nOo4_19",
+      "source_index": 81160
+    },
+    {
+      "request_id": 9,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "KmeHDEe_5",
+      "source_index": 39995
+    },
+    {
+      "request_id": 10,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "WgxpiNr_47",
+      "source_index": 76022
+    },
+    {
+      "request_id": 11,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "cui6tIE_6",
+      "source_index": 21694
+    },
+    {
+      "request_id": 12,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ZV5eqYo_9",
+      "source_index": 27353
+    },
+    {
+      "request_id": 13,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "jfBow97_0",
+      "source_index": 22034
+    },
+    {
+      "request_id": 14,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "vHQ1EPe_0",
+      "source_index": 12532
+    },
+    {
+      "request_id": 15,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "5wt6Xeb_0",
+      "source_index": 50153
+    },
+    {
+      "request_id": 16,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Hn3DdGM_31",
+      "source_index": 51618
+    },
+    {
+      "request_id": 17,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "6kTTwCw_0",
+      "source_index": 74254
+    },
+    {
+      "request_id": 18,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "s22US0g_0",
+      "source_index": 31019
+    },
+    {
+      "request_id": 19,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "qDTQvIu_0",
+      "source_index": 30502
+    },
+    {
+      "request_id": 20,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "o1URt9d_9",
+      "source_index": 59877
+    },
+    {
+      "request_id": 21,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "oVdtC7H_0",
+      "source_index": 46770
+    },
+    {
+      "request_id": 22,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Si2UJ7K_58",
+      "source_index": 72039
+    },
+    {
+      "request_id": 23,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fIkjU8R_2",
+      "source_index": 33441
+    },
+    {
+      "request_id": 24,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "CfP9kJZ_0",
+      "source_index": 17806
+    },
+    {
+      "request_id": 25,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fB2ri01_0",
+      "source_index": 24672
+    },
+    {
+      "request_id": 26,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "xU1FU9C_0",
+      "source_index": 4046
+    },
+    {
+      "request_id": 27,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "DIq6JBR_0",
+      "source_index": 69049
+    },
+    {
+      "request_id": 28,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1FQUTKz_41",
+      "source_index": 1019
+    },
+    {
+      "request_id": 29,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "HEt3ZWB_0",
+      "source_index": 32892
+    },
+    {
+      "request_id": 30,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "oWucyqe_0",
+      "source_index": 62752
+    },
+    {
+      "request_id": 31,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LDl8Qls_0",
+      "source_index": 88709
+    },
+    {
+      "request_id": 32,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Aoph67S_35",
+      "source_index": 86758
+    },
+    {
+      "request_id": 33,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "PjFSCFK_0",
+      "source_index": 31630
+    },
+    {
+      "request_id": 34,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "cp1RgPe_0",
+      "source_index": 28208
+    },
+    {
+      "request_id": 35,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "PCEc7pO_0",
+      "source_index": 80557
+    },
+    {
+      "request_id": 36,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "nEnWX5v_0",
+      "source_index": 42785
+    },
+    {
+      "request_id": 37,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "OF0hJy1_0",
+      "source_index": 39483
+    },
+    {
+      "request_id": 38,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "tBycCRw_0",
+      "source_index": 93647
+    },
+    {
+      "request_id": 39,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fE1RR51_0",
+      "source_index": 30063
+    },
+    {
+      "request_id": 40,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "8SYdQf5_2",
+      "source_index": 50249
+    },
+    {
+      "request_id": 41,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fQhexkP_20",
+      "source_index": 82792
+    },
+    {
+      "request_id": 42,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "mQwxQFf_0",
+      "source_index": 53214
+    },
+    {
+      "request_id": 43,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "TAkclO3_0",
+      "source_index": 69041
+    },
+    {
+      "request_id": 44,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "DlPrekE_123",
+      "source_index": 56383
+    },
+    {
+      "request_id": 45,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fxBXj6g_0",
+      "source_index": 86690
+    },
+    {
+      "request_id": 46,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "GzAQdoS_0",
+      "source_index": 26428
+    },
+    {
+      "request_id": 47,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "yUoxUHv_0",
+      "source_index": 16949
+    },
+    {
+      "request_id": 48,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IyzNJ5F_0",
+      "source_index": 51063
+    },
+    {
+      "request_id": 49,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "hKsrbr8_0",
+      "source_index": 44170
+    },
+    {
+      "request_id": 50,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LT1lxEw_8",
+      "source_index": 50147
+    },
+    {
+      "request_id": 51,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "hoQsVGz_51",
+      "source_index": 63374
+    },
+    {
+      "request_id": 52,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "7Gu0tLU_0",
+      "source_index": 78300
+    },
+    {
+      "request_id": 53,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IEIOiGb_0",
+      "source_index": 77172
+    },
+    {
+      "request_id": 54,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "37SHOE4_0",
+      "source_index": 50515
+    },
+    {
+      "request_id": 55,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "S8Dd2PL_0",
+      "source_index": 74178
+    },
+    {
+      "request_id": 56,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "B4REGsj_23",
+      "source_index": 58958
+    },
+    {
+      "request_id": 57,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Jg5fqFY_0",
+      "source_index": 48920
+    },
+    {
+      "request_id": 58,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "pav9X1E_0",
+      "source_index": 57905
+    },
+    {
+      "request_id": 59,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "KPLcAjL_43",
+      "source_index": 64419
+    },
+    {
+      "request_id": 60,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "CyvhxCk_3",
+      "source_index": 76890
+    },
+    {
+      "request_id": 61,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "kXJkF68_0",
+      "source_index": 41308
+    },
+    {
+      "request_id": 62,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ITS9S4s_11",
+      "source_index": 36589
+    },
+    {
+      "request_id": 63,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LMCvXt2_0",
+      "source_index": 61740
+    },
+    {
+      "request_id": 64,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "40qcQLS_17",
+      "source_index": 13025
+    },
+    {
+      "request_id": 65,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "kS6twK0_21",
+      "source_index": 77650
+    },
+    {
+      "request_id": 66,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "jDVKxNz_0",
+      "source_index": 72707
+    },
+    {
+      "request_id": 67,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "RziX6kj_0",
+      "source_index": 4527
+    },
+    {
+      "request_id": 68,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "BaApJhR_11",
+      "source_index": 85499
+    },
+    {
+      "request_id": 69,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "blhsuWf_0",
+      "source_index": 75609
+    },
+    {
+      "request_id": 70,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "byVTSkr_0",
+      "source_index": 45277
+    },
+    {
+      "request_id": 71,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "YkDwQbV_0",
+      "source_index": 2301
+    },
+    {
+      "request_id": 72,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "35haIbj_0",
+      "source_index": 43894
+    },
+    {
+      "request_id": 73,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "T3yK1mT_0",
+      "source_index": 8298
+    },
+    {
+      "request_id": 74,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "FAewIxU_0",
+      "source_index": 45079
+    },
+    {
+      "request_id": 75,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "EyaannF_0",
+      "source_index": 21262
+    },
+    {
+      "request_id": 76,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "A1DX4pW_55",
+      "source_index": 35402
+    },
+    {
+      "request_id": 77,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "AkltKYe_23",
+      "source_index": 25713
+    },
+    {
+      "request_id": 78,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "pfhkOu5_27",
+      "source_index": 46035
+    },
+    {
+      "request_id": 79,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "kYtM88k_23",
+      "source_index": 75641
+    },
+    {
+      "request_id": 80,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "RSi5YHv_0",
+      "source_index": 47913
+    },
+    {
+      "request_id": 81,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "eb3HUhf_0",
+      "source_index": 8705
+    },
+    {
+      "request_id": 82,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "YCLLoLk_0",
+      "source_index": 86787
+    },
+    {
+      "request_id": 83,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "NeBDpcw_17",
+      "source_index": 39143
+    },
+    {
+      "request_id": 84,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "7jEkVhW_0",
+      "source_index": 49730
+    },
+    {
+      "request_id": 85,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "TRrqYCh_0",
+      "source_index": 18360
+    },
+    {
+      "request_id": 86,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1kE6haW_90",
+      "source_index": 4862
+    },
+    {
+      "request_id": 87,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "DhhBfOM_0",
+      "source_index": 49223
+    },
+    {
+      "request_id": 88,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "FQrNFsA_0",
+      "source_index": 89667
+    },
+    {
+      "request_id": 89,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1RhxGZ6_29",
+      "source_index": 9198
+    },
+    {
+      "request_id": 90,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "7ypQmvU_0",
+      "source_index": 20315
+    },
+    {
+      "request_id": 91,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "3gVAw3K_0",
+      "source_index": 7491
+    },
+    {
+      "request_id": 92,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "PgbXUFQ_0",
+      "source_index": 19753
+    },
+    {
+      "request_id": 93,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "wcjGOiQ_27",
+      "source_index": 48416
+    },
+    {
+      "request_id": 94,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "0WBGSQv_22",
+      "source_index": 35098
+    },
+    {
+      "request_id": 95,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Vx428hW_0",
+      "source_index": 90110
+    },
+    {
+      "request_id": 96,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "CJTT6UM_0",
+      "source_index": 75847
+    },
+    {
+      "request_id": 97,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "OJr0y7h_0",
+      "source_index": 33482
+    },
+    {
+      "request_id": 98,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "SvwAXEl_0",
+      "source_index": 82170
+    },
+    {
+      "request_id": 99,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "0lNuddr_44",
+      "source_index": 69793
+    }
+  ],
+  "metric_definitions": {
+    "ttft_s": "Client wall time from request start until the first nonempty generated content arrives in the SSE stream.",
+    "e2e_s": "Client wall time from request start until the streaming response finishes.",
+    "tpot_s": "For successful responses with >=2 locally tokenized output tokens: (E2E - TTFT) / (output_tokens - 1).",
+    "token_counts": "Local tokenizer counts; input uses apply_chat_template(..., add_generation_prompt=True), output tokenizes generated text without special tokens.",
+    "throughput": "Successful requests or their locally counted tokens divided by measured wall-clock span. No server-side KV/cache metric is inferred."
+  },
+  "dry_run": true
+}

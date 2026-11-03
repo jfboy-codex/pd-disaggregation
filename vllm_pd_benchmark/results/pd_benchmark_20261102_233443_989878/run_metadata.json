@@ -1,0 +1,2146 @@
+{
+  "tool_version": "1.0.0",
+  "created_at_utc": "2026-11-02T15:34:43.990535+00:00",
+  "config_path": "/home/gzw/pd_disaggregation/vllm_pd_benchmark/config.json",
+  "run_directory": "/home/gzw/pd_disaggregation/vllm_pd_benchmark/results/pd_benchmark_20261102_233443_989878",
+  "hostname": "node2",
+  "platform": "Linux-6.8.0-101-generic-x86_64-with-glibc2.39",
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+  "pid": 6497,
+  "packages": {
+    "httpx": "0.28.1",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2"
+  },
+  "tokenizer_source": "/home/gzw/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "source_sample_counts": {
+    "sharegpt": 92825,
+    "gsm8k": 1319,
+    "longbench": 200,
+    "humaneval": 164
+  },
+  "selected_requests": 300,
+  "selected_sample_trace": [
+    {
+      "request_id": 0,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "StUzdLK_249",
+      "source_index": 73683
+    },
+    {
+      "request_id": 1,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "598",
+      "source_index": 598
+    },
+    {
+      "request_id": 2,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:199",
+      "source_index": 199
+    },
+    {
+      "request_id": 3,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/151",
+      "source_index": 151
+    },
+    {
+      "request_id": 4,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1fqa2gg_0",
+      "source_index": 34073
+    },
+    {
+      "request_id": 5,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1183",
+      "source_index": 1183
+    },
+    {
+      "request_id": 6,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:75",
+      "source_index": 75
+    },
+    {
+      "request_id": 7,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/103",
+      "source_index": 103
+    },
+    {
+      "request_id": 8,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ONKfO5I_78",
+      "source_index": 10862
+    },
+    {
+      "request_id": 9,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "832",
+      "source_index": 832
+    },
+    {
+      "request_id": 10,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:131",
+      "source_index": 131
+    },
+    {
+      "request_id": 11,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/84",
+      "source_index": 84
+    },
+    {
+      "request_id": 12,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "xFOGGTt_0",
+      "source_index": 289
+    },
+    {
+      "request_id": 13,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "393",
+      "source_index": 393
+    },
+    {
+      "request_id": 14,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:128",
+      "source_index": 128
+    },
+    {
+      "request_id": 15,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/110",
+      "source_index": 110
+    },
+    {
+      "request_id": 16,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "O1aYPI8_0",
+      "source_index": 29158
+    },
+    {
+      "request_id": 17,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "57",
+      "source_index": 57
+    },
+    {
+      "request_id": 18,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:39",
+      "source_index": 39
+    },
+    {
+      "request_id": 19,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/66",
+      "source_index": 66
+    },
+    {
+      "request_id": 20,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IMtsj65_11",
+      "source_index": 84217
+    },
+    {
+      "request_id": 21,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "518",
+      "source_index": 518
+    },
+    {
+      "request_id": 22,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:28",
+      "source_index": 28
+    },
+    {
+      "request_id": 23,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/34",
+      "source_index": 34
+    },
+    {
+      "request_id": 24,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "itaBzIZ_0",
+      "source_index": 4456
+    },
+    {
+      "request_id": 25,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "637",
+      "source_index": 637
+    },
+    {
+      "request_id": 26,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:192",
+      "source_index": 192
+    },
+    {
+      "request_id": 27,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/122",
+      "source_index": 122
+    },
+    {
+      "request_id": 28,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "wKeGaPA_0",
+      "source_index": 19234
+    },
+    {
+      "request_id": 29,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "32",
+      "source_index": 32
+    },
+    {
+      "request_id": 30,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:140",
+      "source_index": 140
+    },
+    {
+      "request_id": 31,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/115",
+      "source_index": 115
+    },
+    {
+      "request_id": 32,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "BU4nOo4_19",
+      "source_index": 81160
+    },
+    {
+      "request_id": 33,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "482",
+      "source_index": 482
+    },
+    {
+      "request_id": 34,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:10",
+      "source_index": 10
+    },
+    {
+      "request_id": 35,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/53",
+      "source_index": 53
+    },
+    {
+      "request_id": 36,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "KmeHDEe_5",
+      "source_index": 39995
+    },
+    {
+      "request_id": 37,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "397",
+      "source_index": 397
+    },
+    {
+      "request_id": 38,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:196",
+      "source_index": 196
+    },
+    {
+      "request_id": 39,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/120",
+      "source_index": 120
+    },
+    {
+      "request_id": 40,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "WgxpiNr_47",
+      "source_index": 76022
+    },
+    {
+      "request_id": 41,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "888",
+      "source_index": 888
+    },
+    {
+      "request_id": 42,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:154",
+      "source_index": 154
+    },
+    {
+      "request_id": 43,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/93",
+      "source_index": 93
+    },
+    {
+      "request_id": 44,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "cui6tIE_6",
+      "source_index": 21694
+    },
+    {
+      "request_id": 45,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "722",
+      "source_index": 722
+    },
+    {
+      "request_id": 46,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:97",
+      "source_index": 97
+    },
+    {
+      "request_id": 47,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/147",
+      "source_index": 147
+    },
+    {
+      "request_id": 48,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ZV5eqYo_9",
+      "source_index": 27353
+    },
+    {
+      "request_id": 49,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "632",
+      "source_index": 632
+    },
+    {
+      "request_id": 50,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:11",
+      "source_index": 11
+    },
+    {
+      "request_id": 51,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/57",
+      "source_index": 57
+    },
+    {
+      "request_id": 52,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "jfBow97_0",
+      "source_index": 22034
+    },
+    {
+      "request_id": 53,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1065",
+      "source_index": 1065
+    },
+    {
+      "request_id": 54,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:132",
+      "source_index": 132
+    },
+    {
+      "request_id": 55,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/12",
+      "source_index": 12
+    },
+    {
+      "request_id": 56,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "vHQ1EPe_0",
+      "source_index": 12532
+    },
+    {
+      "request_id": 57,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "753",
+      "source_index": 753
+    },
+    {
+      "request_id": 58,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:146",
+      "source_index": 146
+    },
+    {
+      "request_id": 59,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/142",
+      "source_index": 142
+    },
+    {
+      "request_id": 60,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "5wt6Xeb_0",
+      "source_index": 50153
+    },
+    {
+      "request_id": 61,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1157",
+      "source_index": 1157
+    },
+    {
+      "request_id": 62,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:15",
+      "source_index": 15
+    },
+    {
+      "request_id": 63,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/69",
+      "source_index": 69
+    },
+    {
+      "request_id": 64,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Hn3DdGM_31",
+      "source_index": 51618
+    },
+    {
+      "request_id": 65,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "963",
+      "source_index": 963
+    },
+    {
+      "request_id": 66,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:13",
+      "source_index": 13
+    },
+    {
+      "request_id": 67,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/97",
+      "source_index": 97
+    },
+    {
+      "request_id": 68,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "6kTTwCw_0",
+      "source_index": 74254
+    },
+    {
+      "request_id": 69,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "343",
+      "source_index": 343
+    },
+    {
+      "request_id": 70,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:86",
+      "source_index": 86
+    },
+    {
+      "request_id": 71,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/88",
+      "source_index": 88
+    },
+    {
+      "request_id": 72,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "s22US0g_0",
+      "source_index": 31019
+    },
+    {
+      "request_id": 73,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "804",
+      "source_index": 804
+    },
+    {
+      "request_id": 74,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:182",
+      "source_index": 182
+    },
+    {
+      "request_id": 75,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/82",
+      "source_index": 82
+    },
+    {
+      "request_id": 76,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "qDTQvIu_0",
+      "source_index": 30502
+    },
+    {
+      "request_id": 77,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "624",
+      "source_index": 624
+    },
+    {
+      "request_id": 78,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:3",
+      "source_index": 3
+    },
+    {
+      "request_id": 79,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/148",
+      "source_index": 148
+    },
+    {
+      "request_id": 80,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "o1URt9d_9",
+      "source_index": 59877
+    },
+    {
+      "request_id": 81,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "998",
+      "source_index": 998
+    },
+    {
+      "request_id": 82,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:190",
+      "source_index": 190
+    },
+    {
+      "request_id": 83,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/81",
+      "source_index": 81
+    },
+    {
+      "request_id": 84,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "oVdtC7H_0",
+      "source_index": 46770
+    },
+    {
+      "request_id": 85,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "122",
+      "source_index": 122
+    },
+    {
+      "request_id": 86,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:9",
+      "source_index": 9
+    },
+    {
+      "request_id": 87,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/26",
+      "source_index": 26
+    },
+    {
+      "request_id": 88,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Si2UJ7K_58",
+      "source_index": 72039
+    },
+    {
+      "request_id": 89,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "377",
+      "source_index": 377
+    },
+    {
+      "request_id": 90,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:175",
+      "source_index": 175
+    },
+    {
+      "request_id": 91,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/36",
+      "source_index": 36
+    },
+    {
+      "request_id": 92,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fIkjU8R_2",
+      "source_index": 33441
+    },
+    {
+      "request_id": 93,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "723",
+      "source_index": 723
+    },
+    {
+      "request_id": 94,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:46",
+      "source_index": 46
+    },
+    {
+      "request_id": 95,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/41",
+      "source_index": 41
+    },
+    {
+      "request_id": 96,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "CfP9kJZ_0",
+      "source_index": 17806
+    },
+    {
+      "request_id": 97,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "879",
+      "source_index": 879
+    },
+    {
+      "request_id": 98,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:92",
+      "source_index": 92
+    },
+    {
+      "request_id": 99,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/107",
+      "source_index": 107
+    },
+    {
+      "request_id": 100,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fB2ri01_0",
+      "source_index": 24672
+    },
+    {
+      "request_id": 101,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "587",
+      "source_index": 587
+    },
+    {
+      "request_id": 102,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:14",
+      "source_index": 14
+    },
+    {
+      "request_id": 103,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/75",
+      "source_index": 75
+    },
+    {
+      "request_id": 104,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "xU1FU9C_0",
+      "source_index": 4046
+    },
+    {
+      "request_id": 105,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "751",
+      "source_index": 751
+    },
+    {
+      "request_id": 106,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:7",
+      "source_index": 7
+    },
+    {
+      "request_id": 107,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/32",
+      "source_index": 32
+    },
+    {
+      "request_id": 108,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "DIq6JBR_0",
+      "source_index": 69049
+    },
+    {
+      "request_id": 109,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "167",
+      "source_index": 167
+    },
+    {
+      "request_id": 110,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:124",
+      "source_index": 124
+    },
+    {
+      "request_id": 111,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/149",
+      "source_index": 149
+    },
+    {
+      "request_id": 112,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "1FQUTKz_41",
+      "source_index": 1019
+    },
+    {
+      "request_id": 113,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "169",
+      "source_index": 169
+    },
+    {
+      "request_id": 114,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:50",
+      "source_index": 50
+    },
+    {
+      "request_id": 115,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/83",
+      "source_index": 83
+    },
+    {
+      "request_id": 116,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "HEt3ZWB_0",
+      "source_index": 32892
+    },
+    {
+      "request_id": 117,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "977",
+      "source_index": 977
+    },
+    {
+      "request_id": 118,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:59",
+      "source_index": 59
+    },
+    {
+      "request_id": 119,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/21",
+      "source_index": 21
+    },
+    {
+      "request_id": 120,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "oWucyqe_0",
+      "source_index": 62752
+    },
+    {
+      "request_id": 121,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "974",
+      "source_index": 974
+    },
+    {
+      "request_id": 122,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:5",
+      "source_index": 5
+    },
+    {
+      "request_id": 123,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/154",
+      "source_index": 154
+    },
+    {
+      "request_id": 124,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LDl8Qls_0",
+      "source_index": 88709
+    },
+    {
+      "request_id": 125,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "966",
+      "source_index": 966
+    },
+    {
+      "request_id": 126,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:89",
+      "source_index": 89
+    },
+    {
+      "request_id": 127,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/9",
+      "source_index": 9
+    },
+    {
+      "request_id": 128,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Aoph67S_35",
+      "source_index": 86758
+    },
+    {
+      "request_id": 129,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "109",
+      "source_index": 109
+    },
+    {
+      "request_id": 130,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:191",
+      "source_index": 191
+    },
+    {
+      "request_id": 131,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/121",
+      "source_index": 121
+    },
+    {
+      "request_id": 132,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "PjFSCFK_0",
+      "source_index": 31630
+    },
+    {
+      "request_id": 133,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "604",
+      "source_index": 604
+    },
+    {
+      "request_id": 134,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:179",
+      "source_index": 179
+    },
+    {
+      "request_id": 135,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/96",
+      "source_index": 96
+    },
+    {
+      "request_id": 136,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "cp1RgPe_0",
+      "source_index": 28208
+    },
+    {
+      "request_id": 137,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1052",
+      "source_index": 1052
+    },
+    {
+      "request_id": 138,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:160",
+      "source_index": 160
+    },
+    {
+      "request_id": 139,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/99",
+      "source_index": 99
+    },
+    {
+      "request_id": 140,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "PCEc7pO_0",
+      "source_index": 80557
+    },
+    {
+      "request_id": 141,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "706",
+      "source_index": 706
+    },
+    {
+      "request_id": 142,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:66",
+      "source_index": 66
+    },
+    {
+      "request_id": 143,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/48",
+      "source_index": 48
+    },
+    {
+      "request_id": 144,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "nEnWX5v_0",
+      "source_index": 42785
+    },
+    {
+      "request_id": 145,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1186",
+      "source_index": 1186
+    },
+    {
+      "request_id": 146,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:184",
+      "source_index": 184
+    },
+    {
+      "request_id": 147,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/0",
+      "source_index": 0
+    },
+    {
+      "request_id": 148,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "OF0hJy1_0",
+      "source_index": 39483
+    },
+    {
+      "request_id": 149,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "800",
+      "source_index": 800
+    },
+    {
+      "request_id": 150,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:55",
+      "source_index": 55
+    },
+    {
+      "request_id": 151,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/162",
+      "source_index": 162
+    },
+    {
+      "request_id": 152,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "tBycCRw_0",
+      "source_index": 93647
+    },
+    {
+      "request_id": 153,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "146",
+      "source_index": 146
+    },
+    {
+      "request_id": 154,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:141",
+      "source_index": 141
+    },
+    {
+      "request_id": 155,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/40",
+      "source_index": 40
+    },
+    {
+      "request_id": 156,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fE1RR51_0",
+      "source_index": 30063
+    },
+    {
+      "request_id": 157,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "14",
+      "source_index": 14
+    },
+    {
+      "request_id": 158,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:176",
+      "source_index": 176
+    },
+    {
+      "request_id": 159,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/89",
+      "source_index": 89
+    },
+    {
+      "request_id": 160,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "8SYdQf5_2",
+      "source_index": 50249
+    },
+    {
+      "request_id": 161,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1203",
+      "source_index": 1203
+    },
+    {
+      "request_id": 162,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:12",
+      "source_index": 12
+    },
+    {
+      "request_id": 163,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/90",
+      "source_index": 90
+    },
+    {
+      "request_id": 164,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fQhexkP_20",
+      "source_index": 82792
+    },
+    {
+      "request_id": 165,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "960",
+      "source_index": 960
+    },
+    {
+      "request_id": 166,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:115",
+      "source_index": 115
+    },
+    {
+      "request_id": 167,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/145",
+      "source_index": 145
+    },
+    {
+      "request_id": 168,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "mQwxQFf_0",
+      "source_index": 53214
+    },
+    {
+      "request_id": 169,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1091",
+      "source_index": 1091
+    },
+    {
+      "request_id": 170,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:189",
+      "source_index": 189
+    },
+    {
+      "request_id": 171,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/112",
+      "source_index": 112
+    },
+    {
+      "request_id": 172,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "TAkclO3_0",
+      "source_index": 69041
+    },
+    {
+      "request_id": 173,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "926",
+      "source_index": 926
+    },
+    {
+      "request_id": 174,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:18",
+      "source_index": 18
+    },
+    {
+      "request_id": 175,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/130",
+      "source_index": 130
+    },
+    {
+      "request_id": 176,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "DlPrekE_123",
+      "source_index": 56383
+    },
+    {
+      "request_id": 177,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1101",
+      "source_index": 1101
+    },
+    {
+      "request_id": 178,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:51",
+      "source_index": 51
+    },
+    {
+      "request_id": 179,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/58",
+      "source_index": 58
+    },
+    {
+      "request_id": 180,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "fxBXj6g_0",
+      "source_index": 86690
+    },
+    {
+      "request_id": 181,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "61",
+      "source_index": 61
+    },
+    {
+      "request_id": 182,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:111",
+      "source_index": 111
+    },
+    {
+      "request_id": 183,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/72",
+      "source_index": 72
+    },
+    {
+      "request_id": 184,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "GzAQdoS_0",
+      "source_index": 26428
+    },
+    {
+      "request_id": 185,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1116",
+      "source_index": 1116
+    },
+    {
+      "request_id": 186,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:155",
+      "source_index": 155
+    },
+    {
+      "request_id": 187,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/70",
+      "source_index": 70
+    },
+    {
+      "request_id": 188,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "yUoxUHv_0",
+      "source_index": 16949
+    },
+    {
+      "request_id": 189,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "329",
+      "source_index": 329
+    },
+    {
+      "request_id": 190,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:21",
+      "source_index": 21
+    },
+    {
+      "request_id": 191,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/31",
+      "source_index": 31
+    },
+    {
+      "request_id": 192,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IyzNJ5F_0",
+      "source_index": 51063
+    },
+    {
+      "request_id": 193,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "467",
+      "source_index": 467
+    },
+    {
+      "request_id": 194,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:56",
+      "source_index": 56
+    },
+    {
+      "request_id": 195,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/2",
+      "source_index": 2
+    },
+    {
+      "request_id": 196,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "hKsrbr8_0",
+      "source_index": 44170
+    },
+    {
+      "request_id": 197,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "923",
+      "source_index": 923
+    },
+    {
+      "request_id": 198,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:123",
+      "source_index": 123
+    },
+    {
+      "request_id": 199,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/161",
+      "source_index": 161
+    },
+    {
+      "request_id": 200,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LT1lxEw_8",
+      "source_index": 50147
+    },
+    {
+      "request_id": 201,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1087",
+      "source_index": 1087
+    },
+    {
+      "request_id": 202,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:113",
+      "source_index": 113
+    },
+    {
+      "request_id": 203,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/133",
+      "source_index": 133
+    },
+    {
+      "request_id": 204,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "hoQsVGz_51",
+      "source_index": 63374
+    },
+    {
+      "request_id": 205,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "404",
+      "source_index": 404
+    },
+    {
+      "request_id": 206,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:42",
+      "source_index": 42
+    },
+    {
+      "request_id": 207,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/118",
+      "source_index": 118
+    },
+    {
+      "request_id": 208,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "7Gu0tLU_0",
+      "source_index": 78300
+    },
+    {
+      "request_id": 209,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1149",
+      "source_index": 1149
+    },
+    {
+      "request_id": 210,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:112",
+      "source_index": 112
+    },
+    {
+      "request_id": 211,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/6",
+      "source_index": 6
+    },
+    {
+      "request_id": 212,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "IEIOiGb_0",
+      "source_index": 77172
+    },
+    {
+      "request_id": 213,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "890",
+      "source_index": 890
+    },
+    {
+      "request_id": 214,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:195",
+      "source_index": 195
+    },
+    {
+      "request_id": 215,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/43",
+      "source_index": 43
+    },
+    {
+      "request_id": 216,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "37SHOE4_0",
+      "source_index": 50515
+    },
+    {
+      "request_id": 217,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "916",
+      "source_index": 916
+    },
+    {
+      "request_id": 218,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:158",
+      "source_index": 158
+    },
+    {
+      "request_id": 219,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/135",
+      "source_index": 135
+    },
+    {
+      "request_id": 220,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "S8Dd2PL_0",
+      "source_index": 74178
+    },
+    {
+      "request_id": 221,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "318",
+      "source_index": 318
+    },
+    {
+      "request_id": 222,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:108",
+      "source_index": 108
+    },
+    {
+      "request_id": 223,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/22",
+      "source_index": 22
+    },
+    {
+      "request_id": 224,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "B4REGsj_23",
+      "source_index": 58958
+    },
+    {
+      "request_id": 225,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1080",
+      "source_index": 1080
+    },
+    {
+      "request_id": 226,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:139",
+      "source_index": 139
+    },
+    {
+      "request_id": 227,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/156",
+      "source_index": 156
+    },
+    {
+      "request_id": 228,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "Jg5fqFY_0",
+      "source_index": 48920
+    },
+    {
+      "request_id": 229,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "658",
+      "source_index": 658
+    },
+    {
+      "request_id": 230,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:157",
+      "source_index": 157
+    },
+    {
+      "request_id": 231,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/4",
+      "source_index": 4
+    },
+    {
+      "request_id": 232,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "pav9X1E_0",
+      "source_index": 57905
+    },
+    {
+      "request_id": 233,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "433",
+      "source_index": 433
+    },
+    {
+      "request_id": 234,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:17",
+      "source_index": 17
+    },
+    {
+      "request_id": 235,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/155",
+      "source_index": 155
+    },
+    {
+      "request_id": 236,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "KPLcAjL_43",
+      "source_index": 64419
+    },
+    {
+      "request_id": 237,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1215",
+      "source_index": 1215
+    },
+    {
+      "request_id": 238,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:180",
+      "source_index": 180
+    },
+    {
+      "request_id": 239,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/100",
+      "source_index": 100
+    },
+    {
+      "request_id": 240,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "CyvhxCk_3",
+      "source_index": 76890
+    },
+    {
+      "request_id": 241,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "516",
+      "source_index": 516
+    },
+    {
+      "request_id": 242,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:57",
+      "source_index": 57
+    },
+    {
+      "request_id": 243,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/139",
+      "source_index": 139
+    },
+    {
+      "request_id": 244,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "kXJkF68_0",
+      "source_index": 41308
+    },
+    {
+      "request_id": 245,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "609",
+      "source_index": 609
+    },
+    {
+      "request_id": 246,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:78",
+      "source_index": 78
+    },
+    {
+      "request_id": 247,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/63",
+      "source_index": 63
+    },
+    {
+      "request_id": 248,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "ITS9S4s_11",
+      "source_index": 36589
+    },
+    {
+      "request_id": 249,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1204",
+      "source_index": 1204
+    },
+    {
+      "request_id": 250,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:107",
+      "source_index": 107
+    },
+    {
+      "request_id": 251,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/126",
+      "source_index": 126
+    },
+    {
+      "request_id": 252,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "LMCvXt2_0",
+      "source_index": 61740
+    },
+    {
+      "request_id": 253,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "857",
+      "source_index": 857
+    },
+    {
+      "request_id": 254,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:52",
+      "source_index": 52
+    },
+    {
+      "request_id": 255,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/76",
+      "source_index": 76
+    },
+    {
+      "request_id": 256,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "40qcQLS_17",
+      "source_index": 13025
+    },
+    {
+      "request_id": 257,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "468",
+      "source_index": 468
+    },
+    {
+      "request_id": 258,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:20",
+      "source_index": 20
+    },
+    {
+      "request_id": 259,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/24",
+      "source_index": 24
+    },
+    {
+      "request_id": 260,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "kS6twK0_21",
+      "source_index": 77650
+    },
+    {
+      "request_id": 261,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "989",
+      "source_index": 989
+    },
+    {
+      "request_id": 262,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:167",
+      "source_index": 167
+    },
+    {
+      "request_id": 263,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/64",
+      "source_index": 64
+    },
+    {
+      "request_id": 264,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "jDVKxNz_0",
+      "source_index": 72707
+    },
+    {
+      "request_id": 265,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "234",
+      "source_index": 234
+    },
+    {
+      "request_id": 266,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:41",
+      "source_index": 41
+    },
+    {
+      "request_id": 267,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/92",
+      "source_index": 92
+    },
+    {
+      "request_id": 268,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "RziX6kj_0",
+      "source_index": 4527
+    },
+    {
+      "request_id": 269,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1090",
+      "source_index": 1090
+    },
+    {
+      "request_id": 270,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:99",
+      "source_index": 99
+    },
+    {
+      "request_id": 271,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/33",
+      "source_index": 33
+    },
+    {
+      "request_id": 272,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "BaApJhR_11",
+      "source_index": 85499
+    },
+    {
+      "request_id": 273,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1118",
+      "source_index": 1118
+    },
+    {
+      "request_id": 274,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:133",
+      "source_index": 133
+    },
+    {
+      "request_id": 275,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/158",
+      "source_index": 158
+    },
+    {
+      "request_id": 276,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "blhsuWf_0",
+      "source_index": 75609
+    },
+    {
+      "request_id": 277,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "93",
+      "source_index": 93
+    },
+    {
+      "request_id": 278,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:6",
+      "source_index": 6
+    },
+    {
+      "request_id": 279,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/113",
+      "source_index": 113
+    },
+    {
+      "request_id": 280,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "byVTSkr_0",
+      "source_index": 45277
+    },
+    {
+      "request_id": 281,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "892",
+      "source_index": 892
+    },
+    {
+      "request_id": 282,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:69",
+      "source_index": 69
+    },
+    {
+      "request_id": 283,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/46",
+      "source_index": 46
+    },
+    {
+      "request_id": 284,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "YkDwQbV_0",
+      "source_index": 2301
+    },
+    {
+      "request_id": 285,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1107",
+      "source_index": 1107
+    },
+    {
+      "request_id": 286,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:178",
+      "source_index": 178
+    },
+    {
+      "request_id": 287,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/109",
+      "source_index": 109
+    },
+    {
+      "request_id": 288,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "35haIbj_0",
+      "source_index": 43894
+    },
+    {
+      "request_id": 289,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "422",
+      "source_index": 422
+    },
+    {
+      "request_id": 290,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:31",
+      "source_index": 31
+    },
+    {
+      "request_id": 291,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/101",
+      "source_index": 101
+    },
+    {
+      "request_id": 292,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "T3yK1mT_0",
+      "source_index": 8298
+    },
+    {
+      "request_id": 293,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "853",
+      "source_index": 853
+    },
+    {
+      "request_id": 294,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:151",
+      "source_index": 151
+    },
+    {
+      "request_id": 295,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/78",
+      "source_index": 78
+    },
+    {
+      "request_id": 296,
+      "dataset": "sharegpt",
+      "task": "chat",
+      "sample_id": "FAewIxU_0",
+      "source_index": 45079
+    },
+    {
+      "request_id": 297,
+      "dataset": "gsm8k",
+      "task": "test",
+      "sample_id": "1105",
+      "source_index": 1105
+    },
+    {
+      "request_id": 298,
+      "dataset": "longbench",
+      "task": "narrativeqa",
+      "sample_id": "narrativeqa:145",
+      "source_index": 145
+    },
+    {
+      "request_id": 299,
+      "dataset": "humaneval",
+      "task": "code",
+      "sample_id": "HumanEval/150",
+      "source_index": 150
+    }
+  ],
+  "metric_definitions": {
+    "ttft_s": "Client wall time from request start until the first nonempty generated content arrives in the SSE stream.",
+    "e2e_s": "Client wall time from request start until the streaming response finishes.",
+    "tpot_s": "For successful responses with >=2 locally tokenized output tokens: (E2E - TTFT) / (output_tokens - 1).",
+    "token_counts": "Local tokenizer counts; input uses apply_chat_template(..., add_generation_prompt=True), output tokenizes generated text without special tokens.",
+    "throughput": "Successful requests or their locally counted tokens divided by measured wall-clock span. No server-side KV/cache metric is inferred."
+  },
+  "warmup": {
+    "requests": 3,
+    "failures": 1,
+    "errors": [
+      "RuntimeError: HTTP 500: Internal Server Error"
+    ]
+  },
+  "measured_wall_time_s": 228.5442032639985,
+  "completed_at_utc": "2026-11-02T15:38:38.462630+00:00",
+  "result_files": [
+    "requests.csv",
+    "summary.csv",
+    "timeseries.csv"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "backend": {
+    "base_url": "http://127.0.0.1:8192/v1",
+    "model": "qwen2.5-7b",
+    "api_key": "EMPTY",
+    "timeout_seconds": 600,
+    "verify_tls": true,
+    "extra_body": {}
+  },
+  "tokenizer": {
+    "path": "/home/gzw/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct",
+    "trust_remote_code": false
+  },
+  "benchmark": {
+    "request_count": 300,
+    "warmup_requests": 3,
+    "concurrency": 8,
+    "client_batch_size": 8,
+    "seed": 20261102,
+    "max_output_tokens": 256,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "ignore_eos": false,
+    "retries": 0,
+    "save_output_text": true,
+    "timeseries": true,
+    "timeseries_bucket_seconds": 1.0
+  },
+  "load": {
+    "mode": "closed_loop",
+    "request_rate": 4.0
+  },
+  "sampling": {
+    "strategy": "round_robin",
+    "repeat": true
+  },
+  "datasets": [
+    {
+      "name": "sharegpt",
+      "enabled": true,
+      "path": "/home/gzw/datasets/pd_benchmark/sharegpt/ShareGPT_V3_unfiltered_cleaned_split.json",
+      "max_conversation_messages": 0
+    },
+    {
+      "name": "gsm8k",
+      "enabled": true,
+      "path": "/home/gzw/datasets/pd_benchmark/gsm8k/test.jsonl"
+    },
+    {
+      "name": "longbench",
+      "enabled": true,
+      "path": "/home/gzw/datasets/pd_benchmark/longbench",
+      "tasks": [
+        "narrativeqa"
+      ]
+    },
+    {
+      "name": "humaneval",
+      "enabled": true,
+      "path": "/home/gzw/datasets/pd_benchmark/humaneval/test.jsonl"
+    }
+  ],
+  "output": {
+    "directory": "./results",
+    "run_name": "pd_benchmark"
+  }
+}
