@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import asyncio
 import random
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
-from .client import StreamingClient
 from .models import RequestResult, Sample
+
+if TYPE_CHECKING:
+    from .client import StreamingClient
 
 
 async def _run_closed_loop(
@@ -80,17 +82,35 @@ async def run_benchmark(
             return await client.request(index, sample, run_origin)
 
     mode = config.get("load", {}).get("mode", "closed_loop")
-    if mode == "closed_loop":
-        results = await _run_closed_loop(samples, concurrency, batch_size, submit)
-    elif mode == "burst":
-        results = await _run_bursts(samples, batch_size, submit)
-    else:
-        results = await _run_poisson(
-            samples,
+
+    async def dispatch(phase: list[tuple[int, Sample]], seed: int) -> list[RequestResult]:
+        phase_samples = [sample for _, sample in phase]
+
+        async def phase_submit(index: int, sample: Sample) -> RequestResult:
+            request_id = phase[index][0]
+            return await submit(request_id, sample)
+
+        if mode == "closed_loop":
+            return await _run_closed_loop(phase_samples, concurrency, batch_size, phase_submit)
+        if mode == "burst":
+            return await _run_bursts(phase_samples, batch_size, phase_submit)
+        return await _run_poisson(
+            phase_samples,
             float(config["load"]["request_rate"]),
-            int(bench.get("seed", 0)),
-            submit,
+            seed,
+            phase_submit,
         )
+
+    if config.get("load", {}).get("separate_datasets", False):
+        phases: dict[str, list[tuple[int, Sample]]] = {}
+        for index, sample in enumerate(samples):
+            phases.setdefault(sample.dataset, []).append((index, sample))
+        results = []
+        for phase_index, (dataset, phase) in enumerate(phases.items()):
+            print(f"Dataset phase {phase_index + 1}/{len(phases)}: {dataset} ({len(phase)} requests)")
+            results.extend(await dispatch(phase, int(bench.get("seed", 0)) + phase_index))
+    else:
+        results = await dispatch(list(enumerate(samples)), int(bench.get("seed", 0)))
     return sorted(results, key=lambda item: item.request_id)
 
 
@@ -114,4 +134,5 @@ async def run_warmup(
     return list(await asyncio.gather(*[
         submit(index, sample) for index, sample in enumerate(warm_samples)
     ]))
+
 

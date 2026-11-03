@@ -5,6 +5,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from pdbench.runner import run_benchmark
+
 try:
     import httpx
     from pdbench.client import StreamingClient
@@ -67,6 +69,30 @@ class _FakeCounter:
         return len(text.split())
 
 
+class RunnerTests(unittest.IsolatedAsyncioTestCase):
+    async def test_dataset_phases_wait_for_completion(self) -> None:
+        events = []
+
+        class FakeClient:
+            async def request(self, request_id, sample, run_origin):
+                events.append(("start", sample.dataset))
+                events.append(("done", sample.dataset))
+                return RequestResult(request_id, sample.sample_id, sample.dataset, sample.task, "ok")
+
+        samples = [
+            Sample(str(i), dataset, "task", [{"role": "user", "content": "q"}], i)
+            for i, dataset in enumerate(("sharegpt", "sharegpt", "gsm8k", "gsm8k"))
+        ]
+        config = {
+            "benchmark": {"concurrency": 2, "client_batch_size": 2, "seed": 1},
+            "load": {"mode": "burst", "separate_datasets": True},
+        }
+        results = await run_benchmark(config, samples, FakeClient(), 0.0)
+        self.assertEqual([result.request_id for result in results], [0, 1, 2, 3])
+        first_gsm = events.index(("start", "gsm8k"))
+        self.assertEqual(events[:first_gsm].count(("done", "sharegpt")), 2)
+
+
 @unittest.skipUnless(httpx is not None, "httpx is not installed")
 class ClientTests(unittest.IsolatedAsyncioTestCase):
     async def test_streaming_sse_and_usage(self) -> None:
@@ -101,4 +127,5 @@ class ClientTests(unittest.IsolatedAsyncioTestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
 

@@ -21,7 +21,7 @@ python -m pip install -r requirements.txt
 
 ## 2. 配置数据
 
-修改 `config.json`。每次可以启用一个或多个数据集；多个数据集默认按 round-robin 均衡抽样。
+修改 `config.json`。`request_count` 是每个已启用数据集的请求数；不足时 `sampling.repeat=true` 会循环取样。默认按配置中的数据集顺序逐个运行，每个阶段结束后才开始下一个数据集。
 
 常见本地结构：
 
@@ -92,6 +92,10 @@ python -u benchmark.py --config config.json --requests 1000 --concurrency 32 --s
 
 `client_batch_size` 不是 vLLM 的内部 batch size，也不能强制服务端如何组批。
 
+默认饱和实验使用 `separate_datasets=true`、`sampling.strategy=sequential`、`mode=burst`、`request_count=concurrency=client_batch_size=300`。每个数据集的 300 个请求一起提交到 Proxy，全部完成后再提交下一个数据集。客户端连接会一直保持到 Decode 结束；增大在途连接数后，前面的请求在 D 生成时，后面的请求才有机会继续进入 P。Proxy 负责传递 `kv_transfer_params`；实际 P/D 队列和动态批处理由服务端处理。是否同时打满两张卡仍需观察服务端指标，受 Proxy、KV 容量、GPU 和网络影响。
+
+`max_output_tokens=2048` 配合 `ignore_eos=true` 尽量延长 Decode，但上下文仍需满足 `输入 token + 2048 <= max_model_len`。默认超时是 3600 秒；若队列更长，应相应提高。先以较小请求数试运行，再增加到 300。若只想生成到自然 EOS，把 `ignore_eos` 改回 `false`。
+
 ## 6. 指标定义
 
 - TTFT：客户端开始发送请求，到 SSE 流中收到第一个非空生成内容的墙钟时间。
@@ -129,4 +133,5 @@ results/pd_benchmark_YYYYMMDD_HHMMSS_microseconds/
 ## 8. 推荐实验方式
 
 先用 `--dry-run` 检查最大输入长度是否超过服务端 `--max-model-len`。正式对比不同 PD 配置时，保持数据 trace、seed、tokenizer、请求数、生成参数和负载模式不变；分别使用新的输出目录，不要只比较单次运行。
+
 

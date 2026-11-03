@@ -168,8 +168,8 @@ def load_and_sample(config: dict[str, Any]) -> tuple[list[Sample], dict[str, int
     target_per_dataset = int(config["benchmark"]["request_count"])
     strategy = config.get("sampling", {}).get("strategy", "round_robin")
     repeat = bool(config.get("sampling", {}).get("repeat", False))
-    if strategy not in {"round_robin", "shuffled"}:
-        raise ValueError("sampling.strategy must be round_robin or shuffled")
+    if strategy not in {"round_robin", "shuffled", "sequential"}:
+        raise ValueError("sampling.strategy must be round_robin, shuffled, or sequential")
 
     selected_pools: list[list[Sample]] = []
     for pool in pools:
@@ -192,9 +192,12 @@ def load_and_sample(config: dict[str, Any]) -> tuple[list[Sample], dict[str, int
     if strategy == "round_robin":
         for index in range(target_per_dataset):
             combined.extend(pool[index] for pool in selected_pools)
-    else:
+    elif strategy == "shuffled":
         combined = [sample for pool in selected_pools for sample in pool]
         rng.shuffle(combined)
+    else:
+        combined = [sample for pool in selected_pools for sample in pool]
     return combined, counts
+
 
 

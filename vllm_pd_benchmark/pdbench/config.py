@@ -36,6 +36,9 @@ def validate_config(config: dict[str, Any]) -> None:
         raise ValueError("load.mode must be closed_loop, burst, or poisson")
     if mode == "poisson" and float(load.get("request_rate", 0)) <= 0:
         raise ValueError("load.request_rate must be positive in poisson mode")
+    strategy = config.get("sampling", {}).get("strategy", "round_robin")
+    if strategy not in {"round_robin", "shuffled", "sequential"}:
+        raise ValueError("sampling.strategy must be round_robin, shuffled, or sequential")
 
     enabled = [item for item in config["datasets"] if item.get("enabled", True)]
     if not enabled:
@@ -51,4 +54,5 @@ def snapshot_config(config: dict[str, Any], destination: Path) -> None:
         json.dumps(config, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
 

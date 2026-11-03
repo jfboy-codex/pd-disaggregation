@@ -35,6 +35,7 @@ class StreamingClient:
         self.extra_body = dict(backend.get("extra_body", {}))
         self.bench = config["benchmark"]
         self.counter = token_counter
+        self.input_tokens_by_request: dict[int, int] = {}
         self.http: httpx.AsyncClient | None = None
 
     async def __aenter__(self) -> "StreamingClient":
@@ -78,7 +79,9 @@ class StreamingClient:
             raise RuntimeError("StreamingClient must be used as an async context manager")
 
         started = time.perf_counter()
-        input_tokens = self.counter.count_messages(sample.messages)
+        input_tokens = self.input_tokens_by_request.get(request_id)
+        if input_tokens is None:
+            input_tokens = self.counter.count_messages(sample.messages)
         result = RequestResult(
             request_id=request_id,
             sample_id=sample.sample_id,
@@ -166,4 +169,5 @@ class StreamingClient:
             if first_content_at is not None:
                 result.ttft_s = first_content_at - started
             return result
+
 

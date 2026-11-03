@@ -111,6 +111,7 @@ async def async_main() -> int:
         return 0
 
     async with StreamingClient(config, counter) as client:
+        client.input_tokens_by_request = dict(enumerate(input_counts))
         warmup_count = int(config["benchmark"].get("warmup_requests", 0))
         if warmup_count:
             print(f"Running {warmup_count} warmup requests...")
@@ -161,5 +162,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
