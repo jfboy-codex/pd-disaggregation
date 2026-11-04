@@ -25,6 +25,11 @@ the native `0.30.0` baseline and pins KVServe commit
 KVServe and its additional packages, and checks out the
 pinned source under `KVServe/`; the latter is not copied into this repo.
 The pinned source supplies the complete connector and compression modules.
+`setup.sh` also installs `kv_utils_vllm030.py` into the editable KVServe
+checkout. This adapter converts vLLM 0.30 FlashAttention's
+`[blocks, heads, tokens, 2*head_size]` cache layout to KVServe's
+`[2, blocks, tokens, heads, head_size]` transfer layout and back. It is needed
+for the Qwen model with the vLLM 0.30 FlashAttention backend.
 
 ## Install on the Linux server
 
@@ -41,6 +46,12 @@ source checkout still comes from GitHub. The default nvCOMP package is for
 CUDA 13. Set `NVCOMP_PACKAGE=nvidia-nvcomp-cu12` if the Conda environment uses
 CUDA 12. The script checks that vLLM 0.30.0 is already installed and does not
 create another environment. Set `KVSERVE_SOURCE_DIR` for another source path.
+If the server cannot clone from GitHub, download the archive for commit
+`60f749aa039959db87dda6a6783b5e33b7b83ccc` on another machine, upload it,
+and extract it as `kvserve_baseline/KVServe/`. The setup script accepts that
+source directory without Git metadata and skips Git network access. In this
+case the archive's commit must be checked before upload; the script cannot
+verify the revision of an extracted archive.
 
 ## Start and benchmark
 
@@ -103,3 +114,4 @@ single config file. The default mode is a fixed profile: it does not claim
 adaptive decisions without an offline profile library. The benchmark measures
 request latency and throughput; it does not report internal KV transfer volume
 unless separate connector stats are collected.
+
