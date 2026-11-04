@@ -1,6 +1,6 @@
 # KVServe PD baseline
 
-This is an isolated KVServe baseline beside `vllm_0_16`. It uses the same
+This is a KVServe baseline beside `vllm_0_30`. It uses the same
 OpenAI endpoints and port numbers: prefill `8100`, decode `8200`, proxy `8192`.
 The existing benchmark configuration therefore continues to use
 `http://127.0.0.1:8192/v1` and model name `qwen2.5-7b`.
@@ -19,32 +19,28 @@ The [KVServe paper](https://arxiv.org/abs/2605.13734) and its
 | Request orchestration | `proxy.py`, `protocol.py` in this directory | Sends one-token prefill then streams decode; creates one stable `transfer_id` for both stages |
 
 KVServe is an **out-of-tree vLLM connector**. Its upstream package requires
-vLLM `>=0.18.0`; this baseline pins vLLM `0.30.0` and KVServe commit
-`60f749aa039959db87dda6a6783b5e33b7b83ccc`. The native `0.16.0` environment
-is left alone. `setup_env.sh` creates a separate `.venv` and checks out the
-pinned KVServe source under `KVServe/`; the latter is not copied into this repo.
+vLLM `>=0.18.0`; this baseline uses the same activated Conda environment as
+the native `0.30.0` baseline and pins KVServe commit
+`60f749aa039959db87dda6a6783b5e33b7b83ccc`. `setup.sh` installs only
+KVServe and its additional packages, and checks out the
+pinned source under `KVServe/`; the latter is not copied into this repo.
 The pinned source supplies the complete connector and compression modules.
 
 ## Install on the Linux server
 
-From the repository root:
+First run `vllm_0_30/setup.sh` in the activated baseline Conda environment.
+Then, from the repository root:
 
 ```bash
 cd kvserve_baseline
-bash setup_env.sh
+bash setup.sh
 ```
 
-This needs `uv`, `git`, Python 3.12, a CUDA-capable vLLM installation, and a
-driver compatible with the selected CUDA wheels. The installer uses
-`--torch-backend=auto` and defaults to `nvidia-nvcomp-cu13` for KVServe's
-default ANS codec. Set `NVCOMP_PACKAGE=nvidia-nvcomp-cu12` if your isolated
-vLLM environment uses CUDA 12. If you already have a tested vLLM wheel, you
-can create `.venv` yourself, install that wheel and the pinned KVServe checkout,
-then run `start_pd.py` with that interpreter after setting `vllm_version` in
-`config.json` to the installed version.
-
-For a different environment location, set `KVSERVE_ENV_DIR` before setup.
-The installer refuses to overwrite an existing environment.
+Python packages are downloaded through the Tsinghua PyPI mirror; the pinned
+source checkout still comes from GitHub. The default nvCOMP package is for
+CUDA 13. Set `NVCOMP_PACKAGE=nvidia-nvcomp-cu12` if the Conda environment uses
+CUDA 12. The script checks that vLLM 0.30.0 is already installed and does not
+create another environment. Set `KVSERVE_SOURCE_DIR` for another source path.
 
 ## Start and benchmark
 
@@ -54,7 +50,7 @@ context window and scheduler settings match the existing native baseline.
 Set both NUMA nodes to `null` if this server has no matching NUMA layout.
 
 ```bash
-.venv/bin/python start_pd.py --config config.json
+python start_pd.py --config config.json
 ```
 
 The launcher starts both vLLM engines before waiting for readiness because
