@@ -51,6 +51,8 @@ GitHub or build one locally; if installation fails, keep the full pip error.
 If GitHub downloads are unavailable on the server, upload the full
 `fast-hadamard-transform` source and set `FHT_SOURCE_DIR` to that directory
 when running setup.
+When `FHT_SOURCE_DIR` is set, setup forces a local build and shows compiler
+output, skipping upstream's attempt to download a prebuilt wheel first.
 Compiling the extension requires an `nvcc` toolkit with the same CUDA version
 as `torch.version.cuda`. Setup checks this before invoking pip and reports the
 detected versions; point `CUDA_HOME` and `PATH` at the matching toolkit.

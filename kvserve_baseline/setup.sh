@@ -220,7 +220,12 @@ if match is None or match.group(1) != torch.version.cuda:
                      "Select the matching toolkit with CUDA_HOME and PATH.")
 PY
   if [[ -n "${FHT_SOURCE_DIR:-}" ]]; then
-    python -m pip install --no-build-isolation --no-deps "$FHT_SOURCE_DIR"
+    if [[ ! -f "$FHT_SOURCE_DIR/csrc/fast_hadamard_transform_cuda.cu" ]]; then
+      echo "FHT_SOURCE_DIR must contain the full upstream source, including csrc/." >&2
+      exit 1
+    fi
+    FAST_HADAMARD_TRANSFORM_FORCE_BUILD=TRUE \
+      python -m pip install -v --no-build-isolation --no-deps "$FHT_SOURCE_DIR"
   else
     python -m pip install --index-url "$MIRROR" --no-build-isolation --no-deps \
       'fast-hadamard-transform==1.1.0'
