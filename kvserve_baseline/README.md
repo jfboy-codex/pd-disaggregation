@@ -117,6 +117,9 @@ For a failed bitpack run, rerun `setup.sh` after pulling updates, then set
 `[KVSERVE_WIRE] SEND` and `RECV` record the first 16 payload bytes, size, and
 codec shape for each transfer ID in `prefill.log` and `decode.log`. Compare
 the same ID on both sides to tell whether the header changed during transfer.
+`PRE_SEND` records the header again immediately before NCCL submits the send;
+it distinguishes a sender-side buffer change after queuing from a transfer
+or receive-side problem.
 Disable the variable for measured benchmarks because the probe copies header
 bytes to the CPU and adds synchronization.
 

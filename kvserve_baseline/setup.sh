@@ -106,6 +106,35 @@ for anchor, probe in ((send_anchor, send_probe), (recv_anchor, recv_probe)):
 path.write_text(source, encoding="utf-8")
 PY
 
+# The first probe above runs before queuing. This second optional probe runs
+# immediately before NCCL submits the bundle, so a changed header can be
+# attributed to sender-side lifetime rather than the transfer itself.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/transport/nccl_transport.py"
+source = path.read_text(encoding="utf-8")
+anchor = (
+    "        with torch.cuda.stream(self._send_stream):\n"
+    "            self._send_stream.wait_event(ready_event)\n"
+    "            start_event = torch.cuda.Event(enable_timing=True)\n"
+    "            start_event.record(self._send_stream)\n"
+    "            for tensor in body_chunks + aux_tensors:\n"
+)
+probe = (
+    "        if os.environ.get('KVSERVE_WIRE_DEBUG') == '1':\n"
+    "            ready_event.synchronize()\n"
+    "            header = bytes(body_chunks[0][:16].cpu().tolist()).hex()\n"
+    "            logger.warning('[KVSERVE_WIRE] PRE_SEND id=%s header=%s size=%d',\n"
+    "                           request_id, header, body_chunks[0].numel())\n"
+)
+if probe not in source:
+    if source.count(anchor) != 1:
+        raise SystemExit(f"Could not insert pre-send diagnostic in {path}")
+    path.write_text(source.replace(anchor, probe + anchor, 1), encoding="utf-8")
+PY
+
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
 
