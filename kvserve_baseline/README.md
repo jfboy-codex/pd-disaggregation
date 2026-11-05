@@ -89,6 +89,13 @@ python kvserve_baseline/start_pd.py --config kvserve_baseline/config.json
 
 The launcher starts both vLLM engines, waits for them, then starts the proxy.
 Use Ctrl+C to stop them. Logs are under `kvserve_baseline/pd_logs/`.
+If an existing uploaded source fails at import with a `nccl_transport.py`
+`SyntaxError` in the optional wire probe, repair the patch without reinstalling:
+
+```bash
+KVSERVE_SOURCE_DIR="$PWD/kvserve_baseline/KVServe-upload" KVSERVE_PATCH_ONLY=1 bash kvserve_baseline/setup.sh
+```
+
 In another shell, test one request before a burst benchmark:
 
 ```bash
