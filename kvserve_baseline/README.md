@@ -106,6 +106,12 @@ different model, supply its own measured scores CSV and model name in the
 quantizer config, or choose another supported compression pipeline from the
 [upstream README](https://github.com/hpdps-group/KVServe#choose-a-compression-mode).
 
+If decode reports `not compressed with NVCOMP_NATIVE bitstream kind`, run
+`config_bitpack_diagnostic.json` with `--config` to test the same quantizer and
+NCCL transfer using KVServe's 8-bit packing codec. This isolates the nvCOMP
+path; results from the diagnostic config must be labeled as bitpack rather
+than nvCOMP ANS. Keep `config.json` for the intended baseline.
+
 For the paper's adaptive controller, first produce a profile library from
 offline profiling and configure:
 
@@ -126,6 +132,3 @@ single config file. The default mode is a fixed profile: it does not claim
 adaptive decisions without an offline profile library. The benchmark measures
 request latency and throughput; it does not report internal KV transfer volume
 unless separate connector stats are collected.
-
-
-

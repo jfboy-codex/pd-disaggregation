@@ -1,0 +1,44 @@
+{
+  "model_cache": "/home/gzw/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct",
+  "model_name": "qwen2.5-7b",
+  "vllm_version": "0.30.0",
+  "kvserve_revision": "60f749aa039959db87dda6a6783b5e33b7b83ccc",
+  "host": "127.0.0.1",
+  "prefill_port": 8100,
+  "decode_port": 8200,
+  "proxy_port": 8192,
+  "kv_port": 25010,
+  "prefill_gpu": "0",
+  "decode_gpu": "1",
+  "prefill_numa_node": 0,
+  "decode_numa_node": 1,
+  "max_model_len": 4096,
+  "max_num_seqs": 4,
+  "max_num_batched_tokens": 8192,
+  "gpu_memory_utilization": 0.8,
+  "dtype": "half",
+  "kv_buffer_size": 1000000000,
+  "compression": {
+    "enabled": true,
+    "pipeline": ["quantizer", "codec"],
+    "quantizer_config": {
+      "model_name": "Qwen2.5-7B-Instruct",
+      "hybrid_ratio": 0.8,
+      "high_key_max_value": 12,
+      "high_value_max_value": 8,
+      "low_key_max_value": 6,
+      "low_value_max_value": 4,
+      "axis_key": "channel",
+      "axis_value": "token",
+      "split_type": "head"
+    },
+    "codec_config": {
+      "codec_type": "bitpack",
+      "bitpack_bits": 8
+    },
+    "min_compress_size": 1024
+  },
+  "startup_timeout_seconds": 900,
+  "backend_timeout_seconds": 3600,
+  "log_dir": "pd_logs"
+}
