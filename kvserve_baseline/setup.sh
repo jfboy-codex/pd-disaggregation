@@ -165,11 +165,11 @@ probes = (
         "    def _send_completion_loop(self)",
         "    def _send_one(self",
         "POST_SEND",
-        "            if os.environ.get('KVSERVE_WIRE_DEBUG') == '1' and row.get('kind') == 'bundle':\n"
-        "                body = keepalive[0][0]\n"
-        "                header = bytes(body[:16].cpu().tolist()).hex()\n"
-        "                logger.warning('[KVSERVE_WIRE] POST_SEND id=%s header=%s size=%d',\n"
-        "                               row['request_id'], header, body.numel())\n",
+        "                if os.environ.get('KVSERVE_WIRE_DEBUG') == '1' and row.get('kind') == 'bundle':\n"
+        "                    body = keepalive[0][0]\n"
+        "                    header = bytes(body[:16].cpu().tolist()).hex()\n"
+        "                    logger.warning('[KVSERVE_WIRE] POST_SEND id=%s header=%s size=%d',\n"
+        "                                   row['request_id'], header, body.numel())\n",
     ),
     (
         "    def _recv_completion_loop(self)",
@@ -186,6 +186,13 @@ for start_marker, end_marker, label, probe in probes:
     start = source.index(start_marker)
     end = source.index(end_marker, start)
     section = source[start:end]
+    # Repair the earlier diagnostic patch, which was dedented out of try.
+    if label == "POST_SEND":
+        legacy_probe = "".join(line[4:] for line in probe.splitlines(keepends=True))
+        if legacy_probe in section:
+            section = section.replace(legacy_probe, probe, 1)
+            source = source[:start] + section + source[end:]
+            continue
     if probe in section:
         continue
     anchor = "                event.synchronize()\n"
@@ -195,6 +202,12 @@ for start_marker, end_marker, label, probe in probes:
     source = source[:start] + section + source[end:]
 path.write_text(source, encoding="utf-8")
 PY
+
+python -m py_compile "$SOURCE_DIR/kvserve_v1/transport/nccl_transport.py"
+if [[ "${KVSERVE_PATCH_ONLY:-0}" == "1" ]]; then
+  echo "KVServe source patches applied; skipping package installation."
+  exit 0
+fi
 
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas packaging ninja "$NVCOMP_PACKAGE"
@@ -241,5 +254,3 @@ fast_hadamard_transform.hadamard_transform(tensor)
 print("KVServe connector import: OK")
 print("Hadamard CUDA extension: OK")
 PY
-
-
