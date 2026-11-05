@@ -73,6 +73,23 @@ elif new not in source:
     raise SystemExit(f"Could not patch thread-local nvCOMP Codec in {path}")
 PY
 
+# Upstream's controller documents CR = original/compressed and V/(B*CR),
+# but its predictor uses V*CR/B. Correct that one expression for online
+# profile selection; no transport or codec code is changed here.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/compression/controller/analytical_model.py"
+source = path.read_text(encoding="utf-8")
+old = "T_transfer_ms = (V_mb * cr / B_mbps) * 1000"
+new = "T_transfer_ms = (V_mb / (cr * B_mbps)) * 1000"
+if source.count(old) == 1:
+    path.write_text(source.replace(old, new), encoding="utf-8")
+elif new not in source:
+    raise SystemExit(f"Could not patch controller transfer-volume formula in {path}")
+PY
+
 # Optional one-run diagnostic: compare the codec header before NCCL send and
 # after NCCL receive. It is disabled unless KVSERVE_WIRE_DEBUG=1 is set.
 python - "$SOURCE_DIR" <<'PY'

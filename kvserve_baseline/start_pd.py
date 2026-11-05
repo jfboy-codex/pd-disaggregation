@@ -30,6 +30,23 @@ def load_config(path: Path) -> dict:
         raise ValueError("The four service ports must differ")
     if config["prefill_gpu"] == config["decode_gpu"]:
         raise ValueError("Prefill and decode need distinct GPUs")
+    compression = config.get("compression")
+    if isinstance(compression, dict) and compression.get("mode") == "controller":
+        library = compression.get("library_path")
+        if not library:
+            raise ValueError("Controller mode requires compression.library_path")
+        library_path = Path(library).expanduser()
+        if not library_path.is_absolute():
+            library_path = path.resolve().parent / library_path
+        if not library_path.is_file():
+            raise FileNotFoundError(
+                f"KVServe profile library not found: {library_path}. "
+                "Run prepare_profiles.py first.")
+        compression["library_path"] = str(library_path.resolve())
+        service = compression.get("service_config", {})
+        for key in ("bandwidth_mbps", "slo_ms", "accuracy_requirement"):
+            if key not in service or float(service[key]) <= 0:
+                raise ValueError(f"Controller mode requires positive service_config.{key}")
     return config
 
 
@@ -56,22 +73,37 @@ def check_runtime(config: dict) -> Path:
         raise RuntimeError(f"Expected vLLM {config['vllm_version']}, got {version}")
     spec = importlib.util.find_spec("kvserve_v1")
     if spec is None or spec.origin is None:
-        raise RuntimeError("KVServe is absent from this Python environment; run setup_env.sh")
+        raise RuntimeError("KVServe is absent from this Python environment; run kvserve_baseline/setup.sh")
     import kvserve_v1.connector.compressed_kv_connector  # noqa: F401
+    compression = config.get("compression")
+    if isinstance(compression, dict) and compression.get("mode") == "controller":
+        from kvserve_v1.compression.controller.profile_library import ProfileLibrary
+        library = ProfileLibrary(compression["library_path"])
+        if not library.get_all_profiles():
+            raise ValueError("KVServe controller profile library is empty")
+        for profile in library.get_all_profiles():
+            if (profile.compression_ratio <= 0 or profile.harmonic_speed <= 0):
+                raise ValueError(f"Invalid profile metrics: {profile.profile_id}")
+        print(f"Controller profile library: {library.get_num_profiles()} profiles", flush=True)
     source = Path(spec.origin).resolve().parents[1]
-    if not (source / ".git").exists():
-        raise RuntimeError("Install the pinned KVServe checkout in editable mode")
-    revision = subprocess.check_output(
-        ["git", "-C", str(source), "rev-parse", "HEAD"], text=True,
-    ).strip()
-    if revision != config["kvserve_revision"]:
-        raise RuntimeError(f"Expected KVServe {config['kvserve_revision']}, got {revision}")
+    if (source / ".git").exists():
+        revision = subprocess.check_output(
+            ["git", "-C", str(source), "rev-parse", "HEAD"], text=True,
+        ).strip()
+        if revision != config["kvserve_revision"]:
+            raise RuntimeError(f"Expected KVServe {config['kvserve_revision']}, got {revision}")
+    else:
+        print("KVServe source has no Git metadata; revision cannot be verified", flush=True)
     connector_source = source / "kvserve_v1/connector/compressed_kv_connector.py"
     if "kv_cache[forward_context.virtual_engine]" in connector_source.read_text(encoding="utf-8"):
         raise RuntimeError("KVServe needs the vLLM 0.30 connector patch; rerun kvserve_baseline/setup.sh")
     nvcomp_source = source / "kvserve_v1/compression/codec/nvcomp_func.py"
     if "threading.get_ident()" not in nvcomp_source.read_text(encoding="utf-8"):
         raise RuntimeError("KVServe needs the thread-local nvCOMP patch; rerun kvserve_baseline/setup.sh")
+    if isinstance(compression, dict) and compression.get("mode") == "controller":
+        model_source = source / "kvserve_v1/compression/controller/analytical_model.py"
+        if "T_transfer_ms = (V_mb / (cr * B_mbps)) * 1000" not in model_source.read_text(encoding="utf-8"):
+            raise RuntimeError("KVServe needs the controller formula patch; rerun kvserve_baseline/setup.sh")
 
     vllm_bin = Path(sys.executable).parent / "vllm"
     if not vllm_bin.is_file():

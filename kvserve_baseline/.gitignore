@@ -1,5 +1,7 @@
 .venv/
 KVServe/
+KVServe-upload/
+profiles/
 pd_logs/
 __pycache__/
 *.pyc
