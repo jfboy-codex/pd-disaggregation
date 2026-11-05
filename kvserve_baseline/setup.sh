@@ -19,11 +19,22 @@ if version != "0.30.0":
     raise SystemExit(f"Expected vLLM 0.30.0, got {version}; run ../vllm_0_30/setup.sh first")
 PY
 
-if [[ ! -d "$SOURCE_DIR/.git" ]]; then
+if [[ ! -d "$SOURCE_DIR" ]]; then
   git clone https://github.com/hpdps-group/KVServe.git "$SOURCE_DIR"
 fi
-git -C "$SOURCE_DIR" fetch origin "$REVISION"
-git -C "$SOURCE_DIR" checkout --detach "$REVISION"
+
+if [[ -d "$SOURCE_DIR/.git" ]]; then
+  if ! git -C "$SOURCE_DIR" cat-file -e "${REVISION}^{commit}" 2>/dev/null; then
+    git -C "$SOURCE_DIR" fetch origin "$REVISION"
+  fi
+  git -C "$SOURCE_DIR" checkout --detach "$REVISION"
+elif [[ -f "$SOURCE_DIR/pyproject.toml" && -f "$SOURCE_DIR/kvserve_v1/connector/compressed_kv_connector.py" ]]; then
+  echo "Using uploaded KVServe source at $SOURCE_DIR (no Git metadata)."
+  echo "Make sure it was downloaded from commit $REVISION."
+else
+  echo "Invalid KVServe source at $SOURCE_DIR; expected a Git checkout or extracted source archive." >&2
+  exit 1
+fi
 
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
