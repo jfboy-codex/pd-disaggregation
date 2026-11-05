@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Mapping
 from pathlib import Path
 from typing import Any
 
@@ -49,8 +50,14 @@ class TokenCounter:
                 tokenize=True,
                 add_generation_prompt=True,
             )
+            if isinstance(ids, Mapping):
+                ids = ids["input_ids"]
+            if getattr(ids, "ndim", None) == 2:
+                return int(ids.shape[1])
+            if isinstance(ids, list) and ids and isinstance(ids[0], list):
+                return len(ids[0])
             return len(ids)
-        except (ValueError, TypeError, AttributeError):
+        except (ValueError, TypeError, AttributeError, KeyError):
             text = "\n".join(
                 f"{message['role']}: {message['content']}" for message in messages
             ) + "\nassistant:"
@@ -60,4 +67,5 @@ class TokenCounter:
         if not text:
             return 0
         return len(self.tokenizer.encode(text, add_special_tokens=False))
+
 
