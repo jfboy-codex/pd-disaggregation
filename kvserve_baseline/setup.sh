@@ -197,11 +197,27 @@ path.write_text(source, encoding="utf-8")
 PY
 
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
-  fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
+  fastapi httpx uvicorn pandas packaging ninja "$NVCOMP_PACKAGE"
+
+# The upstream Hadamard transformer imports this CUDA extension, but the
+# pinned KVServe pyproject does not list it as a runtime dependency.
+if ! python -c 'import fast_hadamard_transform' >/dev/null 2>&1; then
+  if [[ -n "${FHT_SOURCE_DIR:-}" ]]; then
+    python -m pip install --no-build-isolation --no-deps "$FHT_SOURCE_DIR"
+  else
+    python -m pip install --index-url "$MIRROR" --no-build-isolation --no-deps \
+      'fast-hadamard-transform==1.1.0'
+  fi
+fi
 
 python - <<'PY'
 import kvserve_v1.connector.compressed_kv_connector
+import fast_hadamard_transform
+import torch
+tensor = torch.randn(2, 128, device="cuda", dtype=torch.float16)
+fast_hadamard_transform.hadamard_transform(tensor)
 print("KVServe connector import: OK")
+print("Hadamard CUDA extension: OK")
 PY
 
 

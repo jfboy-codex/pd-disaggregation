@@ -44,6 +44,13 @@ metadata cannot have its revision checked automatically.
 Setup also corrects one upstream controller formula: transfer time is
 `original_bytes / (compression_ratio * bandwidth)`, matching the upstream
 docstring and benefit check.
+The upstream package does not declare the CUDA Hadamard extension used by its
+transformer, so setup installs `fast-hadamard-transform` separately and checks
+that it runs on CUDA. Its package installer may fetch a matching binary from
+GitHub or build one locally; if installation fails, keep the full pip error.
+If GitHub downloads are unavailable on the server, upload the full
+`fast-hadamard-transform` source and set `FHT_SOURCE_DIR` to that directory
+when running setup.
 
 Stop serving processes before building profiles: model loading uses GPU 0.
 `prepare_profiles.py` uses the upstream Qwen `tolerance_3_results.json` by
