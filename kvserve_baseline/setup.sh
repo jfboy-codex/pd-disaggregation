@@ -135,6 +135,50 @@ if probe not in source:
     path.write_text(source.replace(anchor, probe + anchor, 1), encoding="utf-8")
 PY
 
+# Check whether the same buffers still contain the header after each NCCL
+# operation completes, before another thread consumes or releases them.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/transport/nccl_transport.py"
+source = path.read_text(encoding="utf-8")
+probes = (
+    (
+        "    def _send_completion_loop(self)",
+        "    def _send_one(self",
+        "POST_SEND",
+        "            if os.environ.get('KVSERVE_WIRE_DEBUG') == '1' and row.get('kind') == 'bundle':\n"
+        "                body = keepalive[0][0]\n"
+        "                header = bytes(body[:16].cpu().tolist()).hex()\n"
+        "                logger.warning('[KVSERVE_WIRE] POST_SEND id=%s header=%s size=%d',\n"
+        "                               row['request_id'], header, body.numel())\n",
+    ),
+    (
+        "    def _recv_completion_loop(self)",
+        "    def _listen_loop(self)",
+        "POST_RECV",
+        "                if os.environ.get('KVSERVE_WIRE_DEBUG') == '1' and isinstance(payload, dict):\n"
+        "                    body = payload['body_chunks'][0]\n"
+        "                    header = bytes(body[:16].cpu().tolist()).hex()\n"
+        "                    logger.warning('[KVSERVE_WIRE] POST_RECV id=%s header=%s size=%d',\n"
+        "                                   rid, header, body.numel())\n",
+    ),
+)
+for start_marker, end_marker, label, probe in probes:
+    start = source.index(start_marker)
+    end = source.index(end_marker, start)
+    section = source[start:end]
+    if probe in section:
+        continue
+    anchor = "                event.synchronize()\n"
+    if section.count(anchor) != 1:
+        raise SystemExit(f"Could not insert {label} diagnostic in {path}")
+    section = section.replace(anchor, anchor + probe, 1)
+    source = source[:start] + section + source[end:]
+path.write_text(source, encoding="utf-8")
+PY
+
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
 

@@ -120,6 +120,8 @@ the same ID on both sides to tell whether the header changed during transfer.
 `PRE_SEND` records the header again immediately before NCCL submits the send;
 it distinguishes a sender-side buffer change after queuing from a transfer
 or receive-side problem.
+`POST_SEND` and `POST_RECV` record the same buffers after the respective NCCL
+completion events, separating in-flight changes from later buffer handling.
 Disable the variable for measured benchmarks because the probe copies header
 bytes to the CPU and adds synchronization.
 
