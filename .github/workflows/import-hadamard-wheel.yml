@@ -1,0 +1,23 @@
+name: Import prebuilt Hadamard wheel
+on:
+  push:
+    paths:
+      - .github/workflows/import-hadamard-wheel.yml
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify wheel
+        run: |
+          curl --fail --location --retry 3 --output kvserve_baseline/fast_hadamard_transform-1.1.0-cp312-cp312-linux_x86_64.whl 'https://github.com/NovaSky-AI/skyrl-wheels/releases/download/cu13torch2.13/fast_hadamard_transform-1.1.0-cp312-cp312-linux_x86_64.whl'
+          echo '010eb315eebda0b3eee56460b16a7e507ff3fa538a38319b9844ec6fa2c84c71  kvserve_baseline/fast_hadamard_transform-1.1.0-cp312-cp312-linux_x86_64.whl' | sha256sum --check
+      - name: Commit wheel
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add kvserve_baseline/fast_hadamard_transform-1.1.0-cp312-cp312-linux_x86_64.whl
+          git commit -m 'Add prebuilt Hadamard wheel for CUDA 13 and torch 2.13'
+          git push origin HEAD:master
