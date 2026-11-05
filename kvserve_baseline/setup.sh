@@ -35,6 +35,14 @@ else
   echo "Invalid KVServe source at $SOURCE_DIR; expected a Git checkout or extracted source archive." >&2
   exit 1
 fi
+<<<<<<< HEAD
+=======
+
+# vLLM 0.30 FlashAttention stores K and V in the last dimension.
+# The pinned KVServe utility expects a separate K/V axis, so install the
+# compatibility adapter into the editable source checkout.
+cp "$HERE/kv_utils_vllm030.py" "$SOURCE_DIR/kvserve_v1/utils/kv_utils.py"
+>>>>>>> 69207fd19fd15cf9d09dbcc0c6bab0904a3ae52a
 
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
@@ -43,3 +51,4 @@ python - <<'PY'
 import kvserve_v1.connector.compressed_kv_connector
 print("KVServe connector import: OK")
 PY
+

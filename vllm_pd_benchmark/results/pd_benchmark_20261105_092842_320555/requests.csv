@@ -1,0 +1,901 @@
+request_id,sample_id,dataset,task,status,error,http_status,started_at_utc,start_offset_s,end_offset_s,ttft_s,e2e_s,tpot_s,input_tokens,output_tokens,total_tokens,server_prompt_tokens,server_completion_tokens,finish_reason,output_text,attempts
+0,StUzdLK_249,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.508352+00:00,0.004080654005520046,0.12630256998818368,,0.12222191598266363,,2,0,2,,,,,1
+1,1fqa2gg_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.509709+00:00,0.005439084954559803,0.1213621849892661,,0.1159231000347063,,2,0,2,,,,,1
+2,ONKfO5I_78,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.510513+00:00,0.006244232994504273,0.14678658096818253,,0.14054234797367826,,2,0,2,,,,,1
+3,xFOGGTt_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.511226+00:00,0.006958420970477164,0.1621270699542947,,0.15516864898381755,,2,0,2,,,,,1
+4,O1aYPI8_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.511764+00:00,0.007497394981328398,0.1276586419553496,,0.1201612469740212,,2,0,2,,,,,1
+5,IMtsj65_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.512300+00:00,0.008033000980503857,0.15450153598794714,,0.14646853500744328,,2,0,2,,,,,1
+6,itaBzIZ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.512926+00:00,0.008659306971821934,0.1684895220096223,,0.15983021503780037,,2,0,2,,,,,1
+7,wKeGaPA_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.513575+00:00,0.009308270004112273,0.14701276796404272,,0.13770449795993045,,2,0,2,,,,,1
+8,BU4nOo4_19,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.514009+00:00,0.009741878951899707,0.1547441989532672,,0.14500232000136748,,2,0,2,,,,,1
+9,KmeHDEe_5,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.514649+00:00,0.010381589992903173,0.16183403600007296,,0.15145244600716978,,2,0,2,,,,,1
+10,WgxpiNr_47,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.515205+00:00,0.010938111983705312,0.1682057519792579,,0.1572676399955526,,2,0,2,,,,,1
+11,cui6tIE_6,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.515694+00:00,0.01142762100789696,0.17615676496643573,,0.16472914395853877,,2,0,2,,,,,1
+12,ZV5eqYo_9,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.516426+00:00,0.012158860976342112,0.18475587497232482,,0.1725970139959827,,2,0,2,,,,,1
+13,jfBow97_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.517128+00:00,0.012861486000474542,0.19761794700752944,,0.1847564610070549,,2,0,2,,,,,1
+14,vHQ1EPe_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.517702+00:00,0.013434926979243755,0.20429008797509596,,0.1908551609958522,,2,0,2,,,,,1
+15,5wt6Xeb_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.518275+00:00,0.014008375001139939,0.21473704400705174,,0.2007286690059118,,2,0,2,,,,,1
+16,Hn3DdGM_31,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.518711+00:00,0.014444369007833302,0.22426982899196446,,0.20982545998413116,,2,0,2,,,,,1
+17,6kTTwCw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.519226+00:00,0.014958778978325427,0.23471734300255775,,0.21975856402423233,,2,0,2,,,,,1
+18,s22US0g_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.519674+00:00,0.015407369995955378,0.24952004896476865,,0.23411267896881327,,2,0,2,,,,,1
+19,qDTQvIu_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.520127+00:00,0.015860393992625177,0.17643658496672288,,0.1605761909740977,,2,0,2,,,,,1
+20,o1URt9d_9,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.520559+00:00,0.016292241984046996,0.19738718296866864,,0.18109494098462164,,2,0,2,,,,,1
+21,oVdtC7H_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.521193+00:00,0.016925623000133783,0.18616087996633723,,0.16923525696620345,,2,0,2,,,,,1
+22,Si2UJ7K_58,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.521670+00:00,0.01740414195228368,0.2745413659722544,,0.25713722401997074,,2,0,2,,,,,1
+23,fIkjU8R_2,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.522069+00:00,0.017802339978516102,0.28258075698977336,,0.26477841701125726,,2,0,2,,,,,1
+24,CfP9kJZ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.522592+00:00,0.018325759971048683,0.2689591099624522,,0.2506333499914035,,2,0,2,,,,,1
+25,fB2ri01_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.522985+00:00,0.018718929961323738,0.27767681097611785,,0.2589578810147941,,2,0,2,,,,,1
+26,xU1FU9C_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.523435+00:00,0.019168740953318775,0.2870586129720323,,0.2678898720187135,,2,0,2,,,,,1
+27,DIq6JBR_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.523741+00:00,0.01947460399242118,0.2945090599823743,,0.27503445598995313,,2,0,2,,,,,1
+28,1FQUTKz_41,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.524040+00:00,0.019774118962232023,0.3049125709803775,,0.28513845201814547,,2,0,2,,,,,1
+29,HEt3ZWB_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.524407+00:00,0.02014099498046562,0.30957482499070466,,0.28943383001023903,,2,0,2,,,,,1
+30,oWucyqe_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.524708+00:00,0.020441841974388808,0.31426873098826036,,0.29382688901387155,,2,0,2,,,,,1
+31,LDl8Qls_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.524991+00:00,0.020725496986415237,0.31902105500921607,,0.29829555802280083,,2,0,2,,,,,1
+32,Aoph67S_35,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.525519+00:00,0.021253198967315257,0.32439779199194163,,0.3031445930246264,,2,0,2,,,,,1
+33,PjFSCFK_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.525928+00:00,0.02166150900302455,0.33343478495953605,,0.3117732759565115,,2,0,2,,,,,1
+34,cp1RgPe_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.526329+00:00,0.022063292970415205,0.3427311379928142,,0.320667845022399,,2,0,2,,,,,1
+35,PCEc7pO_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.526634+00:00,0.022368137957528234,0.21499664697330445,,0.19262850901577622,,2,0,2,,,,,1
+36,nEnWX5v_0,sharegpt,chat,error,ReadError: ,,2026-11-05T01:28:42.527010+00:00,0.02274406695505604,1.4123788099968806,,1.3896347430418245,,2,0,2,,,,,1
+37,OF0hJy1_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.527329+00:00,0.023063095984980464,0.23498014797223732,,0.21191705198725685,,2,0,2,,,,,1
+38,tBycCRw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.527686+00:00,0.023420362966135144,0.2239984580082819,,0.20057809504214674,,2,0,2,,,,,1
+39,fE1RR51_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.528049+00:00,0.0237832409911789,0.4303622909937985,,0.4065790500026196,,2,0,2,,,,,1
+40,8SYdQf5_2,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.528504+00:00,0.024237539968453348,0.25033250398701057,,0.22609496401855722,,2,0,2,,,,,1
+41,fQhexkP_20,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.529044+00:00,0.024777920974884182,0.23525161598809063,,0.21047369501320645,,2,0,2,,,,,1
+42,mQwxQFf_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.529493+00:00,0.025226929981727153,0.2829355979920365,,0.25770866801030934,,2,0,2,,,,,1
+43,TAkclO3_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.529938+00:00,0.025672169984318316,0.40292996098287404,,0.3772577909985557,,2,0,2,,,,,1
+44,DlPrekE_123,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.530250+00:00,0.025984161999076605,0.305235048988834,,0.2792508869897574,,2,0,2,,,,,1
+45,fxBXj6g_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.530637+00:00,0.026370504987426102,0.37321128096664324,,0.34684077597921714,,2,0,2,,,,,1
+46,GzAQdoS_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.531025+00:00,0.02675943699432537,0.24977387598482892,,0.22301443899050355,,2,0,2,,,,,1
+47,yUoxUHv_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.531351+00:00,0.02708498400170356,0.38570680300472304,,0.3586218190030195,,2,0,2,,,,,1
+48,IyzNJ5F_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.531733+00:00,0.02746702200965956,1.2206132980063558,,1.1931462759966962,,2,0,2,,,,,1
+49,hKsrbr8_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.532015+00:00,0.02774945297278464,0.26858209498459473,,0.2408326420118101,,2,0,2,,,,,1
+50,LT1lxEw_8,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.532409+00:00,0.028143395960796624,0.36595887795556337,,0.33781548199476674,,2,0,2,,,,,1
+51,hoQsVGz_51,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.532779+00:00,0.028512783988844603,0.25005237298319116,,0.22153958899434656,,2,0,2,,,,,1
+52,7Gu0tLU_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.533108+00:00,0.028842136962339282,0.39078984095249325,,0.36194770399015397,,2,0,2,,,,,1
+53,IEIOiGb_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.533422+00:00,0.029155940981581807,0.26824592996854335,,0.23908998898696154,,2,0,2,,,,,1
+54,37SHOE4_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.533650+00:00,0.029383488988969475,0.27482502796920016,,0.2454415389802307,,2,0,2,,,,,1
+55,S8Dd2PL_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.533954+00:00,0.02968822600087151,0.32401382899843156,,0.29432560299756005,,2,0,2,,,,,1
+56,B4REGsj_23,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.534245+00:00,0.02997919195331633,0.41717280296143144,,0.3871936110081151,,2,0,2,,,,,1
+57,Jg5fqFY_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.534532+00:00,0.03026598400902003,0.34734501398634166,,0.3170790299773216,,2,0,2,,,,,1
+58,pav9X1E_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.534809+00:00,0.030543690954800695,0.2679230489884503,,0.23737935803364962,,2,0,2,,,,,1
+59,KPLcAjL_43,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.535028+00:00,0.030762110953219235,0.3618387900060043,,0.33107667905278504,,2,0,2,,,,,1
+60,CyvhxCk_3,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.535348+00:00,0.031082250003237277,0.2761044309590943,,0.24502218095585704,,2,0,2,,,,,1
+61,kXJkF68_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.535674+00:00,0.03140807995805517,0.4237310040043667,,0.3923229240463115,,2,0,2,,,,,1
+62,ITS9S4s_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.535899+00:00,0.031632774975150824,0.42439165100222453,,0.3927588760270737,,2,0,2,,,,,1
+63,LMCvXt2_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.536225+00:00,0.03195889195194468,0.355070611985866,,0.3231117200339213,,2,0,2,,,,,1
+64,40qcQLS_17,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.536572+00:00,0.032305878994520754,0.3784014380071312,,0.34609555901261047,,2,0,2,,,,,1
+65,kS6twK0_21,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.536826+00:00,0.03255999297834933,0.4091760989977047,,0.37661610601935536,,2,0,2,,,,,1
+66,jDVKxNz_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.537152+00:00,0.03288648196030408,0.27804040897171944,,0.24515392701141536,,2,0,2,,,,,1
+67,RziX6kj_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.537485+00:00,0.03321879496797919,1.4144403219688684,,1.3812215270008892,,2,0,2,,,,,1
+68,BaApJhR_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.537790+00:00,0.033523754973430187,0.4296737129916437,,0.3961499580182135,,2,0,2,,,,,1
+69,blhsuWf_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.538023+00:00,0.03375748498365283,0.29419661697465926,,0.26043913199100643,,2,0,2,,,,,1
+70,byVTSkr_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.538384+00:00,0.03411812300328165,1.4166919409763068,,1.3825738179730251,,2,0,2,,,,,1
+71,YkDwQbV_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.538650+00:00,0.034383786958642304,0.2873347199638374,,0.2529509330051951,,2,0,2,,,,,1
+72,35haIbj_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.538877+00:00,0.03461153496755287,0.29359294497407973,,0.25898141000652686,,2,0,2,,,,,1
+73,T3yK1mT_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.539126+00:00,0.03486014000372961,0.522324678953737,,0.4874645389500074,,2,0,2,,,,,1
+74,FAewIxU_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.539359+00:00,0.03509297297568992,0.2876132599776611,,0.25252028700197116,,2,0,2,,,,,1
+75,EyaannF_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.539613+00:00,0.03534720197785646,1.3058601469965652,,1.2705129450187087,,2,0,2,,,,,1
+76,A1DX4pW_55,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.539857+00:00,0.03559143497841433,1.2294139359728433,,1.193822500994429,,2,0,2,,,,,1
+77,AkltKYe_23,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.540145+00:00,0.03587302495725453,0.4453620020067319,,0.4094889770494774,,2,0,2,,,,,1
+78,pfhkOu5_27,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.540408+00:00,0.03614212799584493,0.2938996599987149,,0.25775753200287,,2,0,2,,,,,1
+79,kYtM88k_23,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.540653+00:00,0.03638745896751061,0.4382685769814998,,0.4018811180139892,,2,0,2,,,,,1
+80,RSi5YHv_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.541041+00:00,0.036775360989850014,0.5666497719939798,,0.5298744110041298,,2,0,2,,,,,1
+81,eb3HUhf_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.541279+00:00,0.03701345098670572,0.3613547929562628,,0.3243413419695571,,2,0,2,,,,,1
+82,YCLLoLk_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.541599+00:00,0.03733283298788592,0.30219380400376394,,0.264860971015878,,2,0,2,,,,,1
+83,NeBDpcw_17,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.541886+00:00,0.03762040799483657,0.4375588480033912,,0.3999384400085546,,2,0,2,,,,,1
+84,7jEkVhW_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.542169+00:00,0.03790368197951466,0.30556284298654646,,0.2676591610070318,,2,0,2,,,,,1
+85,TRrqYCh_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.542449+00:00,0.03818344499450177,0.6350055469665676,,0.5968221019720659,,2,0,2,,,,,1
+86,1kE6haW_90,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.542758+00:00,0.038491919985972345,1.4145123329944909,,1.3760204130085185,,2,0,2,,,,,1
+87,DhhBfOM_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.543087+00:00,0.038821067952085286,0.3541369389859028,,0.31531587103381753,,2,0,2,,,,,1
+88,FQrNFsA_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.543330+00:00,0.039063842967152596,0.37372591596795246,,0.33466207300079986,,2,0,2,,,,,1
+89,1RhxGZ6_29,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.543647+00:00,0.03938109299633652,0.3431341279647313,,0.3037530349683948,,2,0,2,,,,,1
+90,7ypQmvU_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.544073+00:00,0.039807469001971185,0.3330570390098728,,0.29324957000790164,,2,0,2,,,,,1
+91,3gVAw3K_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.544388+00:00,0.040122838981915265,0.3139064959832467,,0.27378365700133145,,2,0,2,,,,,1
+92,PgbXUFQ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.544609+00:00,0.04034322395455092,0.3778393509564921,,0.3374961270019412,,2,0,2,,,,,1
+93,wcjGOiQ_27,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.544831+00:00,0.04056536598363891,0.3435347029590048,,0.3029693369753659,,2,0,2,,,,,1
+94,0WBGSQv_22,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.545159+00:00,0.04089259100146592,0.8241783899720758,,0.7832857989706099,,2,0,2,,,,,1
+95,Vx428hW_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.545480+00:00,0.041213939955923706,1.3046138529898599,,1.2633999130339362,,2,0,2,,,,,1
+96,CJTT6UM_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.545809+00:00,0.04154326498974115,0.333823446999304,,0.29228018200956285,,2,0,2,,,,,1
+97,OJr0y7h_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.546065+00:00,0.04179888899670914,1.2912431959994137,,1.2494443070027046,,2,0,2,,,,,1
+98,SvwAXEl_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.546293+00:00,0.042026982991956174,0.3447018750011921,,0.3026748920092359,,2,0,2,,,,,1
+99,0lNuddr_44,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.547536+00:00,0.04326959396712482,0.4559277839725837,,0.4126581900054589,,2,0,2,,,,,1
+100,4d5DSw7_19,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.547911+00:00,0.04364525800338015,0.4614847669727169,,0.41783950896933675,,2,0,2,,,,,1
+101,Y5JrGJQ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.548178+00:00,0.043911837972700596,0.5150270069716498,,0.47111516899894923,,2,0,2,,,,,1
+102,nCTZBKf_24,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.548406+00:00,0.044139919977169484,0.3478019799804315,,0.303662060003262,,2,0,2,,,,,1
+103,H5QUkgm_10,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.548735+00:00,0.04446874198038131,0.5809008039650507,,0.5364320619846694,,2,0,2,,,,,1
+104,Dmrzbv4_13,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.548973+00:00,0.04470693995244801,0.6272195189958438,,0.5825125790433958,,2,0,2,,,,,1
+105,aNqhroH_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.549225+00:00,0.04495973396115005,0.3545945349615067,,0.3096348010003567,,2,0,2,,,,,1
+106,mfYEgvU_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.549499+00:00,0.045232938951812685,0.4035168020054698,,0.3582838630536571,,2,0,2,,,,,1
+107,qLEszEA_92,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.549787+00:00,0.04552087897900492,0.5176727669895627,,0.47215188801055774,,2,0,2,,,,,1
+108,36FYz3S_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.550067+00:00,0.045800621970556676,1.313665141002275,,1.2678645190317184,,2,0,2,,,,,1
+109,RNg3pYu_51,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.550412+00:00,0.0461461849627085,0.4178130609798245,,0.371666876017116,,2,0,2,,,,,1
+110,ieRICO5_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.550749+00:00,0.04648313199868426,0.3664590569678694,,0.31997592496918514,,2,0,2,,,,,1
+111,RV30SWr_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.551059+00:00,0.04679363395553082,0.4368555099936202,,0.3900618760380894,,2,0,2,,,,,1
+112,4GDy29w_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.551330+00:00,0.04706398997223005,0.6606031580013223,,0.6135391680290923,,2,0,2,,,,,1
+113,WwAtdNS_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.551565+00:00,0.04729927598964423,0.4230876839719713,,0.37578840798232704,,2,0,2,,,,,1
+114,2lbaelp_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.551798+00:00,0.047532288008369505,0.5556753209675662,,0.5081430329591967,,2,0,2,,,,,1
+115,MwgScD6_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.552018+00:00,0.04775197198614478,0.45002383296377957,,0.4022718609776348,,2,0,2,,,,,1
+116,0P4VBXd_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.552284+00:00,0.04801861196756363,0.5885937049752101,,0.5405750930076465,,2,0,2,,,,,1
+117,egWGFLO_10,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.552600+00:00,0.048334177990909666,0.38515136699425057,,0.3368171890033409,,2,0,2,,,,,1
+118,1ppbcj2_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.553033+00:00,0.04876751697156578,0.3902038299711421,,0.34143631299957633,,2,0,2,,,,,1
+119,I8Rz0V8_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.553344+00:00,0.049077917996328324,1.2637844029814005,,1.2147064849850722,,2,0,2,,,,,1
+120,l6vmJZt_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.553623+00:00,0.04935701796784997,1.4173530919943005,,1.3679960740264505,,2,0,2,,,,,1
+121,zY9dBvI_9,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.553957+00:00,0.049690859974361956,0.4041158119798638,,0.35442495200550184,,2,0,2,,,,,1
+122,GOwX4qB_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.554271+00:00,0.05000508698867634,0.6787628119927831,,0.6287577250041068,,2,0,2,,,,,1
+123,XIuRgyP_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.554561+00:00,0.05029554199427366,0.5061204049852677,,0.455824862990994,,2,0,2,,,,,1
+124,VEkdksp_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.554878+00:00,0.05061237595509738,0.4465879289782606,,0.39597555302316323,,2,0,2,,,,,1
+125,uD7CBng_30,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.555250+00:00,0.050984269997570664,1.4170219479710795,,1.3660376779735088,,2,0,2,,,,,1
+126,2sPvS5O_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.555579+00:00,0.051312881987541914,0.4903725329786539,,0.439059650991112,,2,0,2,,,,,1
+127,hiCjBbQ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.555881+00:00,0.05161514098290354,0.731673284957651,,0.6800581439747475,,2,0,2,,,,,1
+128,QVc35B3_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.556209+00:00,0.05194363498594612,0.45518625900149345,,0.40324262401554734,,2,0,2,,,,,1
+129,CWiYdQ8_222,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.556551+00:00,0.05228492699097842,0.4963477099663578,,0.4440627829753794,,2,0,2,,,,,1
+130,JbgJXH3_9,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.556857+00:00,0.052590798994060606,1.3709481559926644,,1.3183573569986038,,2,0,2,,,,,1
+131,YlgTw57_738,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.557178+00:00,0.052912161976564676,0.44228730496251956,,0.3893751429859549,,2,0,2,,,,,1
+132,UuMW7oT_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.557512+00:00,0.05324558599386364,0.49111948400968686,,0.4378738980158232,,2,0,2,,,,,1
+133,6QV1gPO_171,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.557834+00:00,0.053568566974718124,1.4126284279627725,,1.3590598609880544,,2,0,2,,,,,1
+134,ko5XJmk_23,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.558167+00:00,0.05390070000430569,1.3362613680073991,,1.2823606680030935,,2,0,2,,,,,1
+135,A8LsCXk_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.558491+00:00,0.054224847990553826,1.4162136410013773,,1.3619887930108234,,2,0,2,,,,,1
+136,bSlIUYf_17,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.558741+00:00,0.054475196986459196,0.5609577439608984,,0.5064825469744392,,2,0,2,,,,,1
+137,5La47po_58,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.559160+00:00,0.054893892956897616,1.271755357971415,,1.2168614650145173,,2,0,2,,,,,1
+138,LKBsgOe_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.559509+00:00,0.05524322297424078,0.46046775695867836,,0.4052245339844376,,2,0,2,,,,,1
+139,QzGLDsc_45,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.559791+00:00,0.05552456097211689,0.5021347539732233,,0.4466101930011064,,2,0,2,,,,,1
+140,20X5QZp_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.560053+00:00,0.05578767496626824,0.5773929569986649,,0.5216052820323966,,2,0,2,,,,,1
+141,St0KErw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.560325+00:00,0.056059156951960176,0.46659074997296557,,0.4105315930210054,,2,0,2,,,,,1
+142,mX6BiTN_310,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.560566+00:00,0.05630053696222603,0.47354395099682733,,0.4172434140346013,,2,0,2,,,,,1
+143,hcaZN94_683,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.560831+00:00,0.05656510900007561,0.6459422750049271,,0.5893771660048515,,2,0,2,,,,,1
+144,ZueTGvD_113,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.561103+00:00,0.056836989999283105,0.5501175719546154,,0.4932805819553323,,2,0,2,,,,,1
+145,Df3VU9s_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.561406+00:00,0.05714022496249527,0.5086309419712052,,0.4514907170087099,,2,0,2,,,,,1
+146,rvllv78_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.561728+00:00,0.0574623349821195,0.6090340779628605,,0.551571742980741,,2,0,2,,,,,1
+147,BwXp1x1_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.562130+00:00,0.0578635279671289,0.5283608249737881,,0.4704972970066592,,2,0,2,,,,,1
+148,9wLFAsd_57,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.562422+00:00,0.058156128972768784,0.5708163169911131,,0.5126601880183443,,2,0,2,,,,,1
+149,4fIQWPp_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.562716+00:00,0.05845033499645069,0.5549406529753469,,0.4964903179788962,,2,0,2,,,,,1
+150,PPSd0f9_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.562986+00:00,0.05872074398212135,0.6019824319519103,,0.5432616879697889,,2,0,2,,,,,1
+151,2I1TxKW_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.563292+00:00,0.05902621598215774,1.3092179140076041,,1.2501916980254464,,2,0,2,,,,,1
+152,26NbCHF_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.563594+00:00,0.05932842899346724,1.3577828009729274,,1.2984543719794601,,2,0,2,,,,,1
+153,9P1BcDO_30,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.563819+00:00,0.05955369595903903,0.5386988740065135,,0.4791451780474745,,2,0,2,,,,,1
+154,jqUdTgi_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.564156+00:00,0.0598899099859409,0.6451811079750769,,0.585291197989136,,2,0,2,,,,,1
+155,NTj92LV_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.564477+00:00,0.060211109986994416,1.4193063619895838,,1.3590952520025894,,2,0,2,,,,,1
+156,etQu6AB_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.564772+00:00,0.06050633895210922,0.578202634002082,,0.5176962950499728,,2,0,2,,,,,1
+157,kbvE3m4_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.565192+00:00,0.06092565995641053,0.6549420509836636,,0.5940163910272531,,2,0,2,,,,,1
+158,AQlYkgR_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.565431+00:00,0.061165683961007744,0.6983583020046353,,0.6371926180436276,,2,0,2,,,,,1
+159,N1i64lV_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.565774+00:00,0.061508698971010745,1.3194542239652947,,1.257945524994284,,2,0,2,,,,,1
+160,lDVDe5H_113,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.566107+00:00,0.061841182003263384,0.6224187109619379,,0.5605775289586745,,2,0,2,,,,,1
+161,YcDKKwL_2,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.566445+00:00,0.06217919697519392,0.6113443649956025,,0.5491651680204086,,2,0,2,,,,,1
+162,81hFysY_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.566806+00:00,0.06254084198735654,0.6160763379884884,,0.5535354960011318,,2,0,2,,,,,1
+163,3PF6HO3_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.567098+00:00,0.06283259595511481,0.7520758489845321,,0.6892432530294172,,2,0,2,,,,,1
+164,Nu9AsXZ_63,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.567330+00:00,0.06306377396686003,0.593900172971189,,0.530836399004329,,2,0,2,,,,,1
+165,A0ITYrI_5,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.567624+00:00,0.06335798499640077,0.5954615639639087,,0.5321035789675079,,2,0,2,,,,,1
+166,JZVVvHV_15,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.567969+00:00,0.06370269396575168,1.0428972149966285,,0.9791945210308768,,2,0,2,,,,,1
+167,Dcshjlv_33,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.568307+00:00,0.06404097698396072,1.3673656539758667,,1.303324676991906,,2,0,2,,,,,1
+168,zl5u0Aa_21,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.568689+00:00,0.06442348897689953,0.6889605280011892,,0.6245370390242897,,2,0,2,,,,,1
+169,NEajbjl_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.568990+00:00,0.06472451699664816,0.6467483339947648,,0.5820238169981167,,2,0,2,,,,,1
+170,SbLkBT6_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.569274+00:00,0.06500797596527264,0.6683974720072001,,0.6033894960419275,,2,0,2,,,,,1
+171,3fJSfVU_11,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.569620+00:00,0.0653543759835884,1.4154297549976036,,1.3500753790140152,,2,0,2,,,,,1
+172,SmexuX4_173,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.569891+00:00,0.06562478997511789,0.6325776049634442,,0.5669528149883263,,2,0,2,,,,,1
+173,5m6qXKr_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.570212+00:00,0.06594679597765207,0.7282791949692182,,0.6623323989915662,,2,0,2,,,,,1
+174,skuuYph_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.570515+00:00,0.06624946399824694,1.4040052599739283,,1.3377557959756814,,2,0,2,,,,,1
+175,W6k69IL_9,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.570749+00:00,0.06648357695667073,1.4119716809946112,,1.3454881040379405,,2,0,2,,,,,1
+176,8cFNcVG_43,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.571113+00:00,0.06684683897765353,0.7758365739719011,,0.7089897349942476,,2,0,2,,,,,1
+177,meB8bVV_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.571467+00:00,0.0672010249691084,0.663298505009152,,0.5960974800400436,,2,0,2,,,,,1
+178,VecrpHZ_111,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.571700+00:00,0.06743437796831131,0.8793899239972234,,0.8119555460289121,,2,0,2,,,,,1
+179,LQbL4dQ_9,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.571982+00:00,0.06771609897259623,1.4163806079886854,,1.3486645090160891,,2,0,2,,,,,1
+180,jHF187A_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.572254+00:00,0.06798832700587809,0.669180583965499,,0.6011922569596209,,2,0,2,,,,,1
+181,XgbKGJW_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.572522+00:00,0.06825589598156512,0.7717283599777147,,0.7034724639961496,,2,0,2,,,,,1
+182,fFhKIsn_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.572767+00:00,0.06850098696304485,0.745582272997126,,0.6770812860340811,,2,0,2,,,,,1
+183,Wt1dNjn_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.573026+00:00,0.06876046996330842,0.7094503549742512,,0.6406898850109428,,2,0,2,,,,,1
+184,42ec0xn_4,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.573255+00:00,0.06898941996041685,0.716480626957491,,0.6474912069970742,,2,0,2,,,,,1
+185,aQDy1aY_8,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.573602+00:00,0.06933648197446018,0.761918670963496,,0.6925821889890358,,2,0,2,,,,,1
+186,1Hgo6BR_48,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.573928+00:00,0.0696625909768045,1.3608071299968287,,1.2911445390200242,,2,0,2,,,,,1
+187,V8cL6Og_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.574245+00:00,0.06997935997787863,0.705760846962221,,0.6357814869843423,,2,0,2,,,,,1
+188,c7lKvM8_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.574559+00:00,0.07029320596484467,0.8739792470005341,,0.8036860410356894,,2,0,2,,,,,1
+189,IkYYvSd_25,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.574893+00:00,0.07062728295568377,0.7975254309712909,,0.7268981480156071,,2,0,2,,,,,1
+190,DGiqvVv_45,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.575225+00:00,0.07095951499650255,0.9093235559994355,,0.8383640410029329,,2,0,2,,,,,1
+191,cqzBQXH_21,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.575524+00:00,0.07125799398636445,1.4023608419811353,,1.3311028479947709,,2,0,2,,,,,1
+192,KfNCJo5_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.575888+00:00,0.07162249396787956,0.7407168989884667,,0.6690944050205871,,2,0,2,,,,,1
+193,xn73jOf_139,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.576174+00:00,0.0719085349701345,1.4146294179954566,,1.342720883025322,,2,0,2,,,,,1
+194,SSSDybP_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.576497+00:00,0.07223141298163682,0.736815164971631,,0.6645837519899942,,2,0,2,,,,,1
+195,0pgLyw6_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.576906+00:00,0.07264041696907952,1.3623645469779149,,1.2897241300088353,,2,0,2,,,,,1
+196,bMeRfJz_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.577175+00:00,0.07290884596295655,0.8077797250007279,,0.7348708790377714,,2,0,2,,,,,1
+197,cBTR7Fz_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.577414+00:00,0.07314777100691572,0.786695055954624,,0.7135472849477082,,2,0,2,,,,,1
+198,lvds4ye_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.577661+00:00,0.07339517795480788,0.8325055009918287,,0.7591103230370209,,2,0,2,,,,,1
+199,5Vwhbvd_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.577990+00:00,0.07372437295271084,0.8025775599526241,,0.7288531869999133,,2,0,2,,,,,1
+200,kcaOm9U_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.578230+00:00,0.07396404800238088,0.9945490839891136,,0.9205850359867327,,2,0,2,,,,,1
+201,pQR8Mg8_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.578529+00:00,0.0742635409696959,1.0731053419876844,,0.9988418010179885,,2,0,2,,,,,1
+202,3usikOF_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.578834+00:00,0.07456825795816258,0.9230127760092728,,0.8484445180511102,,2,0,2,,,,,1
+203,9CzpskY_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.579157+00:00,0.07489176298258826,0.7811892539612018,,0.7062974909786135,,2,0,2,,,,,1
+204,7lLF3NN_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.579512+00:00,0.07524619298055768,0.7876681759953499,,0.7124219830147922,,2,0,2,,,,,1
+205,GYqnAhC_94,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.579778+00:00,0.0755121159600094,1.41105581499869,,1.3355436990386806,,2,0,2,,,,,1
+206,GiQRP74_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.580123+00:00,0.07585756899788976,0.8871821140055545,,0.8113245450076647,,2,0,2,,,,,1
+207,0vlJCro_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.580414+00:00,0.07614828500663862,1.3977640899829566,,1.321615804976318,,2,0,2,,,,,1
+208,SYchWx4_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.580680+00:00,0.07641430897638202,0.8317232379922643,,0.7553089290158823,,2,0,2,,,,,1
+209,yykdco6_5,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.580925+00:00,0.07665962696773931,1.0924357159528881,,1.0157760889851488,,2,0,2,,,,,1
+210,jNlIDUj_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.581197+00:00,0.0769313329947181,0.891326543991454,,0.8143952109967358,,2,0,2,,,,,1
+211,NAQF9cP_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.581458+00:00,0.07719214900862426,0.8148894439800642,,0.73769729497144,,2,0,2,,,,,1
+212,29mvwoB_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.581686+00:00,0.07741994096431881,0.8234088399913162,,0.7459888990269974,,2,0,2,,,,,1
+213,5sMNt58_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.581921+00:00,0.07765509595628828,0.8658153759897687,,0.7881602800334804,,2,0,2,,,,,1
+214,7ZxYRQP_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.583163+00:00,0.07889617898035794,1.3780913399532437,,1.2991951609728858,,2,0,2,,,,,1
+215,Ztl5do6_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.583456+00:00,0.07918993197381496,0.8471887820051052,,0.7679988500312902,,2,0,2,,,,,1
+216,mkXOgsV_33,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.583718+00:00,0.07945235399529338,0.8389998289640062,,0.7595474749687128,,2,0,2,,,,,1
+217,gLRt7l7_57,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.584002+00:00,0.07973607000894845,1.4146838209708221,,1.3349477509618737,,2,0,2,,,,,1
+218,WNctH2Z_7,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.584340+00:00,0.08007380098570138,1.4156648129574023,,1.335591011971701,,2,0,2,,,,,1
+219,mrZ90jA_267,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.584663+00:00,0.08039697096683085,0.8545056389993988,,0.774108668032568,,2,0,2,,,,,1
+220,4ulV7Nm_10,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.584985+00:00,0.08071976696373895,1.4162738199811429,,1.335554053017404,,2,0,2,,,,,1
+221,fvHOTYq_33,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.585337+00:00,0.0810714159742929,0.8632174599915743,,0.7821460440172814,,2,0,2,,,,,1
+222,1KNXy2t_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.585646+00:00,0.08138037199387327,1.3942263450007886,,1.3128459730069153,,2,0,2,,,,,1
+223,ZcBNrg6_47,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.585956+00:00,0.08169038000050932,0.8971184879774228,,0.8154281079769135,,2,0,2,,,,,1
+224,52u6Alc_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.586358+00:00,0.08209229196654633,1.0224804459721781,,0.9403881540056318,,2,0,2,,,,,1
+225,gmLF3PE_69,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.586698+00:00,0.08243211300577968,1.0340088079683483,,0.9515766949625686,,2,0,2,,,,,1
+226,6P3BOJw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.587005+00:00,0.08273953996831551,0.8855075089959428,,0.8027679690276273,,2,0,2,,,,,1
+227,io2nYXg_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.587237+00:00,0.08297128800768405,0.9611326159792952,,0.8781613279716112,,2,0,2,,,,,1
+228,aw58uFz_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.587574+00:00,0.08330771198961884,0.9739021720015444,,0.8905944600119255,,2,0,2,,,,,1
+229,NLMxxxR_25,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.587801+00:00,0.08353481296217069,0.9269661559956148,,0.8434313430334441,,2,0,2,,,,,1
+230,V4BY2jk_20,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.588147+00:00,0.08388147398363799,0.9814793649711646,,0.8975978909875266,,2,0,2,,,,,1
+231,TcRJqNw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.588426+00:00,0.08416015096008778,0.9438858949579298,,0.8597257439978421,,2,0,2,,,,,1
+232,89BJ3OO_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.588659+00:00,0.08439274097327143,0.9138220999739133,,0.8294293590006419,,2,0,2,,,,,1
+233,f6tUGHK_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.589020+00:00,0.08475393999833614,0.9205170359928161,,0.83576309599448,,2,0,2,,,,,1
+234,5iLXUKo_17,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.589335+00:00,0.0850695829722099,0.9472186159691773,,0.8621490329969674,,2,0,2,,,,,1
+235,8f5mFGy_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.589629+00:00,0.08536367997294292,1.4163275469909422,,1.3309638670179993,,2,0,2,,,,,1
+236,KRjBYkX_7,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.589947+00:00,0.08568152296356857,1.4170771509525366,,1.331395627988968,,2,0,2,,,,,1
+237,URDkr29_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.590264+00:00,0.08599807397695258,0.9375163780059665,,0.851518304029014,,2,0,2,,,,,1
+238,fCnDEFw_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.590587+00:00,0.08632160897832364,1.4175698719918728,,1.3312482630135491,,2,0,2,,,,,1
+239,jm1c5JI_21,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.590941+00:00,0.08667538198642433,1.415551982994657,,1.3288766010082327,,2,0,2,,,,,1
+240,R44owDK_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.591249+00:00,0.0869830849696882,1.1350084579898976,,1.0480253730202094,,2,0,2,,,,,1
+241,Eb5jO4b_6,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.591513+00:00,0.08724771195556968,0.9522664090036415,,0.8650186970480718,,2,0,2,,,,,1
+242,vnCzprg_13,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.591743+00:00,0.08747761195991188,1.41712771699531,,1.3296501050353982,,2,0,2,,,,,1
+243,j9k6KFw_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.592164+00:00,0.08789764798711985,1.0240081539959647,,0.9361105060088448,,2,0,2,,,,,1
+244,E3xymyG_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.592504+00:00,0.0882377490052022,0.9861056359950453,,0.8978678869898431,,2,0,2,,,,,1
+245,VTQam4S_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.592856+00:00,0.08858976297779009,0.9722034449805506,,0.8836136820027605,,2,0,2,,,,,1
+246,DFn47ZS_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.593086+00:00,0.08882049698149785,1.4145726509741507,,1.325752153992653,,2,0,2,,,,,1
+247,PIoukbk_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.593370+00:00,0.08910355000989512,1.1517513849539682,,1.062647834944073,,2,0,2,,,,,1
+248,liBHDXI_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.593641+00:00,0.08937561296625063,1.0291778869577684,,0.9398022739915177,,2,0,2,,,,,1
+249,dCBw0bz_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.593886+00:00,0.08962031098781154,0.993779388954863,,0.9041590779670514,,2,0,2,,,,,1
+250,n8SvSvm_12,sharegpt,chat,error,ReadError: ,,2026-11-05T01:28:42.594126+00:00,0.08986027096398175,1.4105401459964924,,1.3206798750325106,,2,0,2,,,,,1
+251,m58t82U_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.594446+00:00,0.09018066397402436,1.0065398439764977,,0.9163591800024733,,2,0,2,,,,,1
+252,asDA86g_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.594807+00:00,0.09054147999268025,1.000751972955186,,0.9102104929625057,,2,0,2,,,,,1
+253,wrN9uUo_23,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.595131+00:00,0.0908650429919362,1.2800455269753002,,1.189180483983364,,2,0,2,,,,,1
+254,D6lBWGY_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.595451+00:00,0.09118577500339597,1.0128242849605158,,0.9216385099571198,,2,0,2,,,,,1
+255,9tfOwEb_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.595703+00:00,0.09143743198364973,1.1733408339787275,,1.0819034019950777,,2,0,2,,,,,1
+256,iU3oYch_13,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.595956+00:00,0.09169014595681801,1.0487766609876417,,0.9570865150308236,,2,0,2,,,,,1
+257,z4Plwwg_13,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.596208+00:00,0.09194147796370089,1.0563903309521265,,0.9644488529884256,,2,0,2,,,,,1
+258,Ns92S9Z_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.596477+00:00,0.09221121796872467,1.0571638129767962,,0.9649525950080715,,2,0,2,,,,,1
+259,jxPOQZ6_13,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.596759+00:00,0.09249249298591167,1.0357977589592338,,0.9433052659733221,,2,0,2,,,,,1
+260,U1U7YVi_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.597056+00:00,0.09278981096576899,1.1204337579547428,,1.0276439469889738,,2,0,2,,,,,1
+261,kUeXdjF_15,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.597341+00:00,0.09307473700027913,1.3186755229835398,,1.2256007859832607,,2,0,2,,,,,1
+262,b55pq0c_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.597732+00:00,0.09346552495844662,1.0480342859518714,,0.9545687609934248,,2,0,2,,,,,1
+263,2VLv1mB_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.598051+00:00,0.09378505300264806,1.0697935330099426,,0.9760084800072946,,2,0,2,,,,,1
+264,24IUuvn_0,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.598388+00:00,0.0941220480017364,1.415497065987438,,1.3213750179857016,,2,0,2,,,,,1
+265,asilfXk_205,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.598629+00:00,0.09436296398052946,1.4176221449743025,,1.323259180993773,,2,0,2,,,,,1
+266,eMCJFR7_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.598950+00:00,0.0946842139819637,1.064822087995708,,0.9701378740137443,,2,0,2,,,,,1
+267,Z1d6SCo_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.599301+00:00,0.09503496100660414,1.1142489739577286,,1.0192140129511245,,2,0,2,,,,,1
+268,8mxFHgK_12,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.599633+00:00,0.09536678798031062,1.1671084839617833,,1.0717416959814727,,2,0,2,,,,,1
+269,Br5GRyJ_4,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.599915+00:00,0.09564906999003142,1.0803297350066714,,0.98468066501664,,2,0,2,,,,,1
+270,TymNw01_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.600201+00:00,0.09593504597432911,1.0876069079968147,,0.9916718620224856,,2,0,2,,,,,1
+271,GG5XwaQ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.600576+00:00,0.0963098659995012,1.4040471879998222,,1.307737322000321,,2,0,2,,,,,1
+272,aYgo7jM_6,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.600926+00:00,0.0966596799553372,1.121192199003417,,1.0245325190480798,,2,0,2,,,,,1
+273,nClxnMg_33,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.601216+00:00,0.09695022000232711,1.4167455279966816,,1.3197953079943545,,2,0,2,,,,,1
+274,lnGPese_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.601501+00:00,0.0972345260088332,1.1037911549792625,,1.0065566289704293,,2,0,2,,,,,1
+275,pLyz6tt_31,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.601742+00:00,0.09747575299115852,1.2327903359546326,,1.135314582963474,,2,0,2,,,,,1
+276,bOukJaT_103,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.602059+00:00,0.09779309399891645,1.1123528080061078,,1.0145597140071914,,2,0,2,,,,,1
+277,UpZyhQb_6,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.602354+00:00,0.09808774798875675,1.242099409981165,,1.1440116619924083,,2,0,2,,,,,1
+278,BjflTmG_35,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.602648+00:00,0.09838201996171847,1.1433961169677787,,1.0450140970060602,,2,0,2,,,,,1
+279,y6iOpAk_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.602926+00:00,0.09866045200033113,1.142606073000934,,1.0439456210006028,,2,0,2,,,,,1
+280,b4qD332_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.603192+00:00,0.09892556199338287,1.2537517239688896,,1.1548261619755067,,2,0,2,,,,,1
+281,Z9VqR05_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.603507+00:00,0.09924120595678687,1.128695958002936,,1.0294547520461492,,2,0,2,,,,,1
+282,1MlgiZE_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.603832+00:00,0.09956641698954627,1.3280023449915461,,1.2284359280019999,,2,0,2,,,,,1
+283,YoRWTuT_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.604082+00:00,0.09981580497696996,1.3491487359860912,,1.2493329310091212,,2,0,2,,,,,1
+284,YZSXkNf_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.604375+00:00,0.1001088639604859,1.1725369099876843,,1.0724280460271984,,2,0,2,,,,,1
+285,8KGxEKD_35,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.604663+00:00,0.10039685998344794,1.2274011409608647,,1.1270042809774168,,2,0,2,,,,,1
+286,4wBVpF6_7,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.604969+00:00,0.10070276795886457,1.2096473689889535,,1.108944601030089,,2,0,2,,,,,1
+287,e9sAtcZ_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.605285+00:00,0.10101957299048081,1.1584764219587669,,1.057456848968286,,2,0,2,,,,,1
+288,4sX4Vak_61,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.605630+00:00,0.10136417899047956,1.2083422009600326,,1.106978021969553,,2,0,2,,,,,1
+289,IzMycfP_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.605900+00:00,0.10163402697071433,1.1904476799536496,,1.0888136529829353,,2,0,2,,,,,1
+290,mb2AzS7_11,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.606128+00:00,0.10186250996775925,1.1983151439926587,,1.0964526340248995,,2,0,2,,,,,1
+291,hsuYSoF_17,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.606481+00:00,0.10221507697133347,1.2230722149834037,,1.1208571380120702,,2,0,2,,,,,1
+292,TkB0Xtx_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.606722+00:00,0.10245661099907011,1.213971049990505,,1.1115144389914349,,2,0,2,,,,,1
+293,Dqqhs5C_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.607042+00:00,0.10277646000031382,1.1839714350062422,,1.0811949750059284,,2,0,2,,,,,1
+294,wkyaOYM_5,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.607304+00:00,0.10303841298446059,1.4190701529732905,,1.31603173998883,,2,0,2,,,,,1
+295,7jDADWA_55,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.607625+00:00,0.10335915896575898,1.4130823939922266,,1.3097232350264676,,2,0,2,,,,,1
+296,jxbxzZ5_2,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.607935+00:00,0.1036693379865028,1.330903842987027,,1.2272345050005242,,2,0,2,,,,,1
+297,PmDJs8Z_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.608267+00:00,0.10400126496097073,1.265376463998109,,1.1613751990371384,,2,0,2,,,,,1
+298,6BPWlpi_0,sharegpt,chat,error,"RuntimeError: HTTP 502: {""error"":""prefill: All connection attempts failed""}",502,2026-11-05T01:28:42.608498+00:00,0.10423176200129092,1.2529941810062155,,1.1487624190049246,,2,0,2,,,,,1
+299,UBCtAVh_13,sharegpt,chat,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:42.608796+00:00,0.10452985297888517,1.4156082539702766,,1.3110784009913914,,2,0,2,,,,,1
+300,598,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.925825+00:00,1.4215540409786627,1.7494513290002942,,0.32789728802163154,,2,0,2,,,,,1
+301,1183,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.926264+00:00,1.421997407975141,1.7495923409587704,,0.3275949329836294,,2,0,2,,,,,1
+302,832,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.926513+00:00,1.4222468920052052,1.7497135800076649,,0.3274666880024597,,2,0,2,,,,,1
+303,393,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.926724+00:00,1.422457531967666,1.7498292140080594,,0.32737168204039335,,2,0,2,,,,,1
+304,57,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.926921+00:00,1.4226551099563949,1.7499523059814237,,0.3272971960250288,,2,0,2,,,,,1
+305,518,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.927113+00:00,1.4228471230017021,1.7500697139766999,,0.32722259097499773,,2,0,2,,,,,1
+306,637,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.927312+00:00,1.4230462139821611,1.7501815029536374,,0.32713528897147626,,2,0,2,,,,,1
+307,32,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.927498+00:00,1.4232321309973486,1.7502939889673144,,0.3270618579699658,,2,0,2,,,,,1
+308,482,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.927701+00:00,1.4234349019825459,1.7504055079771206,,0.3269706059945747,,2,0,2,,,,,1
+309,397,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.927904+00:00,1.4236380129586905,1.750514310959261,,0.3268762980005704,,2,0,2,,,,,1
+310,888,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.928104+00:00,1.42383769195294,1.750624511973001,,0.326786820020061,,2,0,2,,,,,1
+311,722,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.928312+00:00,1.4240463309688494,1.7507401339826174,,0.32669380301376805,,2,0,2,,,,,1
+312,632,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.928731+00:00,1.4244646930019371,1.75085010798648,,0.3263854149845429,,2,0,2,,,,,1
+313,1065,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.928968+00:00,1.4247015789733268,1.7509683019598015,,0.32626672298647463,,2,0,2,,,,,1
+314,753,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.929206+00:00,1.4249404529691674,1.7510778679861687,,0.32613741501700133,,2,0,2,,,,,1
+315,1157,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.929424+00:00,1.4251582569559105,1.7511891889735125,,0.326030932017602,,2,0,2,,,,,1
+316,963,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.929633+00:00,1.4253672369522974,1.7512999059981667,,0.32593266904586926,,2,0,2,,,,,1
+317,343,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.929845+00:00,1.425578788970597,1.7514061569818296,,0.32582736801123247,,2,0,2,,,,,1
+318,804,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.930053+00:00,1.4257867769920267,1.7515159259783104,,0.3257291489862837,,2,0,2,,,,,1
+319,624,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.930280+00:00,1.4260137819801457,1.7516264629666694,,0.32561268098652363,,2,0,2,,,,,1
+320,998,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.930493+00:00,1.4262270329636522,1.751732342003379,,0.32550530903972685,,2,0,2,,,,,1
+321,122,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.930705+00:00,1.4264388869632967,1.7518396679661237,,0.325400781002827,,2,0,2,,,,,1
+322,377,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.930922+00:00,1.426655696996022,1.7519528229604475,,0.3252971259644255,,2,0,2,,,,,1
+323,723,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.931271+00:00,1.4270047869649716,1.7520631210063584,,0.32505833404138684,,2,0,2,,,,,1
+324,879,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.931491+00:00,1.4272251600050367,1.7521712069865316,,0.3249460469814949,,2,0,2,,,,,1
+325,587,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.931703+00:00,1.4274374379892834,1.752278920961544,,0.32484148297226056,,2,0,2,,,,,1
+326,751,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.931918+00:00,1.4276518569677137,1.7523858989588916,,0.32473404199117795,,2,0,2,,,,,1
+327,167,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.932136+00:00,1.427869400009513,1.7524936529807746,,0.32462425297126174,,2,0,2,,,,,1
+328,169,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.932357+00:00,1.4280913649708964,1.7526061339885928,,0.3245147690176964,,2,0,2,,,,,1
+329,977,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.932566+00:00,1.4283002319862135,1.7527154909912497,,0.3244152590050362,,2,0,2,,,,,1
+330,974,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.932781+00:00,1.4285156049882062,1.752825662959367,,0.32431005797116086,,2,0,2,,,,,1
+331,966,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.932995+00:00,1.4287294420064427,1.7529390859999694,,0.3242096439935267,,2,0,2,,,,,1
+332,109,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.938671+00:00,1.4344014969537966,1.753050175961107,,0.3186486790073104,,2,0,2,,,,,1
+333,604,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.939033+00:00,1.434766735008452,1.7531570629798807,,0.31839032797142863,,2,0,2,,,,,1
+334,1052,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.939487+00:00,1.4352208759519272,1.7532647359766997,,0.3180438600247726,,2,0,2,,,,,1
+335,706,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.939725+00:00,1.4354586959816515,1.7533708909759298,,0.31791219499427825,,2,0,2,,,,,1
+336,1186,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.939947+00:00,1.4356807830045,1.753477418969851,,0.317796635965351,,2,0,2,,,,,1
+337,800,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.940170+00:00,1.4359043159638532,1.7535839159972966,,0.3176796000334434,,2,0,2,,,,,1
+338,146,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.940378+00:00,1.4361118680099025,1.7536902319989167,,0.3175783639890142,,2,0,2,,,,,1
+339,14,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.940587+00:00,1.4363214559853077,1.7537955300067551,,0.31747407402144745,,2,0,2,,,,,1
+340,1203,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.940803+00:00,1.4365375390043482,1.7539062009891495,,0.3173686619848013,,2,0,2,,,,,1
+341,960,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.941021+00:00,1.4367556189536117,1.7540123490034603,,0.31725673004984856,,2,0,2,,,,,1
+342,1091,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.941250+00:00,1.4369838809943758,1.7541154559585266,,0.3171315749641508,,2,0,2,,,,,1
+343,926,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.941468+00:00,1.4372023189789616,1.7542209189850837,,0.31701860000612214,,2,0,2,,,,,1
+344,1101,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.941689+00:00,1.4374233359703794,1.754323132976424,,0.31689979700604454,,2,0,2,,,,,1
+345,61,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.942015+00:00,1.4377490009646863,1.75442887598183,,0.3166798750171438,,2,0,2,,,,,1
+346,1116,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.942281+00:00,1.4380153740057722,1.754532916995231,,0.3165175429894589,,2,0,2,,,,,1
+347,329,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.942514+00:00,1.4382475439924747,1.7546371589996852,,0.3163896150072105,,2,0,2,,,,,1
+348,467,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.942729+00:00,1.4384630789863877,1.7547388089587912,,0.3162757299724035,,2,0,2,,,,,1
+349,923,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.942941+00:00,1.4386750619742088,1.754841542977374,,0.31616648100316525,,2,0,2,,,,,1
+350,1087,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.943171+00:00,1.4389049329911359,1.7549471620004624,,0.31604222900932655,,2,0,2,,,,,1
+351,404,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.943394+00:00,1.4391277459799312,1.7550468039698899,,0.3159190579899587,,2,0,2,,,,,1
+352,1149,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.943605+00:00,1.4393393409554847,1.7551489229663275,,0.31580958201084286,,2,0,2,,,,,1
+353,890,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.943819+00:00,1.439552711963188,1.7552504100021906,,0.3156976980390027,,2,0,2,,,,,1
+354,916,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.944037+00:00,1.4397714599617757,1.7553510399884544,,0.31557958002667874,,2,0,2,,,,,1
+355,318,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.944372+00:00,1.4401065419660881,1.7554530529887415,,0.31534651102265343,,2,0,2,,,,,1
+356,1080,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.944603+00:00,1.4403374280082062,1.7555536479922011,,0.31521621998399496,,2,0,2,,,,,1
+357,658,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.944823+00:00,1.440556953952182,1.7556570879532956,,0.3151001340011135,,2,0,2,,,,,1
+358,433,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.945039+00:00,1.4407733299885876,1.7557581599685363,,0.3149848299799487,,2,0,2,,,,,1
+359,1215,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.945268+00:00,1.4410020019859076,1.7558584489743225,,0.314856446988415,,2,0,2,,,,,1
+360,516,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.945496+00:00,1.441229736956302,1.7559629689785652,,0.3147332320222631,,2,0,2,,,,,1
+361,609,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.945711+00:00,1.4414455749792978,1.7560641759773716,,0.3146186009980738,,2,0,2,,,,,1
+362,1204,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.945928+00:00,1.4416616049711592,1.7561670310096815,,0.3145054260385223,,2,0,2,,,,,1
+363,857,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.946154+00:00,1.4418882289901376,1.7562663939897902,,0.31437816499965265,,2,0,2,,,,,1
+364,468,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.946377+00:00,1.4421112749841996,1.756365189969074,,0.3142539149848744,,2,0,2,,,,,1
+365,989,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.946599+00:00,1.4423336689942516,1.7564663449884392,,0.3141326759941876,,2,0,2,,,,,1
+366,234,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.946918+00:00,1.4426524969749153,1.756567736971192,,0.3139152399962768,,2,0,2,,,,,1
+367,1090,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.947163+00:00,1.4428971110028215,1.7566641139565036,,0.3137670029536821,,2,0,2,,,,,1
+368,1118,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.947394+00:00,1.4431278179981746,1.756760788965039,,0.3136329709668644,,2,0,2,,,,,1
+369,93,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.947622+00:00,1.4433562649646774,1.7568569929571822,,0.31350072799250484,,2,0,2,,,,,1
+370,892,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.947847+00:00,1.4435808429843746,1.7571592300082557,,0.3135783870238811,,2,0,2,,,,,1
+371,1107,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.948072+00:00,1.4438067089649849,1.7572589269839227,,0.31345221801893786,,2,0,2,,,,,1
+372,422,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.948300+00:00,1.4440337590058334,1.7573572439723648,,0.3133234849665314,,2,0,2,,,,,1
+373,853,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.948522+00:00,1.4442567299702205,1.7574540359782986,,0.31319730600807816,,2,0,2,,,,,1
+374,1105,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.948744+00:00,1.444478569959756,1.7575531489565037,,0.31307457899674773,,2,0,2,,,,,1
+375,922,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.948972+00:00,1.4447061679675244,1.7576513739768416,,0.3129452060093172,,2,0,2,,,,,1
+376,835,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.949207+00:00,1.4449394379626028,1.757748065982014,,0.3128086280194111,,2,0,2,,,,,1
+377,915,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.951002+00:00,1.4467342149582691,1.7578465639962815,,0.3111123490380123,,2,0,2,,,,,1
+378,712,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.951367+00:00,1.4471006959793158,1.7579521129955538,,0.310851417016238,,2,0,2,,,,,1
+379,300,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.951639+00:00,1.4473732759943232,1.7580486919614486,,0.31067541596712545,,2,0,2,,,,,1
+380,1096,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.951891+00:00,1.4476253250031732,1.7581421989598311,,0.31051687395665795,,2,0,2,,,,,1
+381,736,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.952129+00:00,1.4478635889827274,1.7582400880055502,,0.3103764990228228,,2,0,2,,,,,1
+382,113,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.952373+00:00,1.4481075499788858,1.758337399980519,,0.31022985000163317,,2,0,2,,,,,1
+383,29,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.952610+00:00,1.4483443179633468,1.7584373109857552,,0.31009299302240834,,2,0,2,,,,,1
+384,842,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.952847+00:00,1.4485807589953765,1.7585330849979073,,0.30995232600253075,,2,0,2,,,,,1
+385,799,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.953084+00:00,1.4488179259933531,1.7586304880096577,,0.3098125620163046,,2,0,2,,,,,1
+386,296,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.953346+00:00,1.4490800559869967,1.7587255139951594,,0.3096454580081627,,2,0,2,,,,,1
+387,1182,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.953590+00:00,1.4493236559792422,1.758822711999528,,0.30949905602028593,,2,0,2,,,,,1
+388,65,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.953956+00:00,1.44969007500913,1.758923290995881,,0.309233215986751,,2,0,2,,,,,1
+389,473,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.954224+00:00,1.4499583700089715,1.7590175299555995,,0.3090591599466279,,2,0,2,,,,,1
+390,1114,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.954464+00:00,1.4501983849913813,1.759111397957895,,0.30891301296651363,,2,0,2,,,,,1
+391,1082,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.954704+00:00,1.4504382179584354,1.759209354990162,,0.30877113703172654,,2,0,2,,,,,1
+392,728,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.954947+00:00,1.4506815229542553,1.7593038239865564,,0.30862230103230104,,2,0,2,,,,,1
+393,796,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.955196+00:00,1.4509302249643952,1.7593977369833738,,0.3084675120189786,,2,0,2,,,,,1
+394,1160,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.955431+00:00,1.4511651159846224,1.7594906410085969,,0.3083255250239745,,2,0,2,,,,,1
+395,972,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.955665+00:00,1.4513989519909956,1.7595826019532979,,0.3081836499623023,,2,0,2,,,,,1
+396,321,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.955901+00:00,1.451635726960376,1.7596776110003702,,0.30804188403999433,,2,0,2,,,,,1
+397,572,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.956152+00:00,1.451885586953722,1.759768960007932,,0.3078833730542101,,2,0,2,,,,,1
+398,170,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.956508+00:00,1.4522423809976317,1.7598633960005827,,0.307621015002951,,2,0,2,,,,,1
+399,384,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.956779+00:00,1.4525130270048976,1.7599630240001716,,0.307449996995274,,2,0,2,,,,,1
+400,54,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.957027+00:00,1.4527616130071692,1.7600588589557447,,0.30729724594857544,,2,0,2,,,,,1
+401,823,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.957306+00:00,1.4530392930028029,1.7601510739768855,,0.30711178097408265,,2,0,2,,,,,1
+402,1153,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.957556+00:00,1.4532902099890634,1.7602430469705723,,0.3069528369815089,,2,0,2,,,,,1
+403,1282,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.957799+00:00,1.4535334630054422,1.7603339119814336,,0.30680044897599146,,2,0,2,,,,,1
+404,758,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.958050+00:00,1.4537844389560632,1.7604248239658773,,0.30664038500981405,,2,0,2,,,,,1
+405,432,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.958304+00:00,1.4540385580039583,1.7605165329878218,,0.30647797498386353,,2,0,2,,,,,1
+406,648,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.958554+00:00,1.4542878500069492,1.7606055659707636,,0.3063177159638144,,2,0,2,,,,,1
+407,849,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.958803+00:00,1.4545369159895927,1.7606973829679191,,0.30616046697832644,,2,0,2,,,,,1
+408,866,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.959047+00:00,1.4547808109782636,1.7607871899963357,,0.30600637901807204,,2,0,2,,,,,1
+409,1122,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.959418+00:00,1.4551519919768907,1.7608857379527763,,0.30573374597588554,,2,0,2,,,,,1
+410,976,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.959683+00:00,1.4554175039520487,1.7609757959726267,,0.30555829202057794,,2,0,2,,,,,1
+411,1141,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.959940+00:00,1.455674194963649,1.7610657759942114,,0.3053915810305625,,2,0,2,,,,,1
+412,1251,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.960205+00:00,1.4559395239921287,1.7611549209686927,,0.3052153969765641,,2,0,2,,,,,1
+413,1019,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.960454+00:00,1.4561885119765066,1.7612458239891566,,0.3050573120126501,,2,0,2,,,,,1
+414,144,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.960708+00:00,1.4564416189678013,1.761335554998368,,0.3048939360305667,,2,0,2,,,,,1
+415,417,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.960967+00:00,1.4567012619809248,1.7614232510095462,,0.30472198902862146,,2,0,2,,,,,1
+416,668,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.961229+00:00,1.4569629759644158,1.7615116229862906,,0.3045486470218748,,2,0,2,,,,,1
+417,114,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.961481+00:00,1.4572153289918788,1.7616012640064582,,0.30438593501457945,,2,0,2,,,,,1
+418,499,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.961732+00:00,1.457466472988017,1.7616916989791207,,0.3042252259911038,,2,0,2,,,,,1
+419,112,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.962109+00:00,1.4578423839993775,1.7617793079698458,,0.30393692397046834,,2,0,2,,,,,1
+420,1165,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.962395+00:00,1.45812924799975,1.761866630986333,,0.3037373829865828,,2,0,2,,,,,1
+421,719,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.962651+00:00,1.4583849639748223,1.7619588960078545,,0.3035739320330322,,2,0,2,,,,,1
+422,999,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.962907+00:00,1.4586415619705804,1.7620446479995735,,0.30340308602899313,,2,0,2,,,,,1
+423,820,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.963165+00:00,1.4588987869792618,1.7621335329604335,,0.3032347459811717,,2,0,2,,,,,1
+424,331,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.963418+00:00,1.459152766969055,1.762219403986819,,0.30306663701776415,,2,0,2,,,,,1
+425,1159,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.963674+00:00,1.4594075150089338,1.762308267003391,,0.3029007519944571,,2,0,2,,,,,1
+426,898,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.963931+00:00,1.4596647279686294,1.762393818993587,,0.3027290910249576,,2,0,2,,,,,1
+427,437,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.964195+00:00,1.4599295840016566,1.7624811009736732,,0.30255151697201654,,2,0,2,,,,,1
+428,140,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.964466+00:00,1.4602002979954705,1.762567647965625,,0.30236734997015446,,2,0,2,,,,,1
+429,33,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.964724+00:00,1.4604581429739483,1.7626530589768663,,0.30219491600291803,,2,0,2,,,,,1
+430,218,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.965114+00:00,1.4608476359862834,1.7627389549743384,,0.301891318988055,,2,0,2,,,,,1
+431,143,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.965401+00:00,1.461134996963665,1.7628234879812226,,0.3016884910175577,,2,0,2,,,,,1
+432,837,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.965673+00:00,1.4614072339609265,1.7629201199742965,,0.30151288601337,,2,0,2,,,,,1
+433,968,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.965952+00:00,1.4616862089606002,1.763004729989916,,0.3013185210293159,,2,0,2,,,,,1
+434,1198,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.966232+00:00,1.4619657099829055,1.7630902049713768,,0.30112449498847127,,2,0,2,,,,,1
+435,1048,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.966505+00:00,1.4622389079886489,1.7631744559621438,,0.300935547973495,,2,0,2,,,,,1
+436,1220,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.966769+00:00,1.462503011978697,1.7632606549886987,,0.30075764301000163,,2,0,2,,,,,1
+437,409,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.967048+00:00,1.4627818259759806,1.763345719955396,,0.3005638939794153,,2,0,2,,,,,1
+438,1145,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.967330+00:00,1.463064529991243,1.7634299490018748,,0.30036541901063174,,2,0,2,,,,,1
+439,1098,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.967599+00:00,1.4633329240023158,1.7635128169786185,,0.30017989297630265,,2,0,2,,,,,1
+440,639,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.967997+00:00,1.463730298972223,1.7635955800069496,,0.29986528103472665,,2,0,2,,,,,1
+441,1169,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.968316+00:00,1.464049939007964,1.7636808439856395,,0.2996309049776755,,2,0,2,,,,,1
+442,76,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.968605+00:00,1.4643392559955828,1.7637627339572646,,0.2994234779616818,,2,0,2,,,,,1
+443,15,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.968877+00:00,1.4646117669763044,1.7638455999549478,,0.2992338329786435,,2,0,2,,,,,1
+444,472,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.969162+00:00,1.4648958600009792,1.7639322319882922,,0.29903637198731303,,2,0,2,,,,,1
+445,1069,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.969431+00:00,1.465165394009091,1.7640158379799686,,0.2988504439708777,,2,0,2,,,,,1
+446,1074,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.969700+00:00,1.4654344689915888,1.7640973759698682,,0.29866290697827935,,2,0,2,,,,,1
+447,1258,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.969976+00:00,1.465710243966896,1.764180731959641,,0.2984704879927449,,2,0,2,,,,,1
+448,845,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.970258+00:00,1.4659918919787742,1.7642629879992455,,0.2982710960204713,,2,0,2,,,,,1
+449,895,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.970531+00:00,1.4662656959844753,1.7643448719754815,,0.2980791759910062,,2,0,2,,,,,1
+450,511,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.970909+00:00,1.4666434719692916,1.7644265259732492,,0.29778305400395766,,2,0,2,,,,,1
+451,1248,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.971209+00:00,1.4669432539958507,1.764510282955598,,0.2975670289597474,,2,0,2,,,,,1
+452,233,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.971507+00:00,1.4672413899679668,1.7645923139643855,,0.2973509239964187,,2,0,2,,,,,1
+453,874,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.971784+00:00,1.467518517980352,1.7646753009757958,,0.2971567829954438,,2,0,2,,,,,1
+454,921,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.972055+00:00,1.4677898309892043,1.764756893971935,,0.29696706298273057,,2,0,2,,,,,1
+455,1191,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.972334+00:00,1.4680686459760182,1.7648397849989124,,0.2967711390228942,,2,0,2,,,,,1
+456,1138,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.972605+00:00,1.4683395059546456,1.7650432119844481,,0.29670370602980256,,2,0,2,,,,,1
+457,197,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.972877+00:00,1.46861150796758,1.7651254119700752,,0.2965139040024951,,2,0,2,,,,,1
+458,661,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.973166+00:00,1.4688974269665778,1.7652062519919127,,0.29630882502533495,,2,0,2,,,,,1
+459,43,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.973447+00:00,1.4691814039833844,1.7652883169939741,,0.2961069130105898,,2,0,2,,,,,1
+460,474,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.973730+00:00,1.469464131980203,1.7653664749814197,,0.29590234300121665,,2,0,2,,,,,1
+461,1108,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.974136+00:00,1.4698696499690413,1.765443519980181,,0.29557387001113966,,2,0,2,,,,,1
+462,59,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.974453+00:00,1.4701866210089065,1.7655226939823478,,0.29533607297344133,,2,0,2,,,,,1
+463,366,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.974734+00:00,1.4704684320022352,1.7656015089596622,,0.29513307695742697,,2,0,2,,,,,1
+464,1190,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.975021+00:00,1.470754740992561,1.7656806909944862,,0.29492595000192523,,2,0,2,,,,,1
+465,577,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.975323+00:00,1.471057173970621,1.7657564039691351,,0.29469922999851406,,2,0,2,,,,,1
+466,1163,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.975612+00:00,1.4713455839664675,1.7658327399985865,,0.29448715603211895,,2,0,2,,,,,1
+467,1234,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.975895+00:00,1.4716288030031137,1.7659161709598266,,0.29428736795671284,,2,0,2,,,,,1
+468,967,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.976185+00:00,1.4719187069567852,1.7659979710006155,,0.29407926404383034,,2,0,2,,,,,1
+469,582,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.976472+00:00,1.4722059039631858,1.766074054990895,,0.29386815102770925,,2,0,2,,,,,1
+470,227,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.976758+00:00,1.4724926459603012,1.7661517929518595,,0.2936591469915584,,2,0,2,,,,,1
+471,200,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.977166+00:00,1.472899685963057,1.7662268729764037,,0.2933271870133467,,2,0,2,,,,,1
+472,625,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.977497+00:00,1.47323044098448,1.7663069809786975,,0.29307653999421746,,2,0,2,,,,,1
+473,1267,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.977791+00:00,1.4735256980056874,1.7663821539608762,,0.2928564559551887,,2,0,2,,,,,1
+474,1129,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.978081+00:00,1.4738148219767027,1.7664611139916815,,0.2926462920149788,,2,0,2,,,,,1
+475,1249,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.978381+00:00,1.4741153999930248,1.7665354809723794,,0.2924200809793547,,2,0,2,,,,,1
+476,210,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.978677+00:00,1.4744110539904796,1.766612695006188,,0.29220164101570845,,2,0,2,,,,,1
+477,188,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.978968+00:00,1.4747026129625738,1.7666877239826135,,0.29198511102003977,,2,0,2,,,,,1
+478,1184,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.979268+00:00,1.475002532999497,1.7667627169867046,,0.2917601839872077,,2,0,2,,,,,1
+479,1007,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.979557+00:00,1.4752914519631304,1.7668368819868192,,0.2915454300236888,,2,0,2,,,,,1
+480,1115,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.979857+00:00,1.4755916529684328,1.7669176489580423,,0.2913259959896095,,2,0,2,,,,,1
+481,232,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.980159+00:00,1.4758934139972553,1.7669969249982387,,0.2911035110009834,,2,0,2,,,,,1
+482,1026,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.980579+00:00,1.4763130769715644,1.7670718639856204,,0.290758787014056,,2,0,2,,,,,1
+483,177,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.980887+00:00,1.4766214319970459,1.7671444760053419,,0.290523044008296,,2,0,2,,,,,1
+484,305,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.981188+00:00,1.4769227280048653,1.7672185020055622,,0.29029577400069684,,2,0,2,,,,,1
+485,135,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.981488+00:00,1.4772221659659408,1.7672919809701853,,0.29006981500424445,,2,0,2,,,,,1
+486,975,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.981787+00:00,1.4775209850049578,1.7673703669570386,,0.2898493819520809,,2,0,2,,,,,1
+487,500,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.982091+00:00,1.4778250309755094,1.7674450280028395,,0.2896199970273301,,2,0,2,,,,,1
+488,21,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.982400+00:00,1.4781346109812148,1.7675193879986182,,0.2893847770174034,,2,0,2,,,,,1
+489,680,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.982700+00:00,1.4784346699598245,1.767592913005501,,0.2891582430456765,,2,0,2,,,,,1
+490,829,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.983000+00:00,1.4787347019882873,1.767667200008873,,0.2889324980205856,,2,0,2,,,,,1
+491,911,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.983310+00:00,1.4790444599930197,1.7677388860029168,,0.28869442600989714,,2,0,2,,,,,1
+492,24,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.983738+00:00,1.4794720059726387,1.7678147520055063,,0.2883427460328676,,2,0,2,,,,,1
+493,209,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.984073+00:00,1.4798073439742438,1.7678952409769408,,0.288087897002697,,2,0,2,,,,,1
+494,1225,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.984393+00:00,1.4801270649768412,1.76796689000912,,0.2878398250322789,,2,0,2,,,,,1
+495,1227,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.984703+00:00,1.4804371699574403,1.7680395129718818,,0.28760234301444143,,2,0,2,,,,,1
+496,1000,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.985008+00:00,1.4807424229802564,1.768110564968083,,0.2873681419878267,,2,0,2,,,,,1
+497,913,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.985332+00:00,1.4810656099580228,1.7681806570035405,,0.2871150470455177,,2,0,2,,,,,1
+498,373,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.985641+00:00,1.4813749199965969,1.7682571029872634,,0.2868821829906665,,2,0,2,,,,,1
+499,840,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.985949+00:00,1.481682710989844,1.7683288769912906,,0.28664616600144655,,2,0,2,,,,,1
+500,1254,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.986276+00:00,1.4820099189528264,1.7684014499536715,,0.28639153100084513,,2,0,2,,,,,1
+501,571,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.986589+00:00,1.4823235319927335,1.7684723520069383,,0.28614882001420483,,2,0,2,,,,,1
+502,899,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.986890+00:00,1.482623693998903,1.7685439710039645,,0.2859202770050615,,2,0,2,,,,,1
+503,455,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.989061+00:00,1.4847911289543845,1.768615534005221,,0.2838244050508365,,2,0,2,,,,,1
+504,219,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.989448+00:00,1.4851823349599726,1.7686875619692728,,0.28350522700930014,,2,0,2,,,,,1
+505,1161,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.989782+00:00,1.485515751002822,1.768758928985335,,0.28324317798251286,,2,0,2,,,,,1
+506,685,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.990101+00:00,1.4858356220065616,1.7688323009642772,,0.28299667895771563,,2,0,2,,,,,1
+507,556,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.990429+00:00,1.4861631660023704,1.768908587982878,,0.28274542198050767,,2,0,2,,,,,1
+508,817,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.990732+00:00,1.4864662909531035,1.7689786999835633,,0.2825124090304598,,2,0,2,,,,,1
+509,684,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.991043+00:00,1.4867768149706535,1.7690463819890283,,0.2822695670183748,,2,0,2,,,,,1
+510,1092,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.991378+00:00,1.4871123859775253,1.76911839999957,,0.28200601402204484,,2,0,2,,,,,1
+511,447,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.991697+00:00,1.4874304659897462,1.7691914530005306,,0.28176098701078445,,2,0,2,,,,,1
+512,323,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.992018+00:00,1.4877518099965528,1.7692613530089147,,0.281509543012362,,2,0,2,,,,,1
+513,730,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.992490+00:00,1.488223856955301,1.769333062984515,,0.28110920602921396,,2,0,2,,,,,1
+514,67,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.992828+00:00,1.4885622980073094,1.769401546975132,,0.28083924896782264,,2,0,2,,,,,1
+515,184,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.993157+00:00,1.4888913769973442,1.7694708979688585,,0.2805795209715143,,2,0,2,,,,,1
+516,138,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.993472+00:00,1.4892064559971914,1.7695382389938459,,0.2803317829966545,,2,0,2,,,,,1
+517,605,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.993795+00:00,1.4895292929722928,1.7696068829973228,,0.2800775900250301,,2,0,2,,,,,1
+518,414,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.994115+00:00,1.4898492979700677,1.7696772789931856,,0.2798279810231179,,2,0,2,,,,,1
+519,406,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.994446+00:00,1.490180539956782,1.7697451830026694,,0.27956464304588735,,2,0,2,,,,,1
+520,512,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.994776+00:00,1.4905106750084087,1.7698145780013874,,0.2793039029929787,,2,0,2,,,,,1
+521,942,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.995106+00:00,1.4908401019638404,1.7698838000069372,,0.2790436980430968,,2,0,2,,,,,1
+522,1315,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.995454+00:00,1.4911874390090816,1.7699517429573461,,0.27876430394826457,,2,0,2,,,,,1
+523,677,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.995892+00:00,1.4916256809956394,1.7700182859553024,,0.278392604959663,,2,0,2,,,,,1
+524,50,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.996275+00:00,1.4920092079555616,1.770082483009901,,0.2780732750543393,,2,0,2,,,,,1
+525,1180,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.996613+00:00,1.492347172985319,1.7701482829870656,,0.27780111000174657,,2,0,2,,,,,1
+526,1037,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.996942+00:00,1.4926759129739366,1.77021268295357,,0.2775367699796334,,2,0,2,,,,,1
+527,1041,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.997286+00:00,1.4930203380063176,1.7702789859613404,,0.27725864795502275,,2,0,2,,,,,1
+528,139,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.997619+00:00,1.49335343495477,1.77034480398288,,0.27699136902811006,,2,0,2,,,,,1
+529,179,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.997952+00:00,1.4936858819564804,1.770409396965988,,0.27672351500950754,,2,0,2,,,,,1
+530,737,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.998295+00:00,1.4940292710089125,1.7704732479760423,,0.27644397696712986,,2,0,2,,,,,1
+531,871,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.998622+00:00,1.494356473966036,1.770536750962492,,0.2761802769964561,,2,0,2,,,,,1
+532,1279,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.998942+00:00,1.4946759839658625,1.7706029979744926,,0.27592701400863007,,2,0,2,,,,,1
+533,283,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.999302+00:00,1.4950357119669206,1.770666160969995,,0.2756304490030743,,2,0,2,,,,,1
+534,1134,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:43.999788+00:00,1.4955221809796058,1.770730588992592,,0.2752084080129862,,2,0,2,,,,,1
+535,628,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.000164+00:00,1.4958977949572727,1.7707926909788512,,0.27489489602157846,,2,0,2,,,,,1
+536,827,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.000536+00:00,1.4962700359756127,1.770856571965851,,0.2745865359902382,,2,0,2,,,,,1
+537,847,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.000879+00:00,1.496612927003298,1.770923463976942,,0.27431053697364405,,2,0,2,,,,,1
+538,1311,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.001229+00:00,1.496962725999765,1.7709879470057786,,0.27402522100601345,,2,0,2,,,,,1
+539,537,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.001579+00:00,1.4973133470048197,1.7710514549980871,,0.2737381079932675,,2,0,2,,,,,1
+540,1008,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.001920+00:00,1.4976540549541824,1.7711186329834163,,0.27346457802923396,,2,0,2,,,,,1
+541,427,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.002267+00:00,1.4980015069595538,1.7711803379934281,,0.2731788310338743,,2,0,2,,,,,1
+542,288,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.002601+00:00,1.498335303971544,1.7712430559913628,,0.27290775201981887,,2,0,2,,,,,1
+543,1073,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.002956+00:00,1.4986899239593185,1.7713051249738783,,0.2726152010145597,,2,0,2,,,,,1
+544,5,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.003439+00:00,1.4991726219886914,1.7713701470056549,,0.2721975250169635,,2,0,2,,,,,1
+545,934,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.003864+00:00,1.499597982969135,1.771432626992464,,0.271834644023329,,2,0,2,,,,,1
+546,1042,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.004240+00:00,1.4999736080062576,1.771495054999832,,0.2715214469935745,,2,0,2,,,,,1
+547,652,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.004593+00:00,1.5003268499858677,1.771553533966653,,0.2712266839807853,,2,0,2,,,,,1
+548,330,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.004929+00:00,1.5006635029567406,1.7716150769847445,,0.27095157402800396,,2,0,2,,,,,1
+549,280,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.005290+00:00,1.5010243550059386,1.77168033196358,,0.27065597695764154,,2,0,2,,,,,1
+550,956,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.005641+00:00,1.5013748469646089,1.771743555960711,,0.2703687089961022,,2,0,2,,,,,1
+551,970,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.006391+00:00,1.5021247039549053,1.771804344956763,,0.2696796410018578,,2,0,2,,,,,1
+552,466,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.006763+00:00,1.5024967219796963,1.771866823954042,,0.26937010197434574,,2,0,2,,,,,1
+553,870,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.007113+00:00,1.502846657007467,1.7719371119746938,,0.26909045496722683,,2,0,2,,,,,1
+554,381,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.007476+00:00,1.5032104639685713,1.7719998799730092,,0.26878941600443795,,2,0,2,,,,,1
+555,1070,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.007968+00:00,1.503701129986439,1.7720606249640696,,0.2683594949776307,,2,0,2,,,,,1
+556,1055,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.008345+00:00,1.5040792999789119,1.7721245929715224,,0.2680452929926105,,2,0,2,,,,,1
+557,786,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.008704+00:00,1.5044380889739841,1.7721875709830783,,0.2677494820090942,,2,0,2,,,,,1
+558,1308,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.009067+00:00,1.504801109957043,1.7722496019559912,,0.26744849199894816,,2,0,2,,,,,1
+559,303,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.009431+00:00,1.505165362963453,1.77231104997918,,0.26714568701572716,,2,0,2,,,,,1
+560,667,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.009783+00:00,1.5055174839799292,1.772371195955202,,0.26685371197527274,,2,0,2,,,,,1
+561,1195,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.010137+00:00,1.505870811000932,1.772430787968915,,0.26655997696798295,,2,0,2,,,,,1
+562,1253,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.010505+00:00,1.5062387299840339,1.772490557981655,,0.26625182799762115,,2,0,2,,,,,1
+563,347,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.010975+00:00,1.506708484957926,1.7725490569719113,,0.26584057201398537,,2,0,2,,,,,1
+564,744,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.011359+00:00,1.5070926729822531,1.77260446397122,,0.2655117909889668,,2,0,2,,,,,1
+565,674,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.011713+00:00,1.507447287964169,1.7726618549786508,,0.2652145670144819,,2,0,2,,,,,1
+566,547,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.012066+00:00,1.507800113002304,1.7727221789536998,,0.2649220659513958,,2,0,2,,,,,1
+567,1236,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.012429+00:00,1.508163288992364,1.7727835929836147,,0.2646203039912507,,2,0,2,,,,,1
+568,319,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.012788+00:00,1.508522396965418,1.7728414289886132,,0.2643190320231952,,2,0,2,,,,,1
+569,125,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.013161+00:00,1.508894541009795,1.7729044709703885,,0.2640099299605936,,2,0,2,,,,,1
+570,1040,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.013536+00:00,1.509269548987504,1.772965923009906,,0.26369637402240187,,2,0,2,,,,,1
+571,251,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.013900+00:00,1.5096338999574073,1.7730231760069728,,0.2633892760495655,,2,0,2,,,,,1
+572,1295,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.014385+00:00,1.5101189269917086,1.7730796670075506,,0.262960740015842,,2,0,2,,,,,1
+573,591,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.014779+00:00,1.5105128689901903,1.7731387869571336,,0.26262591796694323,,2,0,2,,,,,1
+574,1199,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.015158+00:00,1.510892010992393,1.7731970599852502,,0.26230504899285734,,2,0,2,,,,,1
+575,416,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.015531+00:00,1.5112647089990787,1.7732529579661787,,0.26198824896709993,,2,0,2,,,,,1
+576,1088,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.015894+00:00,1.5116276599583216,1.7733122589997947,,0.2616845990414731,,2,0,2,,,,,1
+577,228,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.016263+00:00,1.5119967319769785,1.7733692699694075,,0.261372537992429,,2,0,2,,,,,1
+578,711,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.016621+00:00,1.512355132959783,1.773426194966305,,0.26107106200652197,,2,0,2,,,,,1
+579,19,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.016976+00:00,1.5127099099918269,1.7734810229740106,,0.2607711129821837,,2,0,2,,,,,1
+580,831,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.017472+00:00,1.5132060679607093,1.7735367399873212,,0.26033067202661186,,2,0,2,,,,,1
+581,189,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.017899+00:00,1.5136327659711242,1.7735931619536132,,0.259960395982489,,2,0,2,,,,,1
+582,530,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.018297+00:00,1.5140305070090108,1.773649031005334,,0.25961852399632335,,2,0,2,,,,,1
+583,948,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.018673+00:00,1.5144069090019912,1.7737053239834495,,0.25929841498145834,,2,0,2,,,,,1
+584,302,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.019045+00:00,1.5147787879686803,1.7737597939558327,,0.25898100598715246,,2,0,2,,,,,1
+585,11,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.019424+00:00,1.5151575729832985,1.7738153289537877,,0.25865775597048923,,2,0,2,,,,,1
+586,803,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.019802+00:00,1.5155357269686647,1.7738686139928177,,0.258332887024153,,2,0,2,,,,,1
+587,569,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.020177+00:00,1.5159110149834305,1.7739383949665353,,0.25802737998310477,,2,0,2,,,,,1
+588,1168,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.020643+00:00,1.5163763629971072,1.7739932339754887,,0.2576168709783815,,2,0,2,,,,,1
+589,88,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.021062+00:00,1.5167958709644154,1.7740479779895395,,0.25725210702512413,,2,0,2,,,,,1
+590,1011,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.021459+00:00,1.5171925979666412,1.7740995629574172,,0.25690696499077603,,2,0,2,,,,,1
+591,1170,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.021837+00:00,1.517571225995198,1.774154337006621,,0.25658311101142317,,2,0,2,,,,,1
+592,1299,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.022221+00:00,1.5179550389875658,1.7742080809548497,,0.25625304196728393,,2,0,2,,,,,1
+593,1196,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.022607+00:00,1.5183413529885001,1.7742602049838752,,0.255918851995375,,2,0,2,,,,,1
+594,478,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.022989+00:00,1.5187230759765953,1.7743166459840722,,0.25559357000747696,,2,0,2,,,,,1
+595,391,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.023380+00:00,1.5191141899558716,1.7743712539668195,,0.25525706401094794,,2,0,2,,,,,1
+596,1128,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.023765+00:00,1.5194995669880882,1.7744252959964797,,0.2549257290083915,,2,0,2,,,,,1
+597,762,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.024259+00:00,1.519992850953713,1.7744796290062368,,0.25448677805252373,,2,0,2,,,,,1
+598,62,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.024661+00:00,1.5203947330010124,1.7745328169548884,,0.25413808395387605,,2,0,2,,,,,1
+599,1275,gsm8k,test,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.025047+00:00,1.5207809889689088,1.7745855049579404,,0.25380451598903164,,2,0,2,,,,,1
+600,HumanEval/7,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.291572+00:00,1.787301612959709,1.9445663879741915,,0.15726477501448244,,2,0,2,,,,,1
+601,HumanEval/107,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.292083+00:00,1.7878158329986036,1.944723705004435,,0.15690787200583145,,2,0,2,,,,,1
+602,HumanEval/133,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.292352+00:00,1.7880857489653863,1.944850621977821,,0.1567648730124347,,2,0,2,,,,,1
+603,HumanEval/23,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.292583+00:00,1.7883169139968231,1.9449775359826162,,0.1566606219857931,,2,0,2,,,,,1
+604,HumanEval/14,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.292791+00:00,1.7885255059809424,1.945093102985993,,0.15656759700505063,,2,0,2,,,,,1
+605,HumanEval/28,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.292998+00:00,1.7887322150054388,1.945208182965871,,0.15647596796043217,,2,0,2,,,,,1
+606,HumanEval/147,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.293201+00:00,1.7889354939688928,1.9453249049838632,,0.1563894110149704,,2,0,2,,,,,1
+607,HumanEval/78,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.293408+00:00,1.789142383961007,1.9454379279632121,,0.15629554400220513,,2,0,2,,,,,1
+608,HumanEval/5,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.293613+00:00,1.7893469199771062,1.945552218996454,,0.15620529901934788,,2,0,2,,,,,1
+609,HumanEval/90,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.293800+00:00,1.7895348359597847,1.9456648159539327,,0.15612997999414802,,2,0,2,,,,,1
+610,HumanEval/86,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.293993+00:00,1.7897270289831795,1.9457801379612647,,0.15605310897808522,,2,0,2,,,,,1
+611,HumanEval/157,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.294339+00:00,1.790073327952996,1.9459016909822822,,0.15582836302928627,,2,0,2,,,,,1
+612,HumanEval/118,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.294550+00:00,1.7902841799659654,1.9460155589622445,,0.1557313789962791,,2,0,2,,,,,1
+613,HumanEval/114,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.294752+00:00,1.7904861510032788,1.9461273860069923,,0.15564123500371352,,2,0,2,,,,,1
+614,HumanEval/115,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.294945+00:00,1.7906793619622476,1.9462394209695049,,0.15556005900725722,,2,0,2,,,,,1
+615,HumanEval/69,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.295160+00:00,1.7908941879868507,1.9463516119867563,,0.1554574239999056,,2,0,2,,,,,1
+616,HumanEval/105,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.295360+00:00,1.7910942999878898,1.9464635179610923,,0.15536921797320247,,2,0,2,,,,,1
+617,HumanEval/80,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.295565+00:00,1.791299609001726,1.9465732869575731,,0.15527367795584723,,2,0,2,,,,,1
+618,HumanEval/163,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.295766+00:00,1.7915002549998462,1.9466838609660044,,0.1551836059661582,,2,0,2,,,,,1
+619,HumanEval/53,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.295961+00:00,1.7916956350090913,1.9467952579725534,,0.15509962296346202,,2,0,2,,,,,1
+620,HumanEval/56,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.296160+00:00,1.7918945249984972,1.9469133419916034,,0.15501881699310616,,2,0,2,,,,,1
+621,HumanEval/61,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.296354+00:00,1.7920882829930633,1.9470223249518313,,0.15493404195876792,,2,0,2,,,,,1
+622,HumanEval/88,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.296644+00:00,1.7923777619726025,1.947134408983402,,0.1547566470107995,,2,0,2,,,,,1
+623,HumanEval/39,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.296862+00:00,1.7925965180038475,1.9472449969616719,,0.1546484789578244,,2,0,2,,,,,1
+624,HumanEval/158,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.297064+00:00,1.792798694979865,1.9473560570040718,,0.15455736202420667,,2,0,2,,,,,1
+625,HumanEval/128,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.297287+00:00,1.7930209699552506,1.9474668549955823,,0.15444588504033163,,2,0,2,,,,,1
+626,HumanEval/104,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.297484+00:00,1.7932187639526092,1.9475762840011157,,0.15435752004850656,,2,0,2,,,,,1
+627,HumanEval/76,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.297679+00:00,1.7934136109543033,1.9476858910056762,,0.15427228005137295,,2,0,2,,,,,1
+628,HumanEval/62,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.297879+00:00,1.793610467982944,1.9477938499767333,,0.15418338199378923,,2,0,2,,,,,1
+629,HumanEval/21,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.298076+00:00,1.7938102599582635,1.948155999998562,,0.15434574004029855,,2,0,2,,,,,1
+630,HumanEval/52,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.298285+00:00,1.7940163869643584,1.9482708079740405,,0.15425442100968212,,2,0,2,,,,,1
+631,HumanEval/6,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.298487+00:00,1.7942208659951575,1.94838447595248,,0.15416360995732248,,2,0,2,,,,,1
+632,HumanEval/159,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.298686+00:00,1.7944205669919029,1.9484947070013732,,0.15407414000947028,,2,0,2,,,,,1
+633,HumanEval/17,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.298894+00:00,1.7946278449962847,1.9486064279917628,,0.15397858299547806,,2,0,2,,,,,1
+634,HumanEval/140,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.299245+00:00,1.7949786759563722,1.9487169359927066,,0.1537382600363344,,2,0,2,,,,,1
+635,HumanEval/112,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.299466+00:00,1.7951997129712254,1.948824680002872,,0.15362496703164652,,2,0,2,,,,,1
+636,HumanEval/10,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.299678+00:00,1.7954123779782094,1.948939102992881,,0.15352672501467168,,2,0,2,,,,,1
+637,HumanEval/13,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.299892+00:00,1.795626746956259,1.949050071008969,,0.15342332405271009,,2,0,2,,,,,1
+638,HumanEval/20,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.300097+00:00,1.7958310549729504,1.949158584990073,,0.15332753001712263,,2,0,2,,,,,1
+639,HumanEval/38,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.300333+00:00,1.7960671439650469,1.9492679359973408,,0.15320079203229398,,2,0,2,,,,,1
+640,HumanEval/55,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.300547+00:00,1.7962816049694084,1.9493774899747223,,0.1530958850053139,,2,0,2,,,,,1
+641,HumanEval/113,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.300750+00:00,1.7964840089553036,1.949486211000476,,0.15300220204517245,,2,0,2,,,,,1
+642,HumanEval/3,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.300961+00:00,1.7966943619539961,1.949591452954337,,0.15289709100034088,,2,0,2,,,,,1
+643,HumanEval/66,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.301180+00:00,1.7969138390035369,1.9496954039786942,,0.15278156497515738,,2,0,2,,,,,1
+644,HumanEval/94,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.301487+00:00,1.797221407003235,1.9498010280076414,,0.15257962100440636,,2,0,2,,,,,1
+645,HumanEval/95,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.301741+00:00,1.7974749199929647,1.9499162469874136,,0.1524413269944489,,2,0,2,,,,,1
+646,HumanEval/124,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.301969+00:00,1.7977033259812742,1.950023658981081,,0.15232033299980685,,2,0,2,,,,,1
+647,HumanEval/15,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.302206+00:00,1.7979396719601937,1.9501300769625232,,0.1521904050023295,,2,0,2,,,,,1
+648,HumanEval/110,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.302419+00:00,1.7981524269562215,1.9502373230061494,,0.15208489604992792,,2,0,2,,,,,1
+649,HumanEval/46,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.302635+00:00,1.798368997988291,1.9503449519979768,,0.15197595400968567,,2,0,2,,,,,1
+650,HumanEval/131,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.302850+00:00,1.7985842389753088,1.9504518549656495,,0.1518676159903407,,2,0,2,,,,,1
+651,HumanEval/108,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.303062+00:00,1.7987967139924876,1.9505572330090217,,0.1517605190165341,,2,0,2,,,,,1
+652,HumanEval/141,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.303283+00:00,1.7990175199811347,1.9506620489992201,,0.15164452901808545,,2,0,2,,,,,1
+653,HumanEval/2,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.303505+00:00,1.7992392989690416,1.9507642929675058,,0.1515249939984642,,2,0,2,,,,,1
+654,HumanEval/93,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.303722+00:00,1.7994558759965003,1.9508685439941473,,0.15141266799764708,,2,0,2,,,,,1
+655,HumanEval/97,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.304796+00:00,1.8005280320066959,1.9509795559570193,,0.15045152395032346,,2,0,2,,,,,1
+656,HumanEval/142,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.305184+00:00,1.8009174019680358,1.9510851110098884,,0.1501677090418525,,2,0,2,,,,,1
+657,HumanEval/103,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.305442+00:00,1.8011756269843318,1.9511878379853442,,0.15001221100101247,,2,0,2,,,,,1
+658,HumanEval/4,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.305676+00:00,1.8014108589850366,1.9512897929525934,,0.1498789339675568,,2,0,2,,,,,1
+659,HumanEval/127,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.305903+00:00,1.8016369609977119,1.9514030200080015,,0.1497660590102896,,2,0,2,,,,,1
+660,HumanEval/125,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.306131+00:00,1.801865255984012,1.9515519900014624,,0.14968673401745036,,2,0,2,,,,,1
+661,HumanEval/9,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.310012+00:00,1.8057374859927222,1.9516708599985577,,0.1459333740058355,,2,0,2,,,,,1
+662,HumanEval/73,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.310368+00:00,1.8061006650095806,1.9517745769699104,,0.14567391196032986,,2,0,2,,,,,1
+663,HumanEval/85,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.310627+00:00,1.8063609789824113,1.951884327980224,,0.14552334899781272,,2,0,2,,,,,1
+664,HumanEval/58,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.310870+00:00,1.8066030989866704,1.9519867619965225,,0.14538366300985217,,2,0,2,,,,,1
+665,HumanEval/132,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.311102+00:00,1.8068364029750228,1.9520894199959002,,0.14525301702087745,,2,0,2,,,,,1
+666,HumanEval/79,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.311485+00:00,1.8072195039712824,1.9521923419670202,,0.1449728379957378,,2,0,2,,,,,1
+667,HumanEval/98,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.311741+00:00,1.8074747869977728,1.9522960509639233,,0.14482126396615058,,2,0,2,,,,,1
+668,HumanEval/75,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.311971+00:00,1.807704749982804,1.952396846958436,,0.144692096975632,,2,0,2,,,,,1
+669,HumanEval/43,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.312217+00:00,1.8079496919526719,1.9524965159944259,,0.144546824041754,,2,0,2,,,,,1
+670,HumanEval/44,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.312454+00:00,1.8081878160010092,1.95259617397096,,0.14440835796995088,,2,0,2,,,,,1
+671,HumanEval/99,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.312688+00:00,1.8084218709846027,1.9526960239745677,,0.14427415298996493,,2,0,2,,,,,1
+672,HumanEval/89,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.312923+00:00,1.8086577049689367,1.9527936469530687,,0.14413594198413193,,2,0,2,,,,,1
+673,HumanEval/32,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.313157+00:00,1.8088911999948323,1.9528998719761148,,0.14400867198128253,,2,0,2,,,,,1
+674,HumanEval/82,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.313396+00:00,1.8091303269611672,1.9530022759572603,,0.14387194899609312,,2,0,2,,,,,1
+675,HumanEval/151,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.313630+00:00,1.8093628519563936,1.9531021629809402,,0.14373931102454662,,2,0,2,,,,,1
+676,HumanEval/67,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.313866+00:00,1.8096005189581774,1.9532011990086176,,0.14360068005044013,,2,0,2,,,,,1
+677,HumanEval/111,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.314271+00:00,1.8100050069624558,1.9533000749652274,,0.1432950680027716,,2,0,2,,,,,1
+678,HumanEval/155,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.314544+00:00,1.8102779909968376,1.9534013849915937,,0.14312339399475604,,2,0,2,,,,,1
+679,HumanEval/121,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.314788+00:00,1.8105221039731987,1.9535005909856409,,0.1429784870124422,,2,0,2,,,,,1
+680,HumanEval/91,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.315024+00:00,1.8107582439552061,1.9536006129928865,,0.14284236903768033,,2,0,2,,,,,1
+681,HumanEval/0,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.315269+00:00,1.811003147973679,1.9537012559594586,,0.14269810798577964,,2,0,2,,,,,1
+682,HumanEval/77,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.315507+00:00,1.8112409809837118,1.9538009769748896,,0.14255999599117786,,2,0,2,,,,,1
+683,HumanEval/81,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.315743+00:00,1.8114771579857916,1.9539060789975338,,0.1424289210117422,,2,0,2,,,,,1
+684,HumanEval/144,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.315987+00:00,1.8117213560035452,1.9540050909854472,,0.14228373498190194,,2,0,2,,,,,1
+685,HumanEval/102,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.316247+00:00,1.811980772006791,1.9541078679612838,,0.1421270959544927,,2,0,2,,,,,1
+686,HumanEval/37,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.316489+00:00,1.812223560991697,1.9542076590005308,,0.14198409800883383,,2,0,2,,,,,1
+687,HumanEval/153,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.316835+00:00,1.8125691229943186,1.9543078629649244,,0.14173873997060582,,2,0,2,,,,,1
+688,HumanEval/29,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.317095+00:00,1.8128296610084362,1.9544084479566664,,0.14157878694823012,,2,0,2,,,,,1
+689,HumanEval/16,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.317349+00:00,1.8130836469936185,1.9545056999777444,,0.1414220529841259,,2,0,2,,,,,1
+690,HumanEval/42,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.317591+00:00,1.8133249799720943,1.9546004139701836,,0.14127543399808928,,2,0,2,,,,,1
+691,HumanEval/40,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.317829+00:00,1.8135635679936968,1.9546974609838799,,0.14113389299018309,,2,0,2,,,,,1
+692,HumanEval/123,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.318074+00:00,1.8138079879572615,1.9547942070057616,,0.14098621904850006,,2,0,2,,,,,1
+693,HumanEval/59,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.318353+00:00,1.8140875629615039,1.9548962299595587,,0.14080866699805483,,2,0,2,,,,,1
+694,HumanEval/57,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.318604+00:00,1.8143380949622951,1.9549920019926503,,0.14065390703035519,,2,0,2,,,,,1
+695,HumanEval/152,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.318859+00:00,1.814592738985084,1.9550848579965532,,0.14049211901146919,,2,0,2,,,,,1
+696,HumanEval/1,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.319107+00:00,1.814841469982639,1.955182978999801,,0.14034150901716202,,2,0,2,,,,,1
+697,HumanEval/11,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.319371+00:00,1.815105166984722,1.9552789789740928,,0.14017381198937073,,2,0,2,,,,,1
+698,HumanEval/100,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.319748+00:00,1.8154820349882357,1.9553742439602502,,0.1398922089720145,,2,0,2,,,,,1
+699,HumanEval/22,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.320012+00:00,1.8157465239637531,1.9554694409598596,,0.1397229169961065,,2,0,2,,,,,1
+700,HumanEval/70,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.320277+00:00,1.81601117097307,1.9555692529538646,,0.13955808198079467,,2,0,2,,,,,1
+701,HumanEval/45,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.320524+00:00,1.816258103994187,1.9556643439573236,,0.1394062399631366,,2,0,2,,,,,1
+702,HumanEval/162,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.320768+00:00,1.8165024030022323,1.9557623179862276,,0.13925991498399526,,2,0,2,,,,,1
+703,HumanEval/146,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.321011+00:00,1.816745357005857,1.9558556319680065,,0.13911027496214956,,2,0,2,,,,,1
+704,HumanEval/19,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.321266+00:00,1.8170005489955656,1.955958615988493,,0.13895806699292734,,2,0,2,,,,,1
+705,HumanEval/63,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.321515+00:00,1.8172489299904555,1.956054164969828,,0.13880523497937247,,2,0,2,,,,,1
+706,HumanEval/156,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.321765+00:00,1.8174991179839708,1.9561490659834817,,0.13864994799951091,,2,0,2,,,,,1
+707,HumanEval/12,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.322022+00:00,1.8177566829835996,1.9562448569922708,,0.1384881740086712,,2,0,2,,,,,1
+708,HumanEval/117,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.322395+00:00,1.818129413004499,1.9563386389636435,,0.13820922595914453,,2,0,2,,,,,1
+709,HumanEval/92,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.322684+00:00,1.8184184279525653,1.956435136962682,,0.13801670901011676,,2,0,2,,,,,1
+710,HumanEval/50,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.322956+00:00,1.8186904529575258,1.956527811998967,,0.13783735904144123,,2,0,2,,,,,1
+711,HumanEval/30,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.323219+00:00,1.8189532529795542,1.9566186779993586,,0.1376654250198044,,2,0,2,,,,,1
+712,HumanEval/134,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.323471+00:00,1.8192056569969282,1.9567112909862772,,0.137505633989349,,2,0,2,,,,,1
+713,HumanEval/109,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.323732+00:00,1.819466120970901,1.9568039429723285,,0.1373378220014274,,2,0,2,,,,,1
+714,HumanEval/18,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.323997+00:00,1.8197317229933105,1.9569026499520987,,0.1371709269587882,,2,0,2,,,,,1
+715,HumanEval/160,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.324264+00:00,1.8199981899815612,1.956994780979585,,0.13699659099802375,,2,0,2,,,,,1
+716,HumanEval/150,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.324526+00:00,1.8202598589705303,1.9570844909758307,,0.13682463200530037,,2,0,2,,,,,1
+717,HumanEval/31,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.324778+00:00,1.8205119359772652,1.9571753469645046,,0.13666341098723933,,2,0,2,,,,,1
+718,HumanEval/161,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.325031+00:00,1.8207653680001386,1.9572670430061407,,0.1365016750060022,,2,0,2,,,,,1
+719,HumanEval/24,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.325443+00:00,1.8211772289942019,1.9573571530054323,,0.13617992401123047,,2,0,2,,,,,1
+720,HumanEval/122,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.325718+00:00,1.8214521509944461,1.9574462169548497,,0.13599406596040353,,2,0,2,,,,,1
+721,HumanEval/135,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.325985+00:00,1.8217191789881326,1.9575375159620307,,0.1358183369738981,,2,0,2,,,,,1
+722,HumanEval/41,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.326261+00:00,1.8219948170008138,1.9576261249603704,,0.13563130795955658,,2,0,2,,,,,1
+723,HumanEval/148,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.326530+00:00,1.8222645829664543,1.9577152929850854,,0.13545071001863107,,2,0,2,,,,,1
+724,HumanEval/145,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.326799+00:00,1.8225337129551917,1.9578040709602647,,0.13527035800507292,,2,0,2,,,,,1
+725,HumanEval/51,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.327067+00:00,1.8228015750064515,1.95790209795814,,0.13510052295168862,,2,0,2,,,,,1
+726,HumanEval/143,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.327349+00:00,1.823082908987999,1.9579928589519113,,0.13490994996391237,,2,0,2,,,,,1
+727,HumanEval/126,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.327616+00:00,1.8233507020049728,1.9580795429646969,,0.13472884095972404,,2,0,2,,,,,1
+728,HumanEval/65,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.327891+00:00,1.8236256070085801,1.9581708330078982,,0.13454522599931806,,2,0,2,,,,,1
+729,HumanEval/136,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.328296+00:00,1.8240300109609962,1.9582588039920665,,0.13422879303107038,,2,0,2,,,,,1
+730,HumanEval/34,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.328604+00:00,1.8243386339745484,1.9583498849533498,,0.1340112509788014,,2,0,2,,,,,1
+731,HumanEval/139,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.328891+00:00,1.824625251989346,1.958439523994457,,0.13381427200511098,,2,0,2,,,,,1
+732,HumanEval/49,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.329186+00:00,1.8249199549900368,1.9585306670051068,,0.13361071201507002,,2,0,2,,,,,1
+733,HumanEval/154,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.329465+00:00,1.8251997429761104,1.9586184039944783,,0.13341866101836786,,2,0,2,,,,,1
+734,HumanEval/26,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.329740+00:00,1.8254740489646792,1.9587086589890532,,0.13323461002437398,,2,0,2,,,,,1
+735,HumanEval/130,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.330010+00:00,1.8257446439820342,1.9587971000000834,,0.13305245601804927,,2,0,2,,,,,1
+736,HumanEval/138,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.330294+00:00,1.8260284849675372,1.9588915779604577,,0.13286309299292043,,2,0,2,,,,,1
+737,HumanEval/8,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.330570+00:00,1.8263039619778283,1.9589765389682725,,0.1326725769904442,,2,0,2,,,,,1
+738,HumanEval/71,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.330847+00:00,1.8265812029712833,1.959063783986494,,0.1324825810152106,,2,0,2,,,,,1
+739,HumanEval/74,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.331236+00:00,1.8269694789778441,1.9591486220015213,,0.13217914302367717,,2,0,2,,,,,1
+740,HumanEval/72,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.331569+00:00,1.8273037509643473,1.959235902002547,,0.13193215103819966,,2,0,2,,,,,1
+741,HumanEval/83,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.331875+00:00,1.8276090109720826,1.9593260519905016,,0.13171704101841897,,2,0,2,,,,,1
+742,HumanEval/33,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.332160+00:00,1.8278944959747605,1.9594124099821784,,0.13151791400741786,,2,0,2,,,,,1
+743,HumanEval/129,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.332439+00:00,1.82817262300523,1.9594969489844516,,0.1313243259792216,,2,0,2,,,,,1
+744,HumanEval/96,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.332727+00:00,1.8284606589586474,1.9595821449765936,,0.13112148601794615,,2,0,2,,,,,1
+745,HumanEval/27,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.333011+00:00,1.8287456329562701,1.959670047974214,,0.13092441501794383,,2,0,2,,,,,1
+746,HumanEval/106,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.333300+00:00,1.8290343660046346,1.9597906199633144,,0.13075625395867974,,2,0,2,,,,,1
+747,HumanEval/87,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.333579+00:00,1.829313732974697,1.9598825550056063,,0.13056882203090936,,2,0,2,,,,,1
+748,HumanEval/84,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.333862+00:00,1.8295958399539813,1.9599688389571384,,0.13037299900315702,,2,0,2,,,,,1
+749,HumanEval/48,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.334174+00:00,1.8299083319725469,1.9600543499691412,,0.1301460179965943,,2,0,2,,,,,1
+750,HumanEval/35,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.334587+00:00,1.8303210059530102,1.9601413689670153,,0.12982036301400512,,2,0,2,,,,,1
+751,HumanEval/25,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.334885+00:00,1.8306193169555627,1.9602291059563868,,0.1296097890008241,,2,0,2,,,,,1
+752,HumanEval/101,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.335184+00:00,1.8309186529950239,1.9603159629623406,,0.1293973099673167,,2,0,2,,,,,1
+753,HumanEval/119,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.335469+00:00,1.8312032469548285,1.9604009639588185,,0.12919771700398996,,2,0,2,,,,,1
+754,HumanEval/137,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.335750+00:00,1.831484587979503,1.9604831479955465,,0.12899856001604348,,2,0,2,,,,,1
+755,HumanEval/116,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.336038+00:00,1.8317721399944276,1.9605698710074648,,0.12879773101303726,,2,0,2,,,,,1
+756,HumanEval/36,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.336333+00:00,1.8320666839717887,1.9606530799646862,,0.12858639599289745,,2,0,2,,,,,1
+757,HumanEval/54,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.336615+00:00,1.8323489439790137,1.9607329029822722,,0.1283839590032585,,2,0,2,,,,,1
+758,HumanEval/64,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.336900+00:00,1.832634460995905,1.9608147559920326,,0.1281802949961275,,2,0,2,,,,,1
+759,HumanEval/149,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.337198+00:00,1.8329323600046337,1.960906451975461,,0.12797409197082743,,2,0,2,,,,,1
+760,HumanEval/120,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.337613+00:00,1.833346684987191,1.9609882569639012,,0.1276415719767101,,2,0,2,,,,,1
+761,HumanEval/68,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.337928+00:00,1.8336619949550368,1.9610702240024693,,0.12740822904743254,,2,0,2,,,,,1
+762,HumanEval/47,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.338246+00:00,1.8339802019763738,1.961152185976971,,0.12717198400059715,,2,0,2,,,,,1
+763,HumanEval/60,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.338532+00:00,1.8342664240044542,1.9612365659559146,,0.1269701419514604,,2,0,2,,,,,1
+764,HumanEval/50,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.338816+00:00,1.8345504690078087,1.961320317001082,,0.1267698479932733,,2,0,2,,,,,1
+765,HumanEval/90,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.339103+00:00,1.8348375629866496,1.9613997589913197,,0.1265621960046701,,2,0,2,,,,,1
+766,HumanEval/80,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.339406+00:00,1.8351403870037757,1.9614813569933176,,0.12634096998954192,,2,0,2,,,,,1
+767,HumanEval/10,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.339694+00:00,1.8354277799953707,1.9615633359644562,,0.12613555596908554,,2,0,2,,,,,1
+768,HumanEval/95,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.339994+00:00,1.8357284640078433,1.9616472459747456,,0.12591878196690232,,2,0,2,,,,,1
+769,HumanEval/101,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.340294+00:00,1.8360279359621927,1.9617279229569249,,0.12569998699473217,,2,0,2,,,,,1
+770,HumanEval/41,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.340580+00:00,1.8363142649759538,1.9618073049932718,,0.12549304001731798,,2,0,2,,,,,1
+771,HumanEval/137,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.340992+00:00,1.8367264929693192,1.961894981970545,,0.12516848900122568,,2,0,2,,,,,1
+772,HumanEval/98,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.341314+00:00,1.8370483850012533,1.961978867999278,,0.12493048299802467,,2,0,2,,,,,1
+773,HumanEval/153,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.341625+00:00,1.8373589039547369,1.9620596419554204,,0.12470073800068349,,2,0,2,,,,,1
+774,HumanEval/126,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.341924+00:00,1.8376581599586643,1.9621404149802402,,0.12448225502157584,,2,0,2,,,,,1
+775,HumanEval/150,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.342236+00:00,1.8379695969633758,1.962220195971895,,0.1242505990085192,,2,0,2,,,,,1
+776,HumanEval/134,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.342542+00:00,1.8382757869549096,1.962298063968774,,0.12402227701386437,,2,0,2,,,,,1
+777,HumanEval/108,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.342843+00:00,1.8385775669594295,1.9623768730089068,,0.12379930604947731,,2,0,2,,,,,1
+778,HumanEval/44,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.343152+00:00,1.8388855200028047,1.962456379958894,,0.12357085995608941,,2,0,2,,,,,1
+779,HumanEval/55,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.343459+00:00,1.8391929179779254,1.9625338839832693,,0.12334096600534394,,2,0,2,,,,,1
+780,HumanEval/81,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.343753+00:00,1.8394868559553288,1.9626148599782027,,0.12312800402287394,,2,0,2,,,,,1
+781,HumanEval/77,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.345700+00:00,1.841433716006577,1.962695411988534,,0.12126169598195702,,2,0,2,,,,,1
+782,HumanEval/129,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.346084+00:00,1.841818246000912,1.9627773859538138,,0.12095913995290175,,2,0,2,,,,,1
+783,HumanEval/131,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.346436+00:00,1.8421704799984582,1.9628591689979658,,0.12068868899950758,,2,0,2,,,,,1
+784,HumanEval/6,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.346748+00:00,1.842481856001541,1.9629534279811196,,0.12047157197957858,,2,0,2,,,,,1
+785,HumanEval/14,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.347049+00:00,1.8427830099826679,1.9630308260093443,,0.12024781602667645,,2,0,2,,,,,1
+786,HumanEval/121,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.347358+00:00,1.8430916729848832,1.963109120959416,,0.12001744797453284,,2,0,2,,,,,1
+787,HumanEval/162,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.347663+00:00,1.843397558957804,1.9631864529801533,,0.11978889402234927,,2,0,2,,,,,1
+788,HumanEval/43,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.347965+00:00,1.8436997279641218,1.9632676579640247,,0.11956792999990284,,2,0,2,,,,,1
+789,HumanEval/18,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.348275+00:00,1.8440089049981907,1.9633468289976008,,0.11933792399941012,,2,0,2,,,,,1
+790,HumanEval/11,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.348572+00:00,1.844306439976208,1.9634256309946068,,0.11911919101839885,,2,0,2,,,,,1
+791,HumanEval/133,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.348888+00:00,1.844622228993103,1.9635039269924164,,0.11888169799931347,,2,0,2,,,,,1
+792,HumanEval/113,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.349357+00:00,1.8450901529868133,1.9635834060027264,,0.11849325301591307,,2,0,2,,,,,1
+793,HumanEval/120,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.349693+00:00,1.845426979009062,1.9636578369536437,,0.11823085794458166,,2,0,2,,,,,1
+794,HumanEval/155,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.350010+00:00,1.8457434980082326,1.9637343919603154,,0.11799089395208284,,2,0,2,,,,,1
+795,HumanEval/58,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.350327+00:00,1.8460606869775802,1.9638088759966195,,0.11774818901903927,,2,0,2,,,,,1
+796,HumanEval/123,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.350638+00:00,1.84637235396076,1.9638925489853136,,0.11752019502455369,,2,0,2,,,,,1
+797,HumanEval/16,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.350954+00:00,1.8466878199833445,1.9639667960000224,,0.11727897601667792,,2,0,2,,,,,1
+798,HumanEval/124,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.351270+00:00,1.8470041200052947,1.9640408129780553,,0.11703669297276065,,2,0,2,,,,,1
+799,HumanEval/87,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.351594+00:00,1.847326423972845,1.9641165389912203,,0.11679011501837522,,2,0,2,,,,,1
+800,HumanEval/36,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.351915+00:00,1.8476487069856375,1.9641906729666516,,0.11654196598101407,,2,0,2,,,,,1
+801,HumanEval/68,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.352250+00:00,1.8479841009830125,1.9642662259866484,,0.11628212500363588,,2,0,2,,,,,1
+802,HumanEval/27,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.352706+00:00,1.8484396649873815,1.9643405719543807,,0.11590090696699917,,2,0,2,,,,,1
+803,HumanEval/61,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.353036+00:00,1.8487696779775433,1.9644149349769577,,0.11564525699941441,,2,0,2,,,,,1
+804,HumanEval/116,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.353365+00:00,1.8490993729792535,1.9644898689584807,,0.11539049597922713,,2,0,2,,,,,1
+805,HumanEval/74,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.353682+00:00,1.8494159929687157,1.9645653659827076,,0.11514937301399186,,2,0,2,,,,,1
+806,HumanEval/34,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.354010+00:00,1.8497443699743599,1.964640274993144,,0.1148959050187841,,2,0,2,,,,,1
+807,HumanEval/110,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.354339+00:00,1.8500727629871108,1.9647161469911225,,0.11464338400401175,,2,0,2,,,,,1
+808,HumanEval/142,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.354665+00:00,1.8503997959778644,1.9647923309821635,,0.11439253500429913,,2,0,2,,,,,1
+809,HumanEval/161,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.354989+00:00,1.8507235779543407,1.964865693997126,,0.11414211604278535,,2,0,2,,,,,1
+810,HumanEval/118,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.355322+00:00,1.851055622973945,1.9649456109618768,,0.11388998798793182,,2,0,2,,,,,1
+811,HumanEval/33,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.355651+00:00,1.8513849040027708,1.96501762495609,,0.11363272095331922,,2,0,2,,,,,1
+812,HumanEval/135,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.356083+00:00,1.851816634007264,1.965092636004556,,0.11327600199729204,,2,0,2,,,,,1
+813,HumanEval/144,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.356447+00:00,1.8521805999916978,1.9651657089707442,,0.11298510897904634,,2,0,2,,,,,1
+814,HumanEval/102,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.356800+00:00,1.8525341280037537,1.9652414839947596,,0.1127073559910059,,2,0,2,,,,,1
+815,HumanEval/104,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.357120+00:00,1.8528539369581267,1.9653162359609269,,0.11246229900280014,,2,0,2,,,,,1
+816,HumanEval/45,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.357461+00:00,1.8531953169731423,1.9653938299743459,,0.11219851300120354,,2,0,2,,,,,1
+817,HumanEval/76,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.357784+00:00,1.8535186239751056,1.9654677750077099,,0.11194915103260428,,2,0,2,,,,,1
+818,HumanEval/96,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.358097+00:00,1.853830952954013,1.9655395629815757,,0.11170861002756283,,2,0,2,,,,,1
+819,HumanEval/140,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.358427+00:00,1.854161323979497,1.9656066249590367,,0.11144530097953975,,2,0,2,,,,,1
+820,HumanEval/147,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.358746+00:00,1.8544803530094214,1.9656765919644386,,0.11119623895501718,,2,0,2,,,,,1
+821,HumanEval/92,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.359073+00:00,1.854806833958719,1.9657470969832502,,0.1109402630245313,,2,0,2,,,,,1
+822,HumanEval/139,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.359427+00:00,1.8551609219866805,1.9658208760083653,,0.11065995402168483,,2,0,2,,,,,1
+823,HumanEval/141,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.359900+00:00,1.8556343049858697,1.9658991220057942,,0.11026481701992452,,2,0,2,,,,,1
+824,HumanEval/31,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.360277+00:00,1.8560109179816209,1.9659700869815424,,0.10995916899992153,,2,0,2,,,,,1
+825,HumanEval/93,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.360616+00:00,1.8563505559577607,1.9660414409590885,,0.10969088500132784,,2,0,2,,,,,1
+826,HumanEval/122,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.360953+00:00,1.8566872579976916,1.9661110129673034,,0.10942375496961176,,2,0,2,,,,,1
+827,HumanEval/51,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.361297+00:00,1.8570312489755452,1.9661803339840844,,0.10914908500853926,,2,0,2,,,,,1
+828,HumanEval/127,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.361624+00:00,1.857358442968689,1.966248779965099,,0.10889033699641004,,2,0,2,,,,,1
+829,HumanEval/19,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.361962+00:00,1.8576960960053839,1.9663162439828739,,0.10862014797748998,,2,0,2,,,,,1
+830,HumanEval/71,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.362304+00:00,1.8580377220059745,1.9663817239925265,,0.10834400198655203,,2,0,2,,,,,1
+831,HumanEval/47,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.362633+00:00,1.8583674429683015,1.9664490229915828,,0.10808158002328128,,2,0,2,,,,,1
+832,HumanEval/39,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.362965+00:00,1.8586987140006386,1.966515650972724,,0.10781693697208539,,2,0,2,,,,,1
+833,HumanEval/13,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.363451+00:00,1.8591845670016482,1.9665819889632985,,0.10739742196165025,,2,0,2,,,,,1
+834,HumanEval/125,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.363824+00:00,1.85955821396783,1.9666483429609798,,0.10709012899314985,,2,0,2,,,,,1
+835,HumanEval/60,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.364181+00:00,1.8599154339754023,1.9667156059877016,,0.1068001720122993,,2,0,2,,,,,1
+836,HumanEval/46,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.364530+00:00,1.8602639799937606,1.9667799120070413,,0.10651593201328069,,2,0,2,,,,,1
+837,HumanEval/117,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.364867+00:00,1.860601658001542,1.9668431819882244,,0.1062415239866823,,2,0,2,,,,,1
+838,HumanEval/70,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.365218+00:00,1.86095253797248,1.9669161359779537,,0.10596359800547361,,2,0,2,,,,,1
+839,HumanEval/163,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.365564+00:00,1.8612981759943068,1.966981476987712,,0.10568330099340528,,2,0,2,,,,,1
+840,HumanEval/132,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.365899+00:00,1.8616328460047953,1.967048899969086,,0.10541605396429077,,2,0,2,,,,,1
+841,HumanEval/5,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.366254+00:00,1.861988611984998,1.9671133179799654,,0.10512470599496737,,2,0,2,,,,,1
+842,HumanEval/21,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.366597+00:00,1.8623315389850177,1.9671779180062003,,0.10484637902118266,,2,0,2,,,,,1
+843,HumanEval/23,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.366933+00:00,1.8626672719838098,1.967242371989414,,0.10457510000560433,,2,0,2,,,,,1
+844,HumanEval/94,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.367444+00:00,1.8631782219745219,1.9673059049528092,,0.10412768297828734,,2,0,2,,,,,1
+845,HumanEval/157,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.367805+00:00,1.863539490965195,1.967369135003537,,0.10382964403834194,,2,0,2,,,,,1
+846,HumanEval/42,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.368155+00:00,1.8638886899570934,1.9674330019624904,,0.10354431200539693,,2,0,2,,,,,1
+847,HumanEval/15,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.368499+00:00,1.8642334489850327,1.967496167984791,,0.10326271899975836,,2,0,2,,,,,1
+848,HumanEval/40,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.368849+00:00,1.8645835570059717,1.9675611539860256,,0.10297759698005393,,2,0,2,,,,,1
+849,HumanEval/35,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.369210+00:00,1.864944217959419,1.9676270179916173,,0.10268280003219843,,2,0,2,,,,,1
+850,HumanEval/73,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.369554+00:00,1.8652878139982931,1.9676926009706222,,0.10240478697232902,,2,0,2,,,,,1
+851,HumanEval/56,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.369898+00:00,1.8656323929899372,1.9677576289977878,,0.10212523600785062,,2,0,2,,,,,1
+852,HumanEval/53,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.370253+00:00,1.865986812976189,1.967824132007081,,0.1018373190308921,,2,0,2,,,,,1
+853,HumanEval/97,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.370703+00:00,1.8664366449811496,1.9678942579776049,,0.10145761299645528,,2,0,2,,,,,1
+854,HumanEval/22,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.371088+00:00,1.8668221489642747,1.9679595199995674,,0.10113737103529274,,2,0,2,,,,,1
+855,HumanEval/149,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.371453+00:00,1.8671865990036167,1.9680230869562365,,0.10083648795261979,,2,0,2,,,,,1
+856,HumanEval/64,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.371803+00:00,1.8675365469534881,1.9680868469877169,,0.10055030003422871,,2,0,2,,,,,1
+857,HumanEval/119,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.372158+00:00,1.8678918489604257,1.9681491749943234,,0.1002573260338977,,2,0,2,,,,,1
+858,HumanEval/156,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.372510+00:00,1.8682438219548203,1.9682119530043565,,0.09996813104953617,,2,0,2,,,,,1
+859,HumanEval/151,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.372853+00:00,1.8685872969799675,1.9682732860092074,,0.09968598902923986,,2,0,2,,,,,1
+860,HumanEval/9,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.373216+00:00,1.868950183968991,1.9683329859981313,,0.0993828020291403,,2,0,2,,,,,1
+861,HumanEval/1,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.373570+00:00,1.8693039899808355,1.9683932529878803,,0.09908926300704479,,2,0,2,,,,,1
+862,HumanEval/100,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.374035+00:00,1.8697683759965003,1.9684567030053586,,0.09868832700885832,,2,0,2,,,,,1
+863,HumanEval/3,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.374438+00:00,1.8701716259820387,1.96851593995234,,0.0983443139703013,,2,0,2,,,,,1
+864,HumanEval/154,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.374802+00:00,1.870535894006025,1.9685777729609981,,0.09804187895497307,,2,0,2,,,,,1
+865,HumanEval/128,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.375169+00:00,1.8709028589655645,1.968639541999437,,0.0977366830338724,,2,0,2,,,,,1
+866,HumanEval/103,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.375537+00:00,1.8712709249812178,1.968702043988742,,0.0974311190075241,,2,0,2,,,,,1
+867,HumanEval/114,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.375891+00:00,1.871625094965566,1.968764105986338,,0.09713901102077216,,2,0,2,,,,,1
+868,HumanEval/82,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.376259+00:00,1.8719928979990073,1.9688241359544918,,0.09683123795548454,,2,0,2,,,,,1
+869,HumanEval/88,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.376639+00:00,1.8723733009537682,1.968889509967994,,0.09651620901422575,,2,0,2,,,,,1
+870,HumanEval/25,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.377112+00:00,1.8728459219564684,1.96895459596999,,0.09610867401352152,,2,0,2,,,,,1
+871,HumanEval/49,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.377509+00:00,1.8732434319681488,1.969013339956291,,0.09576990798814222,,2,0,2,,,,,1
+872,HumanEval/86,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.377876+00:00,1.8736103170085698,1.9690720670041628,,0.09546174999559298,,2,0,2,,,,,1
+873,HumanEval/160,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.378250+00:00,1.8739843519870192,1.9691300420090556,,0.09514569002203643,,2,0,2,,,,,1
+874,HumanEval/109,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.378634+00:00,1.8743684769724496,1.9691879199817777,,0.0948194430093281,,2,0,2,,,,,1
+875,HumanEval/7,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.379004+00:00,1.8747382430010475,1.9692458210047334,,0.09450757800368592,,2,0,2,,,,,1
+876,HumanEval/29,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.379379+00:00,1.8751133430050686,1.9693069179775193,,0.09419357497245073,,2,0,2,,,,,1
+877,HumanEval/17,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.379739+00:00,1.875473191961646,1.9693675419548526,,0.09389434999320656,,2,0,2,,,,,1
+878,HumanEval/0,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.380101+00:00,1.8758354759775102,1.9694254139903933,,0.09358993801288307,,2,0,2,,,,,1
+879,HumanEval/99,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.380621+00:00,1.8763551299925894,1.9694821519660763,,0.09312702197348699,,2,0,2,,,,,1
+880,HumanEval/59,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.381012+00:00,1.8767461190000176,1.9695370679837652,,0.09279094898374751,,2,0,2,,,,,1
+881,HumanEval/146,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.381413+00:00,1.8771467439946719,1.9695930589805357,,0.09244631498586386,,2,0,2,,,,,1
+882,HumanEval/89,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.381803+00:00,1.877536810003221,1.969650888000615,,0.0921140779973939,,2,0,2,,,,,1
+883,HumanEval/8,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.382192+00:00,1.8779255989938974,1.9697102799545974,,0.09178468096069992,,2,0,2,,,,,1
+884,HumanEval/75,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.382567+00:00,1.8783012779895216,1.9697686649742536,,0.091467386984732,,2,0,2,,,,,1
+885,HumanEval/4,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.382927+00:00,1.8786614679847844,1.9698254310060292,,0.09116396302124485,,2,0,2,,,,,1
+886,HumanEval/138,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.383310+00:00,1.8790444409823976,1.9698916460038163,,0.09084720502141863,,2,0,2,,,,,1
+887,HumanEval/37,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.383793+00:00,1.8795264039654285,1.96994994598208,,0.09042354201665148,,2,0,2,,,,,1
+888,HumanEval/85,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.384191+00:00,1.8799252599710599,1.9700063659693114,,0.09008110599825159,,2,0,2,,,,,1
+889,HumanEval/12,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.384563+00:00,1.8802971929544583,1.9700632480089553,,0.08976605505449697,,2,0,2,,,,,1
+890,HumanEval/26,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.384930+00:00,1.8806641929550096,1.9701198219554499,,0.08945562900044024,,2,0,2,,,,,1
+891,HumanEval/20,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.385321+00:00,1.881054809957277,1.970180750999134,,0.089125941041857,,2,0,2,,,,,1
+892,HumanEval/52,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.385707+00:00,1.8814413709915243,1.9702371369930916,,0.08879576600156724,,2,0,2,,,,,1
+893,HumanEval/78,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.386074+00:00,1.8818084899685346,1.9702900829724967,,0.08848159300396219,,2,0,2,,,,,1
+894,HumanEval/72,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.386477+00:00,1.8822108769672923,1.9703487089718692,,0.08813783200457692,,2,0,2,,,,,1
+895,HumanEval/54,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.388377+00:00,1.8841090509667993,1.97040669497801,,0.08629764401121065,,2,0,2,,,,,1
+896,HumanEval/152,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.388946+00:00,1.8846794859855436,1.9704591059708036,,0.08577961998526007,,2,0,2,,,,,1
+897,HumanEval/48,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.389387+00:00,1.8851205859682523,1.9705107839545235,,0.08539019798627123,,2,0,2,,,,,1
+898,HumanEval/136,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.389774+00:00,1.8855075399624184,1.9705627519870177,,0.08505521202459931,,2,0,2,,,,,1
+899,HumanEval/107,humaneval,code,error,ConnectError: All connection attempts failed,,2026-11-05T01:28:44.390171+00:00,1.8859049679595046,1.9706166069954634,,0.0847116390359588,,2,0,2,,,,,1

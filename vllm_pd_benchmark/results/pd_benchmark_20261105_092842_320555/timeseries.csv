@@ -1,0 +1,3 @@
+bucket_start_s,bucket_end_s,requests_started,requests_completed,successful_requests,failed_requests,active_requests,input_tokens,output_tokens,total_tokens,request_throughput_rps,output_token_throughput_tps
+0.0,1.0,300,197,0,197,300,0,0,0,0.0,0.0
+1.0,2.0,600,703,0,703,703,0,0,0,0.0,0.0
