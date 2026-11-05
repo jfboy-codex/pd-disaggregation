@@ -51,6 +51,9 @@ GitHub or build one locally; if installation fails, keep the full pip error.
 If GitHub downloads are unavailable on the server, upload the full
 `fast-hadamard-transform` source and set `FHT_SOURCE_DIR` to that directory
 when running setup.
+Compiling the extension requires an `nvcc` toolkit with the same CUDA version
+as `torch.version.cuda`. Setup checks this before invoking pip and reports the
+detected versions; point `CUDA_HOME` and `PATH` at the matching toolkit.
 
 Stop serving processes before building profiles: model loading uses GPU 0.
 `prepare_profiles.py` uses the upstream Qwen `tolerance_3_results.json` by

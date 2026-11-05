@@ -202,6 +202,23 @@ python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
 # The upstream Hadamard transformer imports this CUDA extension, but the
 # pinned KVServe pyproject does not list it as a runtime dependency.
 if ! python -c 'import fast_hadamard_transform' >/dev/null 2>&1; then
+  python - <<'PY'
+import re
+import shutil
+import subprocess
+import torch
+
+nvcc = shutil.which("nvcc")
+if nvcc is None:
+    raise SystemExit("Hadamard build needs nvcc matching PyTorch CUDA "
+                     f"{torch.version.cuda}; set CUDA_HOME and PATH to that toolkit")
+version_text = subprocess.check_output([nvcc, "--version"], text=True)
+match = re.search(r"release (\d+\.\d+)", version_text)
+if match is None or match.group(1) != torch.version.cuda:
+    raise SystemExit(f"Hadamard build: nvcc {match.group(1) if match else 'unknown'} "
+                     f"at {nvcc} differs from PyTorch CUDA {torch.version.cuda}. "
+                     "Select the matching toolkit with CUDA_HOME and PATH.")
+PY
   if [[ -n "${FHT_SOURCE_DIR:-}" ]]; then
     python -m pip install --no-build-isolation --no-deps "$FHT_SOURCE_DIR"
   else
