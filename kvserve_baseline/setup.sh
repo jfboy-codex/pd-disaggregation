@@ -57,6 +57,22 @@ elif new not in source:
     raise SystemExit(f"Could not patch vLLM 0.30 KV cache access in {path}")
 PY
 
+# nvCOMP Codec instances hold mutable scratch state and must be thread-local.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/compression/codec/nvcomp_func.py"
+source = path.read_text(encoding="utf-8")
+old = "key = (device.index, stream.cuda_stream)"
+new = "key = (threading.get_ident(), device.index, stream.cuda_stream)"
+if source.count(old) == 1:
+    source = source.replace("import torch\n", "import threading\nimport torch\n", 1)
+    path.write_text(source.replace(old, new), encoding="utf-8")
+elif new not in source:
+    raise SystemExit(f"Could not patch thread-local nvCOMP Codec in {path}")
+PY
+
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
 

@@ -32,8 +32,11 @@ checkout. This adapter converts vLLM 0.30 FlashAttention's
 for the Qwen model with the vLLM 0.30 FlashAttention backend.
 The setup script also patches the decode connector to use the KV tensor
 directly: vLLM 0.30 no longer exposes `ForwardContext.virtual_engine`.
+It gives each nvCOMP caller thread a separate `Codec`, as required by
+[NVIDIA's Python API](https://docs.nvidia.com/cuda/nvcomp/py_api.html),
+to avoid sharing mutable scratch buffers under concurrent requests.
 Rerun `setup.sh` after updating this baseline; the launcher checks for the
-old access pattern before starting the servers.
+old access pattern and the nvCOMP patch before starting the servers.
 
 ## Install on the Linux server
 

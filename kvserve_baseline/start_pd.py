@@ -69,6 +69,9 @@ def check_runtime(config: dict) -> Path:
     connector_source = source / "kvserve_v1/connector/compressed_kv_connector.py"
     if "kv_cache[forward_context.virtual_engine]" in connector_source.read_text(encoding="utf-8"):
         raise RuntimeError("KVServe needs the vLLM 0.30 connector patch; rerun kvserve_baseline/setup.sh")
+    nvcomp_source = source / "kvserve_v1/compression/codec/nvcomp_func.py"
+    if "threading.get_ident()" not in nvcomp_source.read_text(encoding="utf-8"):
+        raise RuntimeError("KVServe needs the thread-local nvCOMP patch; rerun kvserve_baseline/setup.sh")
 
     vllm_bin = Path(sys.executable).parent / "vllm"
     if not vllm_bin.is_file():
