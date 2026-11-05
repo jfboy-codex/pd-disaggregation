@@ -18,8 +18,29 @@
   "gpu_memory_utilization": 0.8,
   "dtype": "half",
   "kv_buffer_size": 1000000000,
-  "compression": "default",
+  "compression": {
+    "enabled": true,
+    "pipeline": ["quantizer", "codec"],
+    "quantizer_config": {
+      "model_name": "Qwen2.5-7B-Instruct",
+      "hybrid_ratio": 0.8,
+      "high_key_max_value": 12,
+      "high_value_max_value": 8,
+      "low_key_max_value": 6,
+      "low_value_max_value": 4,
+      "axis_key": "channel",
+      "axis_value": "token",
+      "split_type": "head"
+    },
+    "codec_config": {
+      "codec_type": "nvcomp",
+      "nvcomp_algorithm": "ANS",
+      "data_type": "|u1"
+    },
+    "min_compress_size": 1024
+  },
   "startup_timeout_seconds": 900,
   "backend_timeout_seconds": 3600,
   "log_dir": "pd_logs"
 }
+

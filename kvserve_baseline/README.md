@@ -89,10 +89,15 @@ test and inspect both engine logs on the server before collecting results.
 
 ## Compression settings
 
-`"compression": "default"` enables KVServe's built-in quantizer plus nvCOMP
-ANS codec. Use `null` to test the KVServe connector and NCCL transport without
-compression. For a custom pipeline, replace this field with the compression
-dictionary from the [upstream README](https://github.com/hpdps-group/KVServe#choose-a-compression-mode).
+The bundled config uses KVServe's quantizer plus nvCOMP ANS codec with the
+upstream default parameters and the bundled `Qwen2.5-7B-Instruct_scores.csv`.
+The explicit model name matters because vLLM is launched from a Hugging Face
+snapshot path whose basename is a commit hash; KVServe's `"default"` mode
+would look for `<hash>_scores.csv` and fail on the first request. Use `null` to
+test the KVServe connector and NCCL transport without compression. For a
+different model, supply its own measured scores CSV and model name in the
+quantizer config, or choose another supported compression pipeline from the
+[upstream README](https://github.com/hpdps-group/KVServe#choose-a-compression-mode).
 
 For the paper's adaptive controller, first produce a profile library from
 offline profiling and configure:
@@ -114,4 +119,5 @@ single config file. The default mode is a fixed profile: it does not claim
 adaptive decisions without an offline profile library. The benchmark measures
 request latency and throughput; it does not report internal KV transfer volume
 unless separate connector stats are collected.
+
 
