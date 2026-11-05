@@ -41,6 +41,22 @@ fi
 # compatibility adapter into the editable source checkout.
 cp "$HERE/kv_utils_vllm030.py" "$SOURCE_DIR/kvserve_v1/utils/kv_utils.py"
 
+# vLLM 0.30 binds one KV tensor directly to each attention layer; the older
+# ForwardContext.virtual_engine selector no longer exists.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/connector/compressed_kv_connector.py"
+source = path.read_text(encoding="utf-8")
+old = "kv_cache_layer = kv_cache[forward_context.virtual_engine]"
+new = "kv_cache_layer = kv_cache  # vLLM 0.30 binds a tensor directly"
+if source.count(old) == 1:
+    path.write_text(source.replace(old, new), encoding="utf-8")
+elif new not in source:
+    raise SystemExit(f"Could not patch vLLM 0.30 KV cache access in {path}")
+PY
+
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
 
@@ -48,4 +64,5 @@ python - <<'PY'
 import kvserve_v1.connector.compressed_kv_connector
 print("KVServe connector import: OK")
 PY
+
 

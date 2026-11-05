@@ -30,6 +30,10 @@ checkout. This adapter converts vLLM 0.30 FlashAttention's
 `[blocks, heads, tokens, 2*head_size]` cache layout to KVServe's
 `[2, blocks, tokens, heads, head_size]` transfer layout and back. It is needed
 for the Qwen model with the vLLM 0.30 FlashAttention backend.
+The setup script also patches the decode connector to use the KV tensor
+directly: vLLM 0.30 no longer exposes `ForwardContext.virtual_engine`.
+Rerun `setup.sh` after updating this baseline; the launcher checks for the
+old access pattern before starting the servers.
 
 ## Install on the Linux server
 
@@ -119,5 +123,6 @@ single config file. The default mode is a fixed profile: it does not claim
 adaptive decisions without an offline profile library. The benchmark measures
 request latency and throughput; it does not report internal KV transfer volume
 unless separate connector stats are collected.
+
 
 

@@ -66,6 +66,9 @@ def check_runtime(config: dict) -> Path:
     ).strip()
     if revision != config["kvserve_revision"]:
         raise RuntimeError(f"Expected KVServe {config['kvserve_revision']}, got {revision}")
+    connector_source = source / "kvserve_v1/connector/compressed_kv_connector.py"
+    if "kv_cache[forward_context.virtual_engine]" in connector_source.read_text(encoding="utf-8"):
+        raise RuntimeError("KVServe needs the vLLM 0.30 connector patch; rerun kvserve_baseline/setup.sh")
 
     vllm_bin = Path(sys.executable).parent / "vllm"
     if not vllm_bin.is_file():
@@ -229,3 +232,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
