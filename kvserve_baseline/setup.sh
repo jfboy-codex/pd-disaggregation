@@ -73,6 +73,39 @@ elif new not in source:
     raise SystemExit(f"Could not patch thread-local nvCOMP Codec in {path}")
 PY
 
+# Optional one-run diagnostic: compare the codec header before NCCL send and
+# after NCCL receive. It is disabled unless KVSERVE_WIRE_DEBUG=1 is set.
+python - "$SOURCE_DIR" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1]) / "kvserve_v1/connector/compressed_kv_connector.py"
+source = path.read_text(encoding="utf-8")
+send_anchor = "                    wire = build_wire(compressed, _max_nccl_chunk_bytes())\n"
+send_probe = (
+    "                    if os.environ.get('KVSERVE_WIRE_DEBUG') == '1':\n"
+    "                        header = bytes(wire.body_chunks[0][:16].cpu().tolist()).hex()\n"
+    "                        logger.warning('[KVSERVE_WIRE] SEND id=%s header=%s size=%d shape=%s',\n"
+    "                                       transfer_id, header, wire.body_chunks[0].numel(),\n"
+    "                                       wire.meta.get('metadata', {}).get('codec_shape'))\n"
+)
+recv_anchor = "                        compressed = restore_from_wire(wire)\n"
+recv_probe = (
+    "                        if os.environ.get('KVSERVE_WIRE_DEBUG') == '1':\n"
+    "                            header = bytes(wire.body_chunks[0][:16].cpu().tolist()).hex()\n"
+    "                            logger.warning('[KVSERVE_WIRE] RECV id=%s header=%s size=%d shape=%s',\n"
+    "                                           transfer_id, header, wire.body_chunks[0].numel(),\n"
+    "                                           wire.meta.get('metadata', {}).get('codec_shape'))\n"
+)
+for anchor, probe in ((send_anchor, send_probe), (recv_anchor, recv_probe)):
+    if probe in source:
+        continue
+    if source.count(anchor) != 1:
+        raise SystemExit(f"Could not insert wire diagnostic in {path}")
+    source = source.replace(anchor, anchor + probe, 1)
+path.write_text(source, encoding="utf-8")
+PY
+
 python -m pip install --index-url "$MIRROR" -e "$SOURCE_DIR" \
   fastapi httpx uvicorn pandas "$NVCOMP_PACKAGE"
 

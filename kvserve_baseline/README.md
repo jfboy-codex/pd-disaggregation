@@ -112,6 +112,14 @@ NCCL transfer using KVServe's 8-bit packing codec. This isolates the nvCOMP
 path; results from the diagnostic config must be labeled as bitpack rather
 than nvCOMP ANS. Keep `config.json` for the intended baseline.
 
+For a failed bitpack run, rerun `setup.sh` after pulling updates, then set
+`KVSERVE_WIRE_DEBUG=1` when starting `start_pd.py`. The optional log lines
+`[KVSERVE_WIRE] SEND` and `RECV` record the first 16 payload bytes, size, and
+codec shape for each transfer ID in `prefill.log` and `decode.log`. Compare
+the same ID on both sides to tell whether the header changed during transfer.
+Disable the variable for measured benchmarks because the probe copies header
+bytes to the CPU and adds synchronization.
+
 For the paper's adaptive controller, first produce a profile library from
 offline profiling and configure:
 
